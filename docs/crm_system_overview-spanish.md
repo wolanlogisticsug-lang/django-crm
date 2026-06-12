@@ -1,18 +1,18 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
 </p>
 
-# Resumen de Django-CRM
+# Resumen de WolanCRM
 
-El [software](https://github.com/DjangoCRM/django-crm/) gratuito de gestión de CRM está diseñado para optimizar la gestión de interacciones con clientes, agilizar procesos y mejorar la toma de decisiones basada en datos.  
+El [software](https://github.com/DjangoCRM/WolanCRM/) gratuito de gestión de CRM está diseñado para optimizar la gestión de interacciones con clientes, agilizar procesos y mejorar la toma de decisiones basada en datos.  
 El software de CRM aprovecha el marco Django, garantizando facilidad de desarrollo, personalización e implementación.
 
 A continuación, se presenta un resumen detallado de sus características y funcionalidades clave:
 
 ## Características clave de todas las aplicaciones del paquete de software CRM
 
-La **aplicación CRM** en Django-CRM es el núcleo central para gestionar interacciones con clientes, solicitudes comerciales y procesos de ventas.  
+La **aplicación CRM** en WolanCRM es el núcleo central para gestionar interacciones con clientes, solicitudes comerciales y procesos de ventas.  
 Sus funciones están diseñadas para agilizar operaciones y proporcionar información útil para gerentes de ventas, operadores y administradores.
 
 ### Acceso y Roles de Usuario
@@ -49,9 +49,9 @@ Facilita la comunicación dentro del equipo mediante un chat integrado.
 - **Recordatorios**: Los usuarios pueden establecer recordatorios personales para tareas críticas, reuniones o plazos próximos.  
   Estos recordatorios pueden vincularse a objetos específicos dentro del CRM, asegurando que no se pierda ninguna tarea importante.
 
-## La Aplicación CRM en el paquete de software Django-CRM
+## La Aplicación CRM en el paquete de software WolanCRM
 
-La **aplicación CRM** del sistema Django-CRM está diseñada para gestionar relaciones con clientes de manera efectiva.  
+La **aplicación CRM** del sistema WolanCRM está diseñada para gestionar relaciones con clientes de manera efectiva.  
 Proporciona un conjunto completo de funciones para manejar diversos objetos empresariales como solicitudes, clientes potenciales, empresas, contactos, acuerdos, mensajes de correo electrónico, productos, pagos y otros doce más.
 
 ### Gestión de Solicitudes Comerciales
@@ -94,9 +94,9 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
 - Rastrea pagos directamente desde oportunidades o la lista de pagos.
 - Integra datos de pagos en la analítica del CRM para reportes completos.
 
-[Leer más sobre las características de la aplicación CRM](https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_app_features-spanish.md)
+[Leer más sobre las características de la aplicación CRM](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md)
 
-## La Aplicación de Tareas en el conjunto de software Django-CRM
+## La Aplicación de Tareas en el conjunto de software WolanCRM
 
 ### Memorando (*nota de servicio*)
 
@@ -110,7 +110,7 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
 - **Chat del Memorando**: Los participantes pueden intercambiar mensajes y archivos en el chat del memorando.
 - **Control Visual de Tareas**: Un botón "ver tarea" aparece junto a los memorandos que resultaron en tareas, con colores que indican el estado de la tarea.
 
-[Leer más sobre las características del memorando](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features-spanish.md)
+[Leer más sobre las características del memorando](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md)
 
 ### Gestión de Tareas
 
@@ -128,7 +128,7 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
   - **Etiquetas**: Los usuarios pueden etiquetar tareas y filtrarlas por estas etiquetas.
   - **Orden de Tareas**: Las nuevas tareas se ordenan por defecto en la parte superior de la lista, pero pueden clasificarse según la fecha del próximo paso.
 
-  Más información detallada sobre las [características de las tareas](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features-spanish.md).
+  Más información detallada sobre las [características de las tareas](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md).
 
 ## Correo Electrónico y Campañas de Mailing
 
@@ -138,9 +138,9 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
 - **Campañas de Mailing**: Los usuarios pueden crear campañas de correo dirigidas, realizar un seguimiento de su éxito y gestionar listas de suscriptores.  
   Los correos se envían desde las cuentas de los gestores de ventas con limitaciones para evitar los filtros de spam.
 
-## La Aplicación de Análisis en el Software Django-CRM
+## La Aplicación de Análisis en el Software WolanCRM
 
-El sistema Django-CRM incluye funciones analíticas que proporcionan diversos informes para ayudarle a tomar decisiones comerciales informadas:
+El sistema WolanCRM incluye funciones analíticas que proporcionan diversos informes para ayudarle a tomar decisiones comerciales informadas:
 
 - **Informe Resumen de Ingresos**: Resumen de ingresos y su previsión.  
   - Proporciona un resumen de ingresos y previsiones basadas en los estados de pago.
@@ -170,10 +170,10 @@ El sistema Django-CRM incluye funciones analíticas que proporcionan diversos in
 
 ## Conclusión
 
-El sistema Django-CRM es una solución potente y flexible para la gestión de relaciones con clientes.  
+El sistema WolanCRM es una solución potente y flexible para la gestión de relaciones con clientes.  
 Ofrece una amplia gama de funciones para manejar diversos objetos comerciales, automatizar el marketing por correo electrónico y obtener información a través de análisis.  
 Al aprovechar estas características, las empresas pueden mejorar sus procesos de gestión de relaciones con clientes y tomar decisiones informadas.
 
 (***El contenido está en proceso de ser complementado.***)
 
-Puede obtener información más detallada en el [**manual del usuario**](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_user_guide.md). 
+Puede obtener información más detallada en el [**manual del usuario**](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md). 

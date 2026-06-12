@@ -1,24 +1,24 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/README.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-spanish.md">Español</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-chinese.md">中文</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-portuguese.md">Português</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-arabic.md">اَلْعَرَبِيَّةُ</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-french.md">Français</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-german.md">Deutsch</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-dutch.md">Nederlands</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-italian.md">Italiano</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-ukrainian.md">Українська</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/README.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-chinese.md">中文</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-arabic.md">اَلْعَرَبِيَّةُ</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Nederlands</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-ukrainian.md">Українська</a>
 </p>
 
-# Django-CRM
+# WolanCRM
 
 ## CRM Python Open-Source Gratuito con Gestión de Tareas, Email Marketing y Analítica
 
 **Django CRM** es un software gratuito de gestión de relaciones con clientes (CRM) desarrollado con [Python](https://www.python.org) y [Django](https://www.djangoproject.com), diseñado para equipos que necesitan un CRM autohospedado, gestor de tareas CRM, mailing CRM y software de analítica CRM en una única plataforma extensible.
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/deals_screenshot.png" alt="Captura de pantalla Django-CRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/deals_screenshot.png)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="Captura de pantalla WolanCRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
 
 **Estado del proyecto:** Producción / Estable
 Utilizado en entornos empresariales reales durante muchos años.
@@ -27,7 +27,7 @@ Utilizado en entornos empresariales reales durante muchos años.
 
 ---
 
-## ¿Por qué Django-CRM?
+## ¿Por qué WolanCRM?
 
 Django CRM combina CRM y software de gestión de tareas, CRM con integración de correo electrónico, y CRM con email marketing, sin frameworks propietarios, sin dependencia de proveedores (vendor lock-in) ni limitaciones SaaS.
 
@@ -56,20 +56,20 @@ Django CRM combina CRM y software de gestión de tareas, CRM con integración de
 | Control de acceso por roles     | Recordatorios y archivos | Soporte SMTP / IMAP          |
 | Analítica CRM                   | Memos internos           | Automatización de campañas   |
 
-🔎 Más información en el [resumen del sistema CRM](https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview.md).
+🔎 Más información en el [resumen del sistema CRM](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
 
 ---
 
 ## CRM Python Basado en Django Admin
 
-Django-CRM es un CRM Python que aprovecha completamente la **interfaz Django Admin**:
+WolanCRM es un CRM Python que aprovecha completamente la **interfaz Django Admin**:
 
 * Plantillas adaptativas (escritorio y móvil)
 * Filtros avanzados, ordenación y búsqueda
 * Permisos a nivel de objeto (ver, añadir, modificar, eliminar)
 * Documentación administrativa en una sola página
 
-En lugar de reinventar un framework de interfaz, Django-CRM se centra en la **lógica de negocio**, la **integridad de datos** y la **extensibilidad**, lo que lo hace ideal para **pequeñas y medianas empresas** que buscan un software CRM gratuito que puedan alojar y controlar.
+En lugar de reinventar un framework de interfaz, WolanCRM se centra en la **lógica de negocio**, la **integridad de datos** y la **extensibilidad**, lo que lo hace ideal para **pequeñas y medianas empresas** que buscan un software CRM gratuito que puedan alojar y controlar.
 
 ---
 
@@ -98,11 +98,11 @@ Un módulo completo de **CRM y gestión de tareas**:
 * Chat, archivos, recordatorios, etiquetas
 * Asignación de tareas individual y por equipo
 
-🔗 [Funciones de tareas](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md)
+🔗 [Funciones de tareas](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)
 
 ---
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/income_summary_thumbnail.png" alt="Informe analítico CRM" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Informe analítico CRM" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
 
 ### Aplicación de Analítica (CRM Analítico)
 
@@ -113,7 +113,7 @@ Software de **analítica CRM integrado** para obtener información accionable:
 * Analítica de fuentes de leads
 * Resumen de solicitudes
 
-🔗 [Resumen de la aplicación de analítica](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_analytics_app_overview.md)
+🔗 [Resumen de la aplicación de analítica](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md)
 
 ---
 
@@ -127,7 +127,7 @@ El módulo de Mailing CRM incluye un sistema completo de CRM y email marketing:
 * Firmas de correo
 * Segmentación de contactos
 
-Esto convierte a Django-CRM en un CRM con integración de correo electrónico y cliente de email interno.
+Esto convierte a WolanCRM en un CRM con integración de correo electrónico y cliente de email interno.
 
 ---
 
@@ -162,7 +162,7 @@ Toda la correspondencia:
 
 ## Multilenguaje y Preparado para Localización
 
-<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/languages.svg" alt="django logo" width="30" height="30" style="vertical-align: bottom"> Idiomas disponibles de la interfaz:
+<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="django logo" width="30" height="30" style="vertical-align: bottom"> Idiomas disponibles de la interfaz:
 
 `ar, cs, de, el, en, es, fr, he, hi, id, it, ja, ko, nl, pl, pt-br, ro, ru, tr, uk, vi, zh-hans`
 
@@ -187,7 +187,7 @@ Soporte completo para:
 
 ## Primeros Pasos
 
-Django-CRM funciona como un proyecto estándar de Django.
+WolanCRM funciona como un proyecto estándar de Django.
 
 Para pruebas y evaluación:
 
@@ -196,21 +196,21 @@ Para pruebas y evaluación:
 
 📘 Documentación:
 
-* [Instalación y Configuración](https://github.com/DjangoCRM/django-crm/blob/main/docs/installation_and_configuration_guide.md)
-* [Guía de Usuario](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_user_guide.md)
-* [Documentación Online](https://django-crm-admin.readthedocs.io)
-* [Registro de Cambios](https://github.com/DjangoCRM/django-crm/blob/main/CHANGELOG.md)
+* [Instalación y Configuración](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
+* [Guía de Usuario](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
+* [Documentación Online](https://WolanCRM-admin.readthedocs.io)
+* [Registro de Cambios](https://github.com/DjangoCRM/WolanCRM/blob/main/CHANGELOG.md)
 
 ---
 
 ## Compatibilidad
 
-* <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 6.0+
-* <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.12+
-* <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
-* <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 14+
+* <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 6.0+
+* <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.12+
+* <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
+* <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 14+
 
-La versión del CRM compatible con Django 5.2.11 LTS está disponible [aquí](https://github.com/DjangoCRM/django-crm/tree/v1.7.x-LTS).
+La versión del CRM compatible con Django 5.2.11 LTS está disponible [aquí](https://github.com/DjangoCRM/WolanCRM/tree/v1.7.x-LTS).
 
 ---
 
@@ -218,14 +218,14 @@ La versión del CRM compatible con Django 5.2.11 LTS está disponible [aquí](ht
 
 Las contribuciones son bienvenidas — nuevas funcionalidades, correcciones y mejoras en la documentación.
 
-📄 Consulta la [Guía de Contribución](https://github.com/DjangoCRM/django-crm/blob/main/CONTRIBUTING.md).
+📄 Consulta la [Guía de Contribución](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md).
 
 ---
 
 ## Licencia
 
 Publicado bajo la licencia **AGPL-3.0**.
-Consulta el archivo [LICENSE](https://github.com/DjangoCRM/django-crm/blob/main/LICENSE).
+Consulta el archivo [LICENSE](https://github.com/DjangoCRM/WolanCRM/blob/main/LICENSE).
 
 ---
 

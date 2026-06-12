@@ -1,4 +1,4 @@
-# Guía del usuario de Django-CRM
+# Guía del usuario de WolanCRM
 
 ## Tabla de contenidos
 
@@ -29,18 +29,18 @@
   - [Boletín de la empresa](#boletín-de-la-empresa)
   - [Transferencia de objetos de empresa a otro gerente de ventas](#transferencia-de-objetos-de-empresa-a-otro-gerente-de-ventas)
 
-- [Guía del administrador de Django CRM](#guía-del-administrador-de-django-crm)
+- [Guía del administrador de Django CRM](#guía-del-administrador-de-WolanCRM)
   - [Transferencia masiva de empresas a otro gerente de ventas](#transferencia-masiva-de-empresas-a-otro-gerente-de-ventas)
   - [Objetos de contactos masivos](#objetos-de-contactos-masivos)
 
 ## Introducción
 
-[Django-CRM](https://github.com/DjangoCRM/django-crm/) es una aplicación con una interfaz web. Por lo tanto, puede usar un navegador de internet en su computadora, tableta y teléfono inteligente para trabajar con ella.
+[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) es una aplicación con una interfaz web. Por lo tanto, puede usar un navegador de internet en su computadora, tableta y teléfono inteligente para trabajar con ella.
 
 Para facilitar su trabajo, CRM proporciona páginas de ayuda y descripciones emergentes cuando pasa el mouse sobre ciertos elementos de la página, como íconos, botones, etc.  
-![CRM tooltip screenshot](https://github.com/DjangoCRM/django-crm/raw/main/docs/site/img/crm_tooltip_screenshot.png)
+![CRM tooltip screenshot](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
 
-Muchas páginas tienen un ícono <span style="vertical-align: bottom"><img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/question-mark.svg" alt="Icono de signo de interrogación" width="25" height="25"></span> en la esquina superior derecha. Al hacer clic en él, se abrirá la página de ayuda.
+Muchas páginas tienen un ícono <span style="vertical-align: bottom"><img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/question-mark.svg" alt="Icono de signo de interrogación" width="25" height="25"></span> en la esquina superior derecha. Al hacer clic en él, se abrirá la página de ayuda.
 
 Django CRM es un paquete de software potente que requiere personalización e integración con otros servicios. Si algo no funciona como se espera, repórtelo a su administrador de CRM.
 

@@ -1,21 +1,21 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/README.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-spanish.md">Español</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-arabic.md">
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/README.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-arabic.md">
 العربية</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-portuguese.md">Português</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-french.md">Français</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-german.md">Deutsch</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-dutch.md">Dutch</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/README/README-italian.md">Italiano</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Dutch</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a>
 </p>
 
-# نظام إدارة علاقات العملاء Django-CRM
+# نظام إدارة علاقات العملاء WolanCRM
 
 *(برنامج إدارة علاقات العملاء التعاوني والتحليلي)*
 
-**Django-CRM** هو حل مفتوح المصدر لإدارة علاقات العملاء مصمم بهدفين رئيسيين:
+**WolanCRM** هو حل مفتوح المصدر لإدارة علاقات العملاء مصمم بهدفين رئيسيين:
 
 - **للمستخدمين**: تقديم برنامج إدارة علاقات العملاء مفتوح المصدر بمستوى الشركات مع مجموعة شاملة من الحلول التجارية.
 - **للمطورين**: تبسيط عمليات التطوير والتخصيص ودعم خادم الإنتاج.
@@ -23,7 +23,7 @@
 **لا حاجة لتعلم إطار عمل خاص**: كل شيء مبني باستخدام إطار عمل Django الشهير.
 يستفيد نظام إدارة علاقات العملاء أيضًا بشكل كامل من موقع إدارة Django، مع توثيق كل شيء في صفحة ويب واحدة!
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/deals_screenshot.png" alt="لقطة شاشة لنظام إدارة علاقات العملاء Django-CRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/deals_screenshot.png)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="لقطة شاشة لنظام إدارة علاقات العملاء WolanCRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
 
 ## ميزات إدارة علاقات العملاء
 
@@ -34,9 +34,9 @@
 | ☑️ **تحليلات المبيعات**      | ☑️ **تكامل الدردشة الداخلية**            | ☑️ **تصميم متوافق مع الأجهزة المحمولة** |
 | ☑️ **تقارير قابلة للتخصيص**  | ☑️ **مزامنة البريد الإلكتروني التلقائية** | ☑️ **دعم العملات المتعددة**    |
 
-تعرف على المزيد حول [قدرات البرنامج](https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview.md).
+تعرف على المزيد حول [قدرات البرنامج](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
 
-نظام إدارة علاقات العملاء Django هو برنامج مفتوح المصدر لإدارة علاقات العملاء. هذا النظام مكتوب بلغة <a href="https://www.python.org" target="_blank"><img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="شعار بايثون" width="25" height="25"> بايثون</a>.
+نظام إدارة علاقات العملاء Django هو برنامج مفتوح المصدر لإدارة علاقات العملاء. هذا النظام مكتوب بلغة <a href="https://www.python.org" target="_blank"><img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="شعار بايثون" width="25" height="25"> بايثون</a>.
 الواجهة الأمامية والخلفية تعتمد بالكامل على موقع إدارة Django.
 يستخدم تطبيق إدارة علاقات العملاء قوالب HTML التكيفية للإدارة مباشرة.
 Django هو إطار عمل موثق بشكل ممتاز مع الكثير من الأمثلة.
@@ -61,12 +61,12 @@ Django هو إطار عمل موثق بشكل ممتاز مع الكثير من 
 
 - **تطبيق إدارة المهام**:
   (متاح لجميع المستخدمين افتراضيًا، بغض النظر عن دورهم)
-  - المهمة (مع الملفات ذات الصلة، الدردشة، التذكيرات، العلامات - انظر [ميزات المهمة](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md))
+  - المهمة (مع الملفات ذات الصلة، الدردشة، التذكيرات، العلامات - انظر [ميزات المهمة](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md))
     - المهام الفرعية
-  - المذكرة (مذكرة المكتب) - انظر [ميزات المذكرة](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features.md)
+  - المذكرة (مذكرة المكتب) - انظر [ميزات المذكرة](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
     - المهام / المشروع
   - المشروع (*مجموعة المهام*):
-  - ... (+ *4 نماذج أخرى <a href="https://github.com/DjangoCRM/django-crm/tree/main/tasks/models" target="_blank">نماذج</a>*)
+  - ... (+ *4 نماذج أخرى <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/tasks/models" target="_blank">نماذج</a>*)
 - **تطبيق إدارة علاقات العملاء**:
   - الطلبات (الاستفسارات التجارية)
   - العملاء المحتملين (العملاء المحتملين)
@@ -76,10 +76,10 @@ Django هو إطار عمل موثق بشكل ممتاز مع الكثير من 
   - رسائل البريد الإلكتروني (مزامنة مع حسابات البريد الإلكتروني للمستخدمين)
   - المنتجات (السلع والخدمات)
   - المدفوعات (المستلمة، المضمونة، ذات الاحتمالية العالية والمنخفضة)
-  - ... (*+ 12 نموذجًا آخر <a href="https://github.com/DjangoCRM/django-crm/tree/main/crm/models" target="_blank">نماذج</a>*)
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/income_summary_thumbnail.png" alt="تقرير تحليلي لنظام إدارة علاقات العملاء" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png)
-- **تطبيق التحليلات**: ([نظرة عامة مفصلة على البرنامج](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_analytics_app_overview.md))
-  - تقرير ملخص الدخل (*انظر [لقطة الشاشة](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png)*)
+  - ... (*+ 12 نموذجًا آخر <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/crm/models" target="_blank">نماذج</a>*)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="تقرير تحليلي لنظام إدارة علاقات العملاء" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
+- **تطبيق التحليلات**: ([نظرة عامة مفصلة على البرنامج](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md))
+  - تقرير ملخص الدخل (*انظر [لقطة الشاشة](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)*)
   - تقرير قمع المبيعات
   - تقرير ملخص مصدر العملاء المحتملين
   - ... (+ *5 تقارير تحليلية أخرى*)
@@ -126,14 +126,14 @@ Django هو إطار عمل موثق بشكل ممتاز مع الكثير من 
 
 - تتضمن كل صفحة في نظام إدارة علاقات العملاء رابطًا إلى صفحة مساعدة ذات صلة بالسياق، مع محتوى مخصص ديناميكيًا لدور المستخدم للحصول على إرشادات أكثر صلة.
 - تتوفر تلميحات الأدوات في جميع أنحاء الواجهة، مما يوفر معلومات فورية عند التمرير فوق العناصر مثل الأيقونات، الأزرار، الروابط، أو رؤوس الجداول.
-- يتضمن أيضًا دليل مستخدم شامل [دليل المستخدم](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_user_guide.md) للرجوع إليه ودعمه بشكل متعمق.
+- يتضمن أيضًا دليل مستخدم شامل [دليل المستخدم](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md) للرجوع إليه ودعمه بشكل متعمق.
 
 ## رفع إنتاجية فريقك باستخدام حلول إدارة علاقات العملاء التعاونية
 
 تم تصميم هذا النظام لتعزيز التعاون داخل الفرق وتبسيط عمليات إدارة المشاريع.
 كنظام إدارة علاقات العملاء تعاوني، يتيح للمستخدمين إنشاء وإدارة المذكرات، المهام، والمشاريع بسهولة.
-يمكن توجيه [مذكرات المكتب](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features.md) إلى رؤساء الأقسام أو المديرين التنفيذيين للشركة، الذين يمكنهم بعد ذلك تحويل هذه المذكرات إلى مهام أو مشاريع، وتعيين الأشخاص المسؤولين أو المنفذين.
-يمكن أن تكون [المهام](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md) فردية أو جماعية.
+يمكن توجيه [مذكرات المكتب](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md) إلى رؤساء الأقسام أو المديرين التنفيذيين للشركة، الذين يمكنهم بعد ذلك تحويل هذه المذكرات إلى مهام أو مشاريع، وتعيين الأشخاص المسؤولين أو المنفذين.
+يمكن أن تكون [المهام](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) فردية أو جماعية.
 توفر المهام ميزات مثل مناقشات الدردشة، التذكيرات، مشاركة الملفات، إنشاء المهام الفرعية، ومشاركة النتائج.
 يتلقى المستخدمون إشعارات مباشرة في إدارة علاقات العملاء وعبر البريد الإلكتروني، مما يضمن بقائهم على اطلاع.
 يتمتع كل مستخدم برؤية واضحة لمجموعة مهامه، بما في ذلك الأولويات، الحالات، والخطوات التالية، مما يعزز الإنتاجية والمساءلة في إدارة علاقات العملاء التعاونية.
@@ -141,7 +141,7 @@ Django هو إطار عمل موثق بشكل ممتاز مع الكثير من 
 ## توطين المشروع
 
 يدعم نظام إدارة علاقات العملاء Django الترجمة الكاملة للواجهة، وتنسيق التواريخ، الأوقات، والمناطق الزمنية.
-<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/languages.svg" alt="شعار django" width="30" height="30" style="vertical-align: middle"> برنامج خدمة العملاء متاح الآن بلغات **متعددة:**  
+<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="شعار django" width="30" height="30" style="vertical-align: middle"> برنامج خدمة العملاء متاح الآن بلغات **متعددة:**  
 `de, en, es, fr, hi, it, nl, pt-BR, ru, uk`
 
 ## لماذا تختار نظام إدارة علاقات العملاء Django؟
@@ -156,28 +156,28 @@ Django هو إطار عمل موثق بشكل ممتاز مع الكثير من 
 
 📚 يرجى الرجوع إلى:
 
-- [دليل التثبيت والتكوين](https://github.com/DjangoCRM/django-crm/blob/main/docs/installation_and_configuration_guide.md)
-- [دليل المستخدم](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_user_guide.md)
+- [دليل التثبيت والتكوين](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
+- [دليل المستخدم](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
 
 إذا وجدت نظام إدارة علاقات العملاء Django مفيدًا، يرجى ⭐️ **تقييم** هذا المستودع على GitHub لدعم نموه!
-<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/Django-CRM_star_history.png" alt="تاريخ تقييم نظام إدارة علاقات العملاء Django" align="center" style="float: center"/>
+<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/WolanCRM_star_history.png" alt="تاريخ تقييم نظام إدارة علاقات العملاء Django" align="center" style="float: center"/>
 
 ### التوافق
 
-- <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 5.1.x
-- <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
-- <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
-- <img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
+- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 5.1.x
+- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
+- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
+- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
 
 ## المساهمة
 
 المساهمات مرحب بها! هناك مجال للتحسينات والميزات الجديدة.
-تحقق من [دليل المساهمة](https://github.com/DjangoCRM/django-crm/blob/main/CONTRIBUTING.md) لتتعلم كيفية البدء.
+تحقق من [دليل المساهمة](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md) لتتعلم كيفية البدء.
 كل مساهمة، كبيرة أو صغيرة، تحدث فرقًا.
 
 ## الترخيص
 
-تم إصدار نظام إدارة علاقات العملاء Django تحت ترخيص AGPL-3.0 - انظر ملف [الترخيص](https://github.com/DjangoCRM/django-crm/blob/main/LICENSE) للحصول على التفاصيل.
+تم إصدار نظام إدارة علاقات العملاء Django تحت ترخيص AGPL-3.0 - انظر ملف [الترخيص](https://github.com/DjangoCRM/WolanCRM/blob/main/LICENSE) للحصول على التفاصيل.
 
 ## الشكر
 

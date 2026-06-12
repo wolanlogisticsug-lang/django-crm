@@ -41,7 +41,7 @@ Analytics tools allow managers to evaluate performance and identify trends. From
     - Default access to the Analytics app is granted to company executives, sales managers, and CRM administrators.  
 
 The CRM Analytics application stands as a pivotal component within the  Django CRM suite.
-The [CRM analytics software](https://github.com/DjangoCRM/django-crm/){target="_blank"} provides comprehensive statistical and analytical reports 
+The [CRM analytics software](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} provides comprehensive statistical and analytical reports 
 to help users gain insights into their business operations. 
 This app is designed to assist company executives and sales managers, 
 in making data-driven decisions by offering various reports and visualizations.
@@ -50,7 +50,7 @@ in making data-driven decisions by offering various reports and visualizations.
 
 Reports include both tabular and graphical representations for intuitive data interpretation.
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png){target="_blank"}
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png){target="_blank"}
 #### Income Summary Report
 
    *  Details monthly [deal](guide_for_sales_manager.md#deal-object) income, product sales, and payment volumes.

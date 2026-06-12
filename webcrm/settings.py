@@ -329,7 +329,7 @@ NAME_PREFIXES = [
 WEB_HELP = True
 
 # This is copyright information. Please don't change it!
-COPYRIGHT_STRING = f"Django-CRM. Copyright (c) {dt.now().year}"
+COPYRIGHT_STRING = f"WolanCRM. Copyright (c) {dt.now().year}"
 PROJECT_NAME = "wolanCRM"
 PROJECT_SITE = "https://djangocrm.github.io/info/"
 

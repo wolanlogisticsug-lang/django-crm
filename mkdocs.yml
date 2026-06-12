@@ -1,11 +1,11 @@
-site_name: Django-CRM system
+site_name: WolanCRM system
 
 # Set the site URL by using a Read the Docs environment variable:
 # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
 site_url: !ENV READTHEDOCS_CANONICAL_URL
 
 site_description: 'Django CRM is written in Python as open source software package, offers a vast suite CRM solutions, giving companies with all the essential tools to manage sales and workflows efficiently within one unified Analytical CRM platform.'
-repo_url: https://github.com/DjangoCRM/django-crm
+repo_url: https://github.com/DjangoCRM/WolanCRM
 repo_name: Django CRM GitHub
 site_author: Vadym Kharchenko
 
@@ -40,7 +40,7 @@ theme:
   name: readthedocs
   # name: material
   favicon: img/favicon.ico
-  # logo: img/django-crm_logo.png
+  # logo: img/WolanCRM_logo.png
   # https://squidfunk.github.io/mkdocs-material/customization/
   custom_dir: docs/site/overrides/
   features:
@@ -83,7 +83,7 @@ extra_javascript:
 exclude_docs: |
   installation_and_configuration_guide.md
   crm_system_overview.md
-  django-crm_user_guide.md
+  WolanCRM_user_guide.md
   /requirements.txt  # Top-level "docs/requirements.txt".
 
 #extra:

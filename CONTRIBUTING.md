@@ -1,4 +1,4 @@
-# Welcome to Django-CRM!
+# Welcome to WolanCRM!
 
 ## Thank you for your interest in contributing to the project! 
 
@@ -7,8 +7,8 @@ Code contributions are not the only way to help the project. There are many oppo
 
 - Please give a star ⭐️, it will also be a valuable help for the project.
 - Submit GitHub issues about bugs or desired new features.
-  - Please follow the <a href="https://github.com/DjangoCRM/django-crm?tab=security-ov-file#security-ov-file" target="_blank">security policy</a>.
-- Improving <a href="https://django-crm-admin.readthedocs.io/" title="Django CRM documentation" target="_blank">CRM Documentation</a> and help pages.
+  - Please follow the <a href="https://github.com/DjangoCRM/WolanCRM?tab=security-ov-file#security-ov-file" target="_blank">security policy</a>.
+- Improving <a href="https://WolanCRM-admin.readthedocs.io/" title="Django CRM documentation" target="_blank">CRM Documentation</a> and help pages.
 - Take part in the development of [the CRM](https://DjangoCRM.github.io/info/) website.
 - Localization - the creation of a new or improvement of an existing translation (in context) of the CRM interface:
 
@@ -60,7 +60,7 @@ Code contributions are not the only way to help the project. There are many oppo
 
 ### Writing Code
 
-The <a href="https://github.com/DjangoCRM/django-crm" title="Client relationship software" target="_blank">Django-CRM project</a> aims to deliver high-level CRM software while keeping it easy to customize, develop, and maintain.  
+The <a href="https://github.com/DjangoCRM/WolanCRM" title="Client relationship software" target="_blank">WolanCRM project</a> aims to deliver high-level CRM software while keeping it easy to customize, develop, and maintain.  
 To achieve this, it follows a key principle: leverage Django's built-in capabilities whenever possible.  
 There are at least two good reasons to do so:
 
@@ -71,7 +71,7 @@ We are focused on improving the functionality that has already been created.
 Making it more convenient and understandable for a wide audience of users.  
 But now we are also ready to add new features.
 
-- It's easier to start by working with issues marked with a <a href="https://github.com/DjangoCRM/django-crm/labels/good%20first%20issue" target="_blank">“good first issue”</a> label. They are supplied with instructions.
+- It's easier to start by working with issues marked with a <a href="https://github.com/DjangoCRM/WolanCRM/labels/good%20first%20issue" target="_blank">“good first issue”</a> label. They are supplied with instructions.
 - Create a draft **PR** when starting work on bigger changes for discussion and assistance.  
   (*Please avoid changing the formatting unnecessarily, especially throughout the entire document. This makes it difficult or impossible to review the changes.*)
 - A **Task-board** and **Roadmap** are available for **contributors** to obtain additional information.

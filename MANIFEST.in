@@ -25,5 +25,5 @@ include massmail/models/to_translate.txt
 include tasks/models/to_translate.txt
 prune docs
 include docs/installation_and_configuration_guide.md
-include docs/django-crm_user_guide.md
+include docs/WolanCRM_user_guide.md
 include CHANGELOG.md

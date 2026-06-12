@@ -1,7 +1,7 @@
 ## Adding Django CRM users
 
 After completing the previous steps of this instruction, you can begin adding users.
-But in order for sales managers to be able to use all the features of [Django CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"},
+But in order for sales managers to be able to use all the features of [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"},
 they must follow the remaining points of this instruction.  
 Please review the following sections before adding users.
 

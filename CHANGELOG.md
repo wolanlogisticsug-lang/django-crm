@@ -1,6 +1,6 @@
 # Changelog of Django CRM software
 
-All notable changes to the [Django CRM project](https://github.com/DjangoCRM/django-crm) will be documented in this file.
+All notable changes to the [Django CRM project](https://github.com/DjangoCRM/WolanCRM) will be documented in this file.
 
 _The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)._
@@ -41,7 +41,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Moved the resize image functionality to common utils
 
-#### Full Changelog: [v2.3.1...v2.4.0](https://github.com/DjangoCRM/django-crm/compare/v2.3.1...v2.4.0)
+#### Full Changelog: [v2.3.1...v2.4.0](https://github.com/DjangoCRM/WolanCRM/compare/v2.3.1...v2.4.0)
 
 ## [2.3.1] - 2026-04-26
 
@@ -58,7 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Refactor owner lookups to use User model directly instead of USER_MODEL in outputstatadmin.py
 
-#### Full Changelog: [v2.3.0...v2.3.1](https://github.com/DjangoCRM/django-crm/compare/v2.3.0...v2.3.1)
+#### Full Changelog: [v2.3.0...v2.3.1](https://github.com/DjangoCRM/WolanCRM/compare/v2.3.0...v2.3.1)
 
 ## [2.3.0] - 2026-04-19
 
@@ -86,7 +86,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix permission check for file uploads in memos before review
 - Fix product specification warning in RequestAdmin
 
-#### Full Changelog: [v2.2.0...v2.3.0](https://github.com/DjangoCRM/django-crm/compare/v2.2.0...v2.3.0)
+#### Full Changelog: [v2.2.0...v2.3.0](https://github.com/DjangoCRM/WolanCRM/compare/v2.2.0...v2.3.0)
 
 ## [2.2.0] - 2026-04-05
 
@@ -105,7 +105,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Refactor TYPE_CHOICES in Product model from tuple to dictionary
 
-#### Full Changelog: [v2.1.0...v2.2.0](https://github.com/DjangoCRM/django-crm/compare/v2.1.0...v2.2.0)
+#### Full Changelog: [v2.1.0...v2.2.0](https://github.com/DjangoCRM/WolanCRM/compare/v2.1.0...v2.2.0)
 
 ## [2.1.0] - 2026-03-15
 
@@ -126,7 +126,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Refactor MonthlySnapshotSaving logic and imports
 - Enhance EmailAccountAdmin with additional display methods and improve field descriptions
 
-#### Full Changelog: [v2.0.1...v2.1.0](https://github.com/DjangoCRM/django-crm/compare/v2.0.1...v2.1.0)
+#### Full Changelog: [v2.0.1...v2.1.0](https://github.com/DjangoCRM/WolanCRM/compare/v2.0.1...v2.1.0)
 
 ## [2.0.1] - 2026-02-22
 
@@ -139,7 +139,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added unit tests for the reload_field view by @omorros
 - Added a "default" column to the signature selection page
 
-#### Full Changelog: [v2.0.0...v2.0.1](https://github.com/DjangoCRM/django-crm/compare/v2.0.0...v2.0.1)
+#### Full Changelog: [v2.0.0...v2.0.1](https://github.com/DjangoCRM/WolanCRM/compare/v2.0.0...v2.0.1)
 
 ## [2.0.0] - 2026-01-08
 
@@ -180,7 +180,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - In the list of deals, the marking of irrelevant transactions has been changed.
 - Refactor save_to_excel function to use keyword arguments for avoid Panda's FutureWarning
 
-#### Full Changelog: [v1.7.0...v2.0.0](https://github.com/DjangoCRM/django-crm/compare/v1.7.0...v2.0.0)
+#### Full Changelog: [v1.7.0...v2.0.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.7.0...v2.0.0)
 
 ## [1.7.0] - 2025-12-13
 
@@ -197,7 +197,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Hide the unused "+ Add" button for Mailing Outs on the CRM home pages by @jroneel.
 - The task reminder test
 
-#### Full Changelog: [v1.6.1...v1.7.0](https://github.com/DjangoCRM/django-crm/compare/v1.6.1...v1.7.0)
+#### Full Changelog: [v1.6.1...v1.7.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.6.1...v1.7.0)
 
 ## [1.6.1] - 2025-10-31
 
@@ -209,7 +209,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Eliminate duplicate requests and cases from analytical reports
 
-#### Full Changelog: [v1.6.0...v1.6.1](https://github.com/DjangoCRM/django-crm/compare/v1.6.0...v1.6.1)
+#### Full Changelog: [v1.6.0...v1.6.1](https://github.com/DjangoCRM/WolanCRM/compare/v1.6.0...v1.6.1)
 
 ## [1.6.0] - 2025-10-18
 
@@ -249,7 +249,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove the unused "+ Add" button for deals on the CRM homepage by @MULTidll.
 
-#### Full Changelog: [v1.5.2...v1.6.0](https://github.com/DjangoCRM/django-crm/compare/v1.5.2...v1.6.0)
+#### Full Changelog: [v1.5.2...v1.6.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.5.2...v1.6.0)
 
 ## [1.5.2] - 2025-08-16
 
@@ -269,7 +269,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Unused 'View on site' button in change forms of Request, Lead, Shipment.
 
-#### Full Changelog: [v1.5.1...v1.5.2](https://github.com/DjangoCRM/django-crm/compare/v1.5.1...v1.5.2)
+#### Full Changelog: [v1.5.1...v1.5.2](https://github.com/DjangoCRM/WolanCRM/compare/v1.5.1...v1.5.2)
 
 ## [1.5.1] - 2025-07-27
 
@@ -291,7 +291,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Set X_FRAME_OPTIONS to SAMEORIGIN for allow massmail message preview in iframe.
 
-#### Full Changelog: [v1.5.0...v1.5.1](https://github.com/DjangoCRM/django-crm/compare/v1.5.0...v1.5.1)
+#### Full Changelog: [v1.5.0...v1.5.1](https://github.com/DjangoCRM/WolanCRM/compare/v1.5.0...v1.5.1)
 
 ## [1.5.0] - 2025-07-12
 
@@ -312,7 +312,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added a delay to ensure Django starts before executing massmail and avoid a RuntimeWarning.
 - Added distinct() to `get_queryset` in MemoAdmin to eliminate duplicate results.
 
-#### Full Changelog: [v1.4.0...v1.5.0](https://github.com/DjangoCRM/django-crm/compare/v1.4.0...v1.5.0)
+#### Full Changelog: [v1.4.0...v1.5.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.4.0...v1.5.0)
 
 ## [1.4.0] - 2025-06-21
 
@@ -335,7 +335,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Moved Massmail settings from settings.py to Admin web UI by @Ishubhammohole in #229  
   (**Update your settings:** `(ADMIN site) Home > Settings > Massmail Settings`).
 
-#### Full Changelog: [v1.3.1...v1.4.0](https://github.com/DjangoCRM/django-crm/compare/v1.3.1...v1.4.0)
+#### Full Changelog: [v1.3.1...v1.4.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.3.1...v1.4.0)
 
 ## [1.3.1] - 2025-05-23
 
@@ -355,7 +355,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Fix some translations
 
-#### Full Changelog: [v1.3.0...v1.3.1](https://github.com/DjangoCRM/django-crm/compare/v1.3.0...v1.3.1)
+#### Full Changelog: [v1.3.0...v1.3.1](https://github.com/DjangoCRM/WolanCRM/compare/v1.3.0...v1.3.1)
 
 ## [1.3.0] - 2025-05-11
 
@@ -380,7 +380,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Some minor fixes
 
-#### Full Changelog: [v1.2.2...v1.3.0](https://github.com/DjangoCRM/django-crm/compare/v1.2.2...v1.3.0)
+#### Full Changelog: [v1.2.2...v1.3.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.2.2...v1.3.0)
 
 ## [1.2.2] - 2025-03-22
 
@@ -401,7 +401,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed Nederlands translation
 - Fixed Polish translation
 
-#### Full Changelog: [v1.2.1...v1.2.2](https://github.com/DjangoCRM/django-crm/compare/v1.2.1...v1.2.2)
+#### Full Changelog: [v1.2.1...v1.2.2](https://github.com/DjangoCRM/WolanCRM/compare/v1.2.1...v1.2.2)
 
 ## [1.2.1] - 2025-03-01
 
@@ -417,9 +417,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-Django-CRM user guide in Spanish
+WolanCRM user guide in Spanish
 
-#### Full Changelog: [v1.2.0...v1.2.1](https://github.com/DjangoCRM/django-crm/compare/v1.2.0...v1.2.1)
+#### Full Changelog: [v1.2.0...v1.2.1](https://github.com/DjangoCRM/WolanCRM/compare/v1.2.0...v1.2.1)
 
 ## [1.2.0] - 2025-02-21
 
@@ -445,7 +445,7 @@ Django-CRM user guide in Spanish
 - Correct the arguments of the filter for payments received in the previous period.
 - Fix some typos in text messages.
 
-#### Full Changelog: [v1.1.0...v1.2.0](https://github.com/DjangoCRM/django-crm/compare/v1.1.0...v1.2.0)
+#### Full Changelog: [v1.1.0...v1.2.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.1.0...v1.2.0)
 
 ## [1.1.0] - 2025-01-25
 
@@ -470,7 +470,7 @@ Translations of CRM software into the following languages:
 
 - Test for receiving email notifications about subtask completion (#134)
 
-#### Full Changelog: [v1.0.0...v1.1.0](https://github.com/DjangoCRM/django-crm/compare/v1.0.0...v1.1.0)
+#### Full Changelog: [v1.0.0...v1.1.0](https://github.com/DjangoCRM/WolanCRM/compare/v1.0.0...v1.1.0)
 
 ## [1.0.0] - 2025-01-11
 
@@ -492,7 +492,7 @@ Translations of CRM software into the following languages:
 - The "add reminder" button on the main page has been removed.
 - The display of the "massmail" field in the "Company," "Contact" and "Lead" models has been changed depending on its value.
 
-#### Full Changelog: [v0.99...v1.0](https://github.com/DjangoCRM/django-crm/compare/v0.93...v1.0.0)
+#### Full Changelog: [v0.99...v1.0](https://github.com/DjangoCRM/WolanCRM/compare/v0.93...v1.0.0)
 
 ## [0.93] - 2024-10-20
 
@@ -526,7 +526,7 @@ Translations of CRM software into the following languages:
 - Fix for creating email notification subject for office memo received
 - Fix `queryset` method of TagFilter class
 
-### Full Changelog: [v0.92...v0.93](https://github.com/DjangoCRM/django-crm/compare/v0.92...v0.93)
+### Full Changelog: [v0.92...v0.93](https://github.com/DjangoCRM/WolanCRM/compare/v0.92...v0.93)
 
 ## [0.92] - 2024-09-22
 
@@ -541,11 +541,11 @@ Translations of CRM software into the following languages:
 
 - The algorithm for translating CRM system messages
 
-### Full Changelog: [v0.91...v0.92](https://github.com/DjangoCRM/django-crm/compare/v0.91...v0.92)
+### Full Changelog: [v0.91...v0.92](https://github.com/DjangoCRM/WolanCRM/compare/v0.91...v0.92)
 
 ## [0.91] - 2024-07-30
 
-### Full Changelog: [v0.90...v0.91](https://github.com/DjangoCRM/django-crm/compare/v0.90...v0.91)
+### Full Changelog: [v0.90...v0.91](https://github.com/DjangoCRM/WolanCRM/compare/v0.90...v0.91)
 
 ## [0.90] - 2024-07-21
 

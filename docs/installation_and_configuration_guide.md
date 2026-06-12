@@ -1,4 +1,4 @@
-# Django-CRM - installation and configuration guide
+# WolanCRM - installation and configuration guide
 
 ## Table of contents
 
@@ -7,7 +7,7 @@
   - [Fork the Repository](#fork-the-repository)
   - [Clone the project](#clone-the-project)
   - [Install the requirements](#install-the-requirements)
-- [Settings of Django CRM](#settings-of-django-crm)
+- [Settings of Django CRM](#settings-of-WolanCRM)
   <details>
 
   - [DATABASES settings](#databases-settings)
@@ -21,10 +21,10 @@
 - [Launch CRM on the development server](#run-crm-on-the-built-in-server)
 - [Access to CRM and admin sites](#access-to-crm-and-admin-sites)
 - [Specify CRM site domain](#specify-crm-site-domain)
-- [Updating Django CRM software](#updating-django-crm-software)
-- [Ability to translate Django CRM interface into another language](#ability-to-translate-django-crm-interface-into-another-language)
+- [Updating Django CRM software](#updating-WolanCRM-software)
+- [Ability to translate Django CRM interface into another language](#ability-to-translate-WolanCRM-interface-into-another-language)
 - [Built-in assistance system](#built-in-assistance-system)
-- [Adding Django CRM users](#adding-django-crm-users)
+- [Adding Django CRM users](#adding-WolanCRM-users)
     <details>
 
     <summary>Permissions, Groups, Departments</summary>
@@ -37,8 +37,8 @@
   </details>
   
 - [User access to applications and objects](#user-access-to-applications-and-objects)
-- [Helping users to master Django CRM](#helping-users-to-master-django-crm)
-- [Setting up adding commercial requests in Django CRM](#setting-up-adding-commercial-requests-in-django-crm)
+- [Helping users to master Django CRM](#helping-users-to-master-WolanCRM)
+- [Setting up adding commercial requests in Django CRM](#setting-up-adding-commercial-requests-in-WolanCRM)
   - [Sources of Leads](#sources-of-leads)
   - [Forms](#forms)
     <details>
@@ -77,7 +77,7 @@
 
 ## Introduction
 
-[Django-CRM](https://github.com/DjangoCRM/django-crm/) (client relationship software) is an open source application with a web interface.  
+[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) (client relationship software) is an open source application with a web interface.  
 It is based on the [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/) and is written in the [Python](https://www.python.org/) programming language.
 
 The CRM project consists of the following main applications:
@@ -118,7 +118,7 @@ This Python CRM software is developed taking into account compatibility with [My
 
 ### Fork the Repository
 
-Click the Fork button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/django-crm/) repository's home page.
+Click the Fork button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/WolanCRM/) repository's home page.
 You now have a copy of the repository in your personal GitHub account.
 
 ### Clone the project
@@ -127,16 +127,16 @@ To clone a repository, you must have [Git](https://git-scm.com/downloads) instal
 Clone this GitHub repository:
 
 ```cmd
-git clone https://github.com/DjangoCRM/django-crm.git
+git clone https://github.com/DjangoCRM/WolanCRM.git
 ```
 
 Or clone your forked GitHub repository:
 
 ```cmd
-git clone https://github.com/<YOUR ACCOUNT NAME>/django-crm.git
+git clone https://github.com/<YOUR ACCOUNT NAME>/WolanCRM.git
 ```
 
-The project will be cloned into the 'django-crm' folder.
+The project will be cloned into the 'WolanCRM' folder.
 
 ### Install the requirements
 
@@ -159,7 +159,7 @@ Full tutorial [here](https://docs.djangoproject.com/en/dev/topics/install/).
 
 > [!IMPORTANT]
 > **Please give this CRM project a star ⭐️ to support its developers!**  
-> Click the "Starred" button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/django-crm/) repository.  
+> Click the "Starred" button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/WolanCRM/) repository.  
 
 ## Settings of Django CRM
 
@@ -319,9 +319,9 @@ Add a CRM site and specify its domain name.
 
 ## Updating Django CRM software
 
-Django-CRM is actively developing: existing functionality is being improved, new functionality is being added, and bugs are being fixed.
+WolanCRM is actively developing: existing functionality is being improved, new functionality is being added, and bugs are being fixed.
 In addition, the versions of software used by CRM are updated.
-Therefore, it is important to set up system updates based on new releases of Django-CRM.
+Therefore, it is important to set up system updates based on new releases of WolanCRM.
 Here are some tips on how to do it better:
 
 - To prevent your system settings from being overwritten when you upgrade CRM, it is recommended that you save them in a separate settings file, such as local_settings.py.
@@ -353,11 +353,11 @@ python manage.py migrate --settings=webcrm.local_settings
 python manage.py collectstatic --settings=webcrm.local_settings
 ```
 
-- Provide meaningful comments on the code you are modifying. This will help in case of conflict when merging your project with a new Django-CRM release.
+- Provide meaningful comments on the code you are modifying. This will help in case of conflict when merging your project with a new WolanCRM release.
 
 ## Ability to translate Django CRM interface into another language
 
-Users can choose the language of the [Django-CRM](https://github.com/DjangoCRM/django-crm/) interface.  
+Users can choose the language of the [WolanCRM](https://github.com/DjangoCRM/WolanCRM/) interface.  
 The list of available languages (LANGUAGES) and the default language (LANGUAGE_CODE) are defined in the file:
 `webcrm/settings.py`
 

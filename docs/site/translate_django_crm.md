@@ -1,6 +1,6 @@
 ## Translating Django CRM interface into another language
 
-Users can choose the language of the [Django CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"} interface.  
+Users can choose the language of the [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} interface.  
 The list of available languages `LANGUAGES` and the default language `LANGUAGE_CODE` are defined in the file:
 `webcrm/settings.py`
 

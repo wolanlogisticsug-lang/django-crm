@@ -1,12 +1,12 @@
 # Descripción General de la Aplicación de Análisis en Django CRM
 
-La **aplicación de Análisis** en el software eCRM de [código abierto](https://github.com/DjangoCRM/django-crm/) es una herramienta poderosa diseñada para proporcionar información integral sobre la gestión de relaciones con clientes. Esta aplicación es esencial para que los gerentes de la empresa y los gerentes de ventas tomen decisiones basadas en datos, ofreciendo varios informes y visualizaciones.
+La **aplicación de Análisis** en el software eCRM de [código abierto](https://github.com/DjangoCRM/WolanCRM/) es una herramienta poderosa diseñada para proporcionar información integral sobre la gestión de relaciones con clientes. Esta aplicación es esencial para que los gerentes de la empresa y los gerentes de ventas tomen decisiones basadas en datos, ofreciendo varios informes y visualizaciones.
 
 ---
 
 ## Características Clave
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/income_summary_thumbnail.png" alt="Informe analítico del CRM" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Informe analítico del CRM" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
 1. **Informe Resumen de Ingresos**
    - Muestra información detallada sobre negocios, productos y volúmenes de pagos recibidos en el mes actual.
    - Proporciona previsiones para el mes actual y los dos siguientes, categorizando los pagos en garantizados, alta probabilidad y baja probabilidad.
@@ -50,4 +50,4 @@ La **aplicación de Análisis** en el software eCRM de [código abierto](https:/
 - La aplicación de Análisis se integra perfectamente con otros componentes del Django CRM, asegurando que todos los datos relevantes sean capturados y analizados.
 - Los usuarios pueden personalizar los informes para centrarse en métricas o períodos de tiempo específicos, proporcionando flexibilidad para satisfacer sus necesidades comerciales únicas.
 
-La aplicación de Análisis es una parte crucial dentro del [conjunto de CRM](https://github.com/DjangoCRM/django-crm/) de Django, ofreciendo valiosas perspectivas que pueden impulsar la toma de decisiones estratégicas y mejorar el rendimiento general del negocio. Al aprovechar esta aplicación, las empresas pueden mejorar su gestión de relaciones con clientes y lograr mejores resultados.
+La aplicación de Análisis es una parte crucial dentro del [conjunto de CRM](https://github.com/DjangoCRM/WolanCRM/) de Django, ofreciendo valiosas perspectivas que pueden impulsar la toma de decisiones estratégicas y mejorar el rendimiento general del negocio. Al aprovechar esta aplicación, las empresas pueden mejorar su gestión de relaciones con clientes y lograr mejores resultados.

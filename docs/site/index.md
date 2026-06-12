@@ -1,10 +1,10 @@
 
-# [<img src="img/django-crm_logo.png" alt="Django CRM Screenshot" width="50px" align="center" style="float: center"/>](https://github.com/DjangoCRM/django-crm/){target="_blank"} Welcome to Django-CRM Documentation
+# [<img src="img/WolanCRM_logo.png" alt="Django CRM Screenshot" width="50px" align="center" style="float: center"/>](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} Welcome to WolanCRM Documentation
 
-[Django CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"} (client relationship software) is an open source application with web interface.  
+[Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} (client relationship software) is an open source application with web interface.  
 This CRM is based on the [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/){target="_blank"} and is written in the [Python](https://www.python.org/){target="_blank"} programming language.
 
-[<img src="img/django-crm_deals_screenshot_2x1v2.png" alt="Django CRM Screenshot" align="center" style="float: center"/>](img/django-crm_deals_screenshot_2x1v2.png){target="_blank"}
+[<img src="img/WolanCRM_deals_screenshot_2x1v2.png" alt="Django CRM Screenshot" align="center" style="float: center"/>](img/WolanCRM_deals_screenshot_2x1v2.png){target="_blank"}
 <hr/>
 <div align="center">
 <a class="btn button" href="/en/latest/installation/">CRM installation</a>

@@ -4,7 +4,7 @@ This directory contains the core data models for the [CRM application](https://d
 
 ## Overview
 
-The models in this directory define the main business entities and relationships for the [CRM free software](https://github.com/DjangoCRM/django-crm/). They are implemented using Django's ORM and avoid database-specific fields to ensure compatibility with PostgreSQL and MySQL.
+The models in this directory define the main business entities and relationships for the [CRM free software](https://github.com/DjangoCRM/WolanCRM/). They are implemented using Django's ORM and avoid database-specific fields to ensure compatibility with PostgreSQL and MySQL.
 
 This CRM in Python is suitable for organizations seeking a robust, open-source customer relationship management solution.
 
@@ -14,7 +14,7 @@ This CRM in Python is suitable for organizations seeking a robust, open-source c
 - **Ownership and Assignment:** Most models include an `owner` field (the user responsible for the object). Some models, such as `Request` and `Deal`, also have a `co_owner` field for collaboration and shared responsibility.
 - **Extensible Relationships:** Models use ForeignKey, ManyToManyField, and GenericRelation for flexible linking between entities.
 - **Internationalization:** All verbose names and help texts are translatable using Django's i18n framework.
-- **Integration Ready:** Models are designed to work with other CRM modules ([Analytics](https://github.com/DjangoCRM/django-crm/blob/main/analytics/README.md), [Tasks](https://github.com/DjangoCRM/django-crm/blob/main/tasks/README.md), [Massmail](https://github.com/DjangoCRM/django-crm/blob/main/massmail/README.md), etc.).
+- **Integration Ready:** Models are designed to work with other CRM modules ([Analytics](https://github.com/DjangoCRM/WolanCRM/blob/main/analytics/README.md), [Tasks](https://github.com/DjangoCRM/WolanCRM/blob/main/tasks/README.md), [Massmail](https://github.com/DjangoCRM/WolanCRM/blob/main/massmail/README.md), etc.).
 
 ## Main Models
 

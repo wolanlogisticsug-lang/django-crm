@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_app_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_app_features-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md">Español</a>
 </p>
 
-# Comprehensive Overview of the CRM App in Django-CRM software suite
+# Comprehensive Overview of the CRM App in WolanCRM software suite
 
-The **CRM app** in Django-CRM is the central hub for managing customer interactions, commercial requests, and sales processes.  
+The **CRM app** in WolanCRM is the central hub for managing customer interactions, commercial requests, and sales processes.  
 Its features are designed to streamline operations and provide actionable insights for sales managers, operators, and administrators.
 Features role-based access control, ensuring users only see data relevant to their roles.
 The CRM app’s data integrates seamlessly into the Analytics app for generating insights like sales funnels, income summaries, and conversion rates.  
@@ -36,7 +36,7 @@ These reports empower businesses to refine strategies and achieve better outcome
   A Deal object is created from a Request and serves as the primary working area where sales managers work towards concluding a successful deal.  
   They can be sorted by default settings or customized according to user preference.
   Details of the work done are stored within the Deal object. Icons provide visual cues about the deal status and required actions.
-  - **Deal Lifecycle:** [Deals](https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/deals_screenshot.png) are managed through various customizable stages (e.g., proposal, negotiation, closing), with each stage tracked visually in the CRM until closed.
+  - **Deal Lifecycle:** [Deals](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png) are managed through various customizable stages (e.g., proposal, negotiation, closing), with each stage tracked visually in the CRM until closed.
     Managers can monitor the progress and ensure timely action.
   - **Closing a Deal**: Once work on a deal is finished, it should be closed with a reason selected from a dropdown menu (e.g., won, lost).  
     Closed deals will be hidden from the active deals list but will remain in the database and can be accessed by adjusting the activity filters.

@@ -2,7 +2,7 @@
 
 Project settings are contained in files `settings.py`.  
 The main project settings are contained in the file  
-`webcrm/settings.py`  (*view on [GitHub](https://github.com/DjangoCRM/django-crm/blob/main/webcrm/settings.py){target="_blank"}*). 
+`webcrm/settings.py`  (*view on [GitHub](https://github.com/DjangoCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"}*). 
 
 !!! IMPORTANT
 
@@ -14,7 +14,7 @@ The settings file is divided into two parts:
 - CRM settings
 
 Most of the project settings are Django framework settings (full list is [here](https://docs.djangoproject.com/en/dev/ref/settings/){target="_blank"}).  
-Explanations for CRM [settings](https://github.com/DjangoCRM/django-crm/blob/main/webcrm/settings.py){target="_blank"} are in the comments to them.  
+Explanations for CRM [settings](https://github.com/DjangoCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"} are in the comments to them.  
 Most of the settings can be left at their default values.
 
 The default settings are for running the project on a development server.

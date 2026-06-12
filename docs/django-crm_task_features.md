@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
 </p>
 
-# Detailed Overview of the Task features for Django-CRM Users
+# Detailed Overview of the Task features for WolanCRM Users
 
-The **Task app in [Django-CRM](https://github.com/DjangoCRM/django-crm)** streamlines task management,
+The **Task app in [WolanCRM](https://github.com/DjangoCRM/WolanCRM)** streamlines task management,
 enabling users to create, assign, track, and collaborate on tasks efficiently.
 It supports individual and team tasks, integrates with project workflows,
 and ensures seamless communication between team members.
@@ -116,4 +116,4 @@ and ensures seamless communication between team members.
 - **Stage Updates**: Keep task stages updated for real-time tracking by other participants.
 - **Completion Check**: Always mark tasks as "Done" to notify stakeholders and remove them from active lists.
 
-The Task app in **Django-CRM** combines simplicity and powerful features to streamline task management and collaboration, ensuring projects progress efficiently.
+The Task app in **WolanCRM** combines simplicity and powerful features to streamline task management and collaboration, ensuring projects progress efficiently.

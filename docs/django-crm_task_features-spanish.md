@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
 </p>
 
-# Descripción Detallada de las Funcionalidades de Tareas para Usuarios de Django-CRM
+# Descripción Detallada de las Funcionalidades de Tareas para Usuarios de WolanCRM
 
-La **aplicación de Tareas en [Django-CRM](https://github.com/DjangoCRM/django-crm)** optimiza la gestión de tareas, permitiendo a los usuarios crear, asignar, rastrear y colaborar en tareas de manera eficiente. Soporta tareas individuales y colectivas, se integra con los flujos de trabajo del proyecto y asegura una comunicación fluida entre los miembros del equipo.
+La **aplicación de Tareas en [WolanCRM](https://github.com/DjangoCRM/WolanCRM)** optimiza la gestión de tareas, permitiendo a los usuarios crear, asignar, rastrear y colaborar en tareas de manera eficiente. Soporta tareas individuales y colectivas, se integra con los flujos de trabajo del proyecto y asegura una comunicación fluida entre los miembros del equipo.
 
 ---
 
@@ -113,4 +113,4 @@ La **aplicación de Tareas en [Django-CRM](https://github.com/DjangoCRM/django-c
 - **Actualización de Etapas**: Mantén las etapas de las tareas actualizadas para un seguimiento en tiempo real por otros participantes.
 - **Verificación de Finalización**: Siempre marca las tareas como "Hechas" para notificar a los interesados y eliminarlas de las listas activas.
 
-La aplicación de Tareas en **Django-CRM** combina simplicidad y potentes funcionalidades para optimizar la gestión de tareas y la colaboración, asegurando que los proyectos progresen eficientemente.
+La aplicación de Tareas en **WolanCRM** combina simplicidad y potentes funcionalidades para optimizar la gestión de tareas y la colaboración, asegurando que los proyectos progresen eficientemente.

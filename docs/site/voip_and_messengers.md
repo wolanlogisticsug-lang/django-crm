@@ -1,6 +1,6 @@
 ## VoIP telephony
 
-A properly configured application allows you to make calls directly from [Django CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"}.
+A properly configured application allows you to make calls directly from [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"}.
 This application allows you to integrate CRM with the services of VoIP provider ZADARMA.  But it can also be used to create integration files with other providers.
 
 It is necessary to receive from the provider (zadarma.com) and to specify in `voip/settings.py` file the following values: SECRET_ZADARMA_KEY, SECRET_ZADARMA.

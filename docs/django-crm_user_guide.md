@@ -1,4 +1,4 @@
-# Django-CRM user guide
+# WolanCRM user guide
 
 ## Table of contents
 
@@ -29,16 +29,16 @@
   - [Company Newsletter](#company-newsletter)
   - [Transfer of company objects to another sales manager](#transfer-of-company-objects-to-another-sales-manager)
 
-- [Django CRM Administrator's Guide](#django-crm-administrators-guide)
+- [Django CRM Administrator's Guide](#WolanCRM-administrators-guide)
   - [Mass transfer of companies to another sales manager](#mass-transfer-of-companies-to-another-sales-manager)
   - [Mass contacts objects](#mass-contacts-objects)
 
 ## Introduction
 
-[Django-CRM](https://github.com/DjangoCRM/django-crm/) is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
+[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
 
 To make your work easier, CRM provides help pages and tooltips when you hover your mouse over certain page elements such as icons, buttons, etc.  
-![CRM tooltip screenshot](https://github.com/DjangoCRM/django-crm/raw/main/docs/site/img/crm_tooltip_screenshot.png)
+![CRM tooltip screenshot](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
 
 Many pages have an icon (?) in the upper right corner. Clicking on it will open the help page.
 

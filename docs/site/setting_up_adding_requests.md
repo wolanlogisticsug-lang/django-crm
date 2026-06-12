@@ -1,6 +1,6 @@
 # Setting up adding commercial requests in Django CRM
 
-In [Django CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"} you can add commercial requests (Request objects) in manual, automatic and semi-automatic mode.
+In [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} you can add commercial requests (Request objects) in manual, automatic and semi-automatic mode.
 In manual mode, you must press the "ADD REQUESTS" button at:  
   `Home > Crm > Requests`  
 and fill out the form.

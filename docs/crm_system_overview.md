@@ -1,18 +1,18 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_system_overview-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
 </p>
 
-# Django-CRM Overview
+# WolanCRM Overview
 
-Free CRM management [software](https://github.com/DjangoCRM/django-crm/) is designed to optimize the management of customer interactions, streamline processes, and enhance data-driven decision-making.  
+Free CRM management [software](https://github.com/DjangoCRM/WolanCRM/) is designed to optimize the management of customer interactions, streamline processes, and enhance data-driven decision-making.  
 The customer crm software leverages the Django framework, ensuring ease of development, customization, and deployment.
 
 Below is a comprehensive overview of its key features and functionalities:
 
 ## Key Features of all Applications in the CRM software package
 
-The **CRM app** in Django-CRM is the central hub for managing customer interactions, commercial requests, and sales processes.  
+The **CRM app** in WolanCRM is the central hub for managing customer interactions, commercial requests, and sales processes.  
 Its features are designed to streamline operations and provide actionable insights for sales managers, operators, and administrators.
 
 ### User Access and Roles
@@ -49,9 +49,9 @@ Facilitate communication within the team through integrated chat.
 - **Reminders**: Users can set personal reminders for critical tasks, meetings, or upcoming deadlines.  
   These reminders can be linked to specific objects within the CRM, ensuring no important task is missed.
 
-## The CRM Application in Django-CRM software package
+## The CRM Application in WolanCRM software package
 
-The **CRM app** in the Django-CRM system is designed to manage customer relationships effectively.  
+The **CRM app** in the WolanCRM system is designed to manage customer relationships effectively.  
 It provides a comprehensive suite of features to handle various business objects such as requests, leads, companies, contact persons, deals, email messages, products, payments and  twelve others.
 
 ### Commercial Request Management
@@ -94,9 +94,9 @@ It provides a comprehensive suite of features to handle various business objects
 - Tracks payments directly from Deals or Payments list.
 - Integrates payment data into CRM analytics for comprehensive reporting.
 
-Read more detailed [CRM app features](https://github.com/DjangoCRM/django-crm/blob/main/docs/crm_app_features.md)
+Read more detailed [CRM app features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features.md)
 
-## The Tasks Application in Django-CRM software suite
+## The Tasks Application in WolanCRM software suite
 
 ### Memo (*Office Memo*)
 
@@ -110,7 +110,7 @@ Read more detailed [CRM app features](https://github.com/DjangoCRM/django-crm/bl
 - **Memo Chat**: Participants can exchange messages and files in the memo chat.
 - **Visual Control of Tasks Created from Memos**: A "view task" button appears next to memos that resulted in tasks, with color indicating task status to track the task's progress.
 
-Read more detailed [memo features](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features.md)
+Read more detailed [memo features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
 
 ### Task Management
 
@@ -128,7 +128,7 @@ Read more detailed [memo features](https://github.com/DjangoCRM/django-crm/blob/
   - **Tags**: Users can tag tasks and filter them by tags.
   - **Sorting Tasks**: New tasks are sorted at the top of the list by default but can be sorted by next step date.
 
-  Read more detailed [task features](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md)
+  Read more detailed [task features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)
 
 ## Email and Mailings
 
@@ -138,9 +138,9 @@ Read more detailed [memo features](https://github.com/DjangoCRM/django-crm/blob/
 - **Mailing Campaigns**: Users can create targeted email campaigns, track their success, and manage subscriber lists.  
   Mailings are sent from sales managers’ accounts with limitations to avoid spam filters.
 
-## The Analytics Application in Django-CRM customer software
+## The Analytics Application in WolanCRM customer software
 
-The Django-CRM system includes analytical features that provide various reports to help you make informed business decisions:
+The WolanCRM system includes analytical features that provide various reports to help you make informed business decisions:
 
 - **Income Summary Report**: Overview of income and its forecast. 
   - Provides a summary of income and forecast based on payment statuses.
@@ -170,10 +170,10 @@ The Django-CRM system includes analytical features that provide various reports 
 
 ## Conclusion
 
-The Django-CRM system is a powerful and flexible solution for managing customer relationships.  
+The WolanCRM system is a powerful and flexible solution for managing customer relationships.  
 It offers a wide range of features to handle various business objects, automate email marketing, and gain insights through analytics.  
 By leveraging these features, businesses can enhance their customer relationship management processes and make informed decisions.
 
 (***The content is being supplemented.***)
 
-You can get more detailed information from [**the user manual**](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_user_guide.md).
+You can get more detailed information from [**the user manual**](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md).

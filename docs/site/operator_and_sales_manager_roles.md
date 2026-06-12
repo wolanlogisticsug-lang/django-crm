@@ -1,7 +1,7 @@
 
 ## Guidelines for users with the roles "operator" and "sales manager"
 
-The operator's duties include creating and processing commercial requests in [the CRM](https://github.com/DjangoCRM/django-crm/){target="_blank"}.
+The operator's duties include creating and processing commercial requests in [the CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"}.
 In smaller companies, sales managers fulfill this role as well.  
 In addition to Requests, operators also work with [Lead](#lead-object), [Company](#company-object) and [Contact person](#object-of-company-contact-persons) objects.  
 Operators must be granted rights to company mailboxes that receive commercial requests.

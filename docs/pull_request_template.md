@@ -1,6 +1,6 @@
 
 
-👉 Please review the [guidelines](https://github.com/DjangoCRM/django-crm/blob/main/CONTRIBUTING.md) for contributing to this repository.
+👉 Please review the [guidelines](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md) for contributing to this repository.
 
 ## Pull Request Checklist
 

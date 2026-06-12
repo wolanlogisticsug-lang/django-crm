@@ -1,6 +1,6 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_analytics_app_overview.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_analytics_app_overview-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview-spanish.md">Español</a>
 </p>
 
 ---
@@ -14,7 +14,7 @@ Underpinning these robust analytical capabilities is the powerful Django framewo
 
 ## Key Features
 
-[<img src="https://github.com/DjangoCRM/django-crm/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/django-crm/blob/main/docs/pics/income_summary_screenshot.png)
+[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
 1. **Income Summary Report**
    - Displays detailed information on deals, products, and payment volumes received in the current month.
    - Provides forecasts for the current and next two months, categorizing payments into guaranteed, high probability, and low probability.
@@ -58,4 +58,4 @@ Underpinning these robust analytical capabilities is the powerful Django framewo
 - The Analytics app integrates seamlessly with other components of the Django CRM, ensuring that all relevant data is captured and analyzed.
 - Users can customize the reports to focus on specific metrics or time periods, providing flexibility to meet their unique business needs.
 
-The Analytics app is a crucial part within the Django [CRM suite](https://github.com/DjangoCRM/django-crm/), offering valuable insights that can drive strategic decision-making and improve overall business performance. By leveraging this app, businesses can enhance their customer relationship management and achieve better outcomes.
+The Analytics app is a crucial part within the Django [CRM suite](https://github.com/DjangoCRM/WolanCRM/), offering valuable insights that can drive strategic decision-making and improve overall business performance. By leveraging this app, businesses can enhance their customer relationship management and achieve better outcomes.

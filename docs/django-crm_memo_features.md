@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_memo_features-spanish.md">Español</a>
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md">English</a> |
+<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md">Español</a>
 </p>
 
-# Django-CRM Memo Features
+# WolanCRM Memo Features
 
-In [Django-CRM](https://github.com/DjangoCRM/django-crm), a memo is an office memo that can be directed to department heads (team leads) or company executives, 
+In [WolanCRM](https://github.com/DjangoCRM/WolanCRM), a memo is an office memo that can be directed to department heads (team leads) or company executives, 
 allowing users to inform them or make decisions. A user can also create memos for themselves (todo list).
 
 ---
@@ -42,7 +42,7 @@ The memo has been sent to recipients, but they have not reviewed it yet.
 
 ### 3. Reviewed
 
-The recipient has reviewed the memo and may have taken action or assigned [tasks](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md)/projects.
+The recipient has reviewed the memo and may have taken action or assigned [tasks](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)/projects.
 
 ### 4. Postponed
 
@@ -98,7 +98,7 @@ A memo contains:
 
 ## Task/Project Creation from Memos
 
-After a memo has been reviewed, management can create [tasks](https://github.com/DjangoCRM/django-crm/blob/main/docs/django-crm_task_features.md) or projects based on its content. The task/project is automatically linked to the memo, and users receive notifications.
+After a memo has been reviewed, management can create [tasks](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) or projects based on its content. The task/project is automatically linked to the memo, and users receive notifications.
 
 Once a memo has been reviewed by the recipient, it cannot be changed by the owner.
 
