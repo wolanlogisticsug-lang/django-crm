@@ -16,7 +16,9 @@ class UserMiddleware:
 
     def __call__(self, request):
         if request.user.is_authenticated:
-            profile = getattr(request.user, 'profile', None)
+            profile, _ = UserProfile.objects.get_or_create(
+                user=request.user
+            )
             groups = request.user.groups.all()      
             set_user_timezone(profile)
             set_user_groups(request, groups)

@@ -1,6 +1,6 @@
 from django.urls import path
-from django.contrib.admin.views.decorators import staff_member_required
 
+from common.utils.decorators import crm_staff_member_required
 from tasks.views.create_completed_subtask import create_completed_subtask
 from tasks.views.create_completed_subtask import email_subtask_completion
 from tasks.views.task_completed import task_completed
@@ -9,7 +9,7 @@ from tasks.views.task_completed import task_completed
 urlpatterns = [
     path(
         "create-completed-subtask/<int:object_id>/",
-        staff_member_required(create_completed_subtask),
+        crm_staff_member_required(create_completed_subtask),
         name="create_completed_subtask"
     ),
     path(

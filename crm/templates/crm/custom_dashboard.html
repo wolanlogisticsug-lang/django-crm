@@ -1,0 +1,36 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block content %}
+<div id="content-main">
+  <h1>{% translate "Custom dashboard" %}</h1>
+
+  <div class="module">
+    <table>
+      <caption>{% translate "CRM summary" %}</caption>
+      <tbody>
+        <tr>
+          <th scope="row">{% translate "Companies" %}</th>
+          <td>{{ company_count }}</td>
+        </tr>
+        <tr>
+          <th scope="row">{% translate "Contacts" %}</th>
+          <td>{{ contact_count }}</td>
+        </tr>
+        <tr>
+          <th scope="row">{% translate "Leads" %}</th>
+          <td>{{ lead_count }}</td>
+        </tr>
+        <tr>
+          <th scope="row">{% translate "Requests" %}</th>
+          <td>{{ request_count }}</td>
+        </tr>
+        <tr>
+          <th scope="row">{% translate "Active deals" %}</th>
+          <td>{{ active_deal_count }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

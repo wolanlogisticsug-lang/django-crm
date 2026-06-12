@@ -1,6 +1,8 @@
 import sys
+import os
 from pathlib import Path
 from datetime import datetime as dt
+from django.core.exceptions import ImproperlyConfigured
 from django.utils.translation import gettext_lazy as _
 
 from crm.settings import *          # NOQA
@@ -14,14 +16,31 @@ from .datetime_settings import *    # NOQA
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
+def env_bool(name, default=False):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.lower() in ('1', 'true', 'yes', 'on')
+
+
+def env_list(name, default):
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return [item.strip() for item in value.split(',') if item.strip()]
+
 # SECURITY WARNING: keep the secret key used in production secret!
 # To get new value of key use code:
 # from django.core.management.utils import get_random_secret_key
 # print(get_random_secret_key())
-SECRET_KEY = 'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn'
+SECRET_KEY = os.environ.get(
+    'DJANGO_SECRET_KEY',
+    'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn'
+)
 
 # Add your hosts to the list.
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = env_list('DJANGO_ALLOWED_HOSTS', ['localhost', '127.0.0.1'])
 
 # Database
 DATABASES = {
@@ -44,20 +63,20 @@ DATABASES = {
     }
 }
 
-EMAIL_HOST = '<specify host>'   # 'smtp.example.com'
-EMAIL_HOST_PASSWORD = '<specify password>'
-EMAIL_HOST_USER = 'crm@example.com'
-EMAIL_PORT = 587
+EMAIL_HOST = os.environ.get('EMAIL_HOST', '')   # 'smtp.example.com'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', '')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'crm@example.com')
+EMAIL_PORT = int(os.environ.get('EMAIL_PORT', '587'))
 EMAIL_SUBJECT_PREFIX = 'CRM: '
-EMAIL_USE_TLS = True
+EMAIL_USE_TLS = env_bool('EMAIL_USE_TLS', True)
 
-SERVER_EMAIL = 'test@example.com'
-DEFAULT_FROM_EMAIL = 'test@example.com'
+SERVER_EMAIL = os.environ.get('SERVER_EMAIL', EMAIL_HOST_USER)
+DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)
 
 ADMINS = [("<Admin1>", "<admin1_box@example.com>")]   # specify admin
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env_bool('DJANGO_DEBUG', False)
 
 FORMS_URLFIELD_ASSUME_HTTPS = True
 
@@ -183,22 +202,29 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 SITE_ID = 1
 
-SECURE_HSTS_SECONDS = 0  # set to 31536000 for the production server
-# Set all the following to True for the production server
-SECURE_HSTS_INCLUDE_SUBDOMAINS = False
-SECURE_SSL_REDIRECT = False
-SESSION_COOKIE_SECURE = False
-CSRF_COOKIE_SECURE = False
-SECURE_HSTS_PRELOAD = False
-X_FRAME_OPTIONS = "SAMEORIGIN"
+SECURE_HSTS_SECONDS = int(os.environ.get('SECURE_HSTS_SECONDS', '31536000'))
+SECURE_HSTS_INCLUDE_SUBDOMAINS = env_bool(
+    'SECURE_HSTS_INCLUDE_SUBDOMAINS', True
+)
+SECURE_SSL_REDIRECT = env_bool('SECURE_SSL_REDIRECT', True)
+SESSION_COOKIE_SECURE = env_bool('SESSION_COOKIE_SECURE', True)
+CSRF_COOKIE_SECURE = env_bool('CSRF_COOKIE_SECURE', True)
+SECURE_HSTS_PRELOAD = env_bool('SECURE_HSTS_PRELOAD', True)
+X_FRAME_OPTIONS = os.environ.get('X_FRAME_OPTIONS', 'DENY')
 
 # ---- CRM settings ---- #
 
 # For more security, replace the url prefixes
 # with your own unique value.
-SECRET_CRM_PREFIX = '123/'
-SECRET_ADMIN_PREFIX = '456-admin/'
-SECRET_LOGIN_PREFIX = '789-login/'
+SECRET_CRM_PREFIX = os.environ.get('SECRET_CRM_PREFIX', '123/')
+SECRET_ADMIN_PREFIX = os.environ.get('SECRET_ADMIN_PREFIX', '456-admin/')
+SECRET_LOGIN_PREFIX = os.environ.get('SECRET_LOGIN_PREFIX', '789-login/')
+LOGIN_URL = 'site:login'
+
+if not DEBUG and SECRET_KEY == 'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn':
+    raise ImproperlyConfigured(
+        'Set DJANGO_SECRET_KEY before running with DJANGO_DEBUG=False.'
+    )
 
 # Specify ip of host to avoid importing emails sent by CRM
 CRM_IP = "127.0.0.1"

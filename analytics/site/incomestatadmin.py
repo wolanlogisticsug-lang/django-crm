@@ -1,6 +1,5 @@
 from dateutil.relativedelta import relativedelta
 from django.contrib import messages
-from django.contrib.admin.views.decorators import staff_member_required
 from django.core.handlers.wsgi import WSGIRequest
 from django.db import connection
 from django.db.models import Case
@@ -31,6 +30,7 @@ from analytics.utils.helpers import get_current_currency_amount
 from analytics.utils.helpers import get_income_over_time
 from analytics.utils.helpers import get_currency_info
 from analytics.utils.helpers import GroupConcat
+from common.utils.decorators import crm_staff_member_required
 from common.utils.helpers import get_today
 from common.utils.helpers import LEADERS
 from crm.models import Output
@@ -90,11 +90,11 @@ class IncomeStatAdmin(AnlModelAdmin):
     def get_urls(self):
         urls = [
             path("view-snapshot/<int:object_id>/",
-                 staff_member_required(self.snapshot_view),
+                 crm_staff_member_required(self.snapshot_view),
                  name='snapshot_view'
                  ),
             path("save-snapshot/",
-                 staff_member_required(self.save_snapshot),
+                 crm_staff_member_required(self.save_snapshot),
                  name='save_snapshot'
                  )
         ]

@@ -1,7 +1,7 @@
 from django.urls import path
-from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib.auth.decorators import login_required
 
+from common.utils.decorators import crm_staff_member_required
 from massmail.views.copy_message import copy_message
 from massmail.views.exclude import exclude_recipients
 from massmail.views.file_upload import file_upload
@@ -29,29 +29,29 @@ urlpatterns = [
     ),
     path(
         'send-test/<int:message_id>/',
-        staff_member_required(send_test),
+        crm_staff_member_required(send_test),
         name='send_test'
     ),
     path(
         'send-failed-recipients/<int:object_id>/', 
-        staff_member_required(send_failed_recipients), 
+        crm_staff_member_required(send_failed_recipients), 
         name='send_failed_recipients'
     ),
     path(
         'successful-ids/<int:object_id>/', 
-        staff_member_required(view_recipient_ids),
+        crm_staff_member_required(view_recipient_ids),
         {'method': 'get_successful_ids'},
         name='successful_ids'
     ),
     path(
         'failed-ids/<int:object_id>/', 
-        staff_member_required(view_recipient_ids),
+        crm_staff_member_required(view_recipient_ids),
         {'method': 'get_failed_ids'},
         name='failed_ids'
     ),
     path(
         'copy-message/<int:object_id>/', 
-        staff_member_required(copy_message), 
+        crm_staff_member_required(copy_message), 
         name='copy_message'
     ),
     path(
@@ -61,27 +61,27 @@ urlpatterns = [
     ),
     path(
         'request-authorization-code/<int:email_account_id>/', 
-        staff_member_required(request_authorization_code), 
+        crm_staff_member_required(request_authorization_code), 
         name='request_authorization_code'
     ),
     path(
         'pic-upload/',
-        staff_member_required(file_upload),
+        crm_staff_member_required(file_upload),
         name='pic_upload'
     ),
     path(
         'show-uploaded-images/',
-        staff_member_required(show_uploaded_images),
+        crm_staff_member_required(show_uploaded_images),
         name='show_uploaded_images'
     ),
     path(
         'select-recipient-type/',
-        staff_member_required(select_recipient_type),
+        crm_staff_member_required(select_recipient_type),
         name='select_recipient_type'
     ),
     path(
         'exclude-recipients/<int:object_id>/',
-        staff_member_required(exclude_recipients),
+        crm_staff_member_required(exclude_recipients),
         name='exclude_recipients'
     ),
 ]

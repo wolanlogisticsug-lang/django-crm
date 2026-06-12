@@ -1,6 +1,5 @@
 from dateutil.relativedelta import relativedelta
 
-from django.contrib.admin.views.decorators import staff_member_required
 from django.core.handlers.wsgi import WSGIRequest
 from django.db.models.query import QuerySet
 from django.http.response import HttpResponseRedirect
@@ -11,6 +10,7 @@ from django.utils.timezone import localtime, now
 from django.utils.translation import gettext_lazy as _
 
 from analytics.utils.helpers import get_item_list
+from common.utils.decorators import crm_staff_member_required
 from crm.models.request import Request
 from crm.site import crmmodeladmin
 
@@ -56,7 +56,7 @@ class AnlModelAdmin(crmmodeladmin.CrmModelAdmin):
     def get_urls(self):
         urls = [
             path("currency-switching/",
-                 staff_member_required(self.currency_switching_view),
+                 crm_staff_member_required(self.currency_switching_view),
                  name="currency_switching"
                  )
         ]
