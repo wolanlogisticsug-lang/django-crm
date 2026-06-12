@@ -1,5 +1,5 @@
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
 
 
 SHIPMENT_DATE_CHECK = True

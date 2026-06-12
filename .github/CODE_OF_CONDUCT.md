@@ -1,4 +1,4 @@
-# DjangoCRM Code of Conduct
+# WOLANCRM Code of Conduct
 
 
 

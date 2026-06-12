@@ -1,26 +1,26 @@
 import secrets
 from datetime import timedelta
-from django.apps import apps
-from django.conf import settings
-from django.contrib.auth import get_user_model
-from django.contrib.auth.models import User
-from django.contrib.contenttypes.models import ContentType
-from django.core.handlers.wsgi import WSGIRequest
-from django.core.mail import mail_admins
-from django.db.models import Exists
-from django.db.models import OuterRef
-from django.db.models import Q
-from django.db.models.query import QuerySet
-from django.template.defaultfilters import truncatechars
-from django.utils.translation import gettext_lazy as _
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
-from django.utils.safestring import SafeString
-from django.utils.timezone import localtime
-from django.utils.timezone import now
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy
-from django.utils.translation import override
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth import get_user_model
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.defaultfilters import truncatechars
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.safestring import SafeString
+from WOLANCRM.utils.timezone import localtime
+from WOLANCRM.utils.timezone import now
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy
+from WOLANCRM.utils.translation import override
 
 from chat.models import ChatMessage
 

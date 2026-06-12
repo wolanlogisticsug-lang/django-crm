@@ -1,11 +1,11 @@
 import os
 from secrets import token_urlsafe
 
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.contrib.auth.models import User
-from django.core.management import call_command
-from django.core.management.base import BaseCommand
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.core.management import call_command
+from WOLANCRM.core.management.base import BaseCommand
 
 
 class Command(BaseCommand):

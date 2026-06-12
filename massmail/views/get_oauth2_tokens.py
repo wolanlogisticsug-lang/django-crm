@@ -1,12 +1,12 @@
 import json
 import requests
 from urllib.parse import urlencode
-from django.conf import settings
-from django.contrib import messages
-from django.contrib.sites.models import Site
-from django.http import HttpResponseRedirect
-from django.utils.translation import gettext as _
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
 from massmail.models import EmailAccount
 
 

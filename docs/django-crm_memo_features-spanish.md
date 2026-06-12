@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md">Español</a>
 </p>
 
 # Características de Memo en WolanCRM
 
-En [WolanCRM](https://github.com/DjangoCRM/WolanCRM), un memo es un memorándum de oficina que puede ser dirigido a jefes de departamento (líderes de equipo) o ejecutivos de la empresa, permitiendo a los usuarios informarles o tomar decisiones. Un usuario también puede crear memos para sí mismo (lista de tareas).
+En [WolanCRM](https://github.com/WOLANCRM/WolanCRM), un memo es un memorándum de oficina que puede ser dirigido a jefes de departamento (líderes de equipo) o ejecutivos de la empresa, permitiendo a los usuarios informarles o tomar decisiones. Un usuario también puede crear memos para sí mismo (lista de tareas).
 
 ---
 
@@ -41,7 +41,7 @@ El memo ha sido enviado a los destinatarios, pero aún no lo han revisado.
 
 ### 3. Revisado
 
-El destinatario ha revisado el memo y puede haber tomado acción o asignado [tareas](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)/proyectos.
+El destinatario ha revisado el memo y puede haber tomado acción o asignado [tareas](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)/proyectos.
 
 ### 4. Pospuesto
 
@@ -97,7 +97,7 @@ Un memo contiene:
 
 ## Creación de Tareas/Proyectos desde Memos
 
-Después de que un memo ha sido revisado, la administración puede crear [tareas](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md) o proyectos basados en su contenido. La tarea/proyecto se vincula automáticamente al memo, y los usuarios reciben notificaciones.
+Después de que un memo ha sido revisado, la administración puede crear [tareas](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md) o proyectos basados en su contenido. La tarea/proyecto se vincula automáticamente al memo, y los usuarios reciben notificaciones.
 
 Una vez que un memo ha sido revisado por el destinatario, no puede ser cambiado por el propietario.
 

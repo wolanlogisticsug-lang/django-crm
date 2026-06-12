@@ -1,8 +1,8 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.shortcuts import render
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from crm.models import Request
 from crm.site.crmadminsite import crm_site

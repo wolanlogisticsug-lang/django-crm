@@ -1,5 +1,5 @@
-from django import forms
-from django.contrib import admin
+from WOLANCRM import forms
+from WOLANCRM.contrib import admin
 
 from common.utils.get_file_links import get_file_links
 from common.utils.helpers import SAFE_ATTACH_FILE_ICON

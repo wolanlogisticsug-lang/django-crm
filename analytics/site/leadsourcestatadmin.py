@@ -1,12 +1,12 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Count
-from django.db.models import F
-from django.db.models import Q
-from django.db.models import Value
-from django.db.models.query import QuerySet
-from django.template.response import TemplateResponse
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Count
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import Value
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from analytics.models import RequestStat
 from analytics.site.anlmodeladmin import AnlModelAdmin

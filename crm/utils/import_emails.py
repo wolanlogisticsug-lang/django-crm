@@ -5,16 +5,16 @@ from datetime import timedelta
 from email.parser import BytesHeaderParser
 from pathlib import Path
 from typing import Optional
-from django.apps import apps
-from django.conf import settings
-from django.core.mail import mail_admins
-from django.core.paginator import EmptyPage
-from django.core.paginator import InvalidPage
-from django.core.paginator import Paginator
-from django.utils import timezone
-from django.utils.translation import gettext 
-from django.utils.safestring import mark_safe
-from django.urls import reverse
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.core.paginator import EmptyPage
+from WOLANCRM.core.paginator import InvalidPage
+from WOLANCRM.core.paginator import Paginator
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext 
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import popup_window
 from crm.models import CrmEmail

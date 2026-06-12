@@ -1,10 +1,10 @@
 from typing import Union
 from datetime import datetime as dt
 from datetime import time
-from django.conf import settings
-from django.contrib.contenttypes.models import ContentType
-from django.core.handlers.wsgi import WSGIRequest
-from django.utils import timezone
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.utils import timezone
 
 from common.models import Reminder
 from crm.forms.admin_forms import DealForm

@@ -1,10 +1,10 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Avg
-from django.db.models import DurationField
-from django.db.models import F
-from django.db.models.query import QuerySet
-from django.template.response import TemplateResponse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Avg
+from WOLANCRM.db.models import DurationField
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from analytics.site.anlmodeladmin import AnlModelAdmin
 from analytics.utils.helpers import get_values_over_time

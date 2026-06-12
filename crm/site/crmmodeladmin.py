@@ -2,22 +2,22 @@ import re
 import threading
 from typing import Union
 from datetime import datetime as dt
-from django.conf import settings
-from django.contrib import admin
-from django.contrib import messages
-from django.contrib.contenttypes.models import ContentType
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Exists
-from django.db.models import Min
-from django.db.models import Q
-from django.db.models import OuterRef
-from django.db.models.query import QuerySet
-from django.http import HttpResponseRedirect
-from django.template.response import TemplateResponse
-from django.utils import timezone
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import Min
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
 
 from common.models import Department
 from common.models import TheFile

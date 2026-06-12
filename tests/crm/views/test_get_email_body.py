@@ -1,4 +1,4 @@
-from django.test import tag
+from WOLANCRM.test import tag
 
 from common.utils.helpers import USER_MODEL
 from crm.views.view_original_email import get_context

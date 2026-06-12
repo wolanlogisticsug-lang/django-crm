@@ -1,6 +1,6 @@
-from django.contrib import admin, messages
-from django.core.handlers.wsgi import WSGIRequest
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin, messages
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from crm.forms.admin_forms import CurrencyForm
 from crm.models import Currency

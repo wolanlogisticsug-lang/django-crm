@@ -1,8 +1,8 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Count
-from django.db.models.query import QuerySet
-from django.template.response import TemplateResponse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Count
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from analytics.site.anlmodeladmin import AnlModelAdmin
 from crm.utils.admfilters import ByOwnerFilter

@@ -1,14 +1,14 @@
 import threading
-from django.contrib import admin
-from django.contrib import messages
-from django.contrib.auth import get_user_model
-from django.core.handlers.wsgi import WSGIRequest
-from django.forms.widgets import HiddenInput
-from django.http import HttpResponseRedirect
-from django.utils.html import format_html
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
-from django.urls import reverse
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.auth import get_user_model
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.forms.widgets import HiddenInput
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.utils.html import format_html
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.urls import reverse
 
 from common.admin import FileInline
 from common.models import Department

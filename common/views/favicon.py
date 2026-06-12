@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.views.generic.base import RedirectView
+from WOLANCRM.conf import settings
+from WOLANCRM.views.generic.base import RedirectView
 
 
 class FaviconRedirect(RedirectView):

@@ -1,14 +1,14 @@
 ## Introduction
 
-📈 Django CRM offers [powerful tools](guide_for_company_executives.md): the [**CRM Task management solution**](https://djangocrm.github.io/info/features/tasks-app-features/){target="_blank"} for company-wide task tracking and office memos,
-the **CRM Module** for managing customer data and launching targeted email campaigns, and [**CRM analytics software**](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} for insights into sales and business performance.
+📈 WOLANCRM CRM offers [powerful tools](guide_for_company_executives.md): the [**CRM Task management solution**](https://WOLANCRM.github.io/info/features/tasks-app-features/){target="_blank"} for company-wide task tracking and office memos,
+the **CRM Module** for managing customer data and launching targeted email campaigns, and [**CRM analytics software**](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} for insights into sales and business performance.
 The use of CRM by companies allows them to improve the sales performance of their products and services.
 The more complex and time-consuming the sales process, the greater the improvement.  
 
-[WolanCRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
+[WolanCRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
 
 To make your work easier, CRM provides help pages and tooltips when you hover your mouse over certain page elements such as icons, buttons, etc.  
-![CRM tooltip screenshot](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
+![CRM tooltip screenshot](https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
 
 Many pages have an <span style="vertical-align: baseline"><img src="../icons/question-mark.svg" alt="Question-mark icon" width="25" height="25"></span> icon in the upper right corner. Clicking on it will open the help page.
 

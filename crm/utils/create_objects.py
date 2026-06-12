@@ -1,11 +1,11 @@
 import re
 from email.utils import parseaddr
-from django.contrib.auth.models import Group
-from django.core.exceptions import ObjectDoesNotExist
-from django.core.exceptions import ValidationError
-from django.core.mail import mail_admins
-from django.db import connection
-from django.db.utils import IntegrityError
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db import connection
+from WOLANCRM.db.utils import IntegrityError
 from crm.models import Company
 from crm.models import ClientType
 from crm.models import Country

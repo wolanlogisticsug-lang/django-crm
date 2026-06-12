@@ -1,4 +1,4 @@
-from django.contrib import admin
+from WOLANCRM.contrib import admin
 
 
 class TagAdmin(admin.ModelAdmin):

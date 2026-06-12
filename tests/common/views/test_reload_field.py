@@ -1,7 +1,7 @@
 import json
-from django.contrib.auth.models import User
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from massmail.models import Signature
 from tests.base_test_classes import BaseTestCase

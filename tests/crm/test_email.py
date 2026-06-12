@@ -1,11 +1,11 @@
-from django.conf import settings
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.messages.storage import default_storage
-from django.core import mail
-from django.test import override_settings
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.messages.storage import default_storage
+from WOLANCRM.core import mail
+from WOLANCRM.test import override_settings
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.models import TheFile
 from common.templatetags.util import FILE_ERROR_SUBJ
@@ -93,7 +93,7 @@ class TestEmail(BaseTestCase):
         self.assertTrue(form['content'].errors)
 
     @override_settings(
-        MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage',
+        MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage',
     )
     def test_form_save(self):
         """Test for saving a completed form."""
@@ -194,7 +194,7 @@ class TestEmail(BaseTestCase):
         data['common-thefile-content_type-object_id-0-file'].file.close()
 
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             request._messages = default_storage(request)
             response = email_admin.change_view(request, str(eml.id))

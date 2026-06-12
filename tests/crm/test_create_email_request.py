@@ -1,5 +1,5 @@
-from django.contrib.contenttypes.models import ContentType
-from django.test import tag
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.test import tag
 
 from common.models import Department
 from common.models import TheFile

@@ -1,8 +1,8 @@
-from django.apps import apps
+from WOLANCRM.apps import apps
 from crm.site.crmadminsite import crm_site
-from django.urls import include
-from django.urls import path
-from django.views.generic.detail import DetailView
+from WOLANCRM.urls import include
+from WOLANCRM.urls import path
+from WOLANCRM.views.generic.detail import DetailView
 
 from common.utils.decorators import crm_staff_member_required
 from common.views.export_objects import export_objects_view

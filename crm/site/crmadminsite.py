@@ -1,15 +1,15 @@
 import pandas as pd
 import threading
 from typing import Union
-from django import forms
-from django.conf import settings
-from django.core.handlers.wsgi import WSGIRequest
-from django.template.response import TemplateResponse
-from django.http import HttpResponseRedirect
-from django.contrib import messages
-from django.urls import path
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM import forms
+from WOLANCRM.conf import settings
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.contrib import messages
+from WOLANCRM.urls import path
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from crm.models import Company
 from crm.models import Contact

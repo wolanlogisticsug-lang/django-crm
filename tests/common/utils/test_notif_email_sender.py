@@ -1,8 +1,8 @@
 from random import random
 from time import sleep
 
-from django.core import mail
-from django.test import SimpleTestCase
+from WOLANCRM.core import mail
+from WOLANCRM.test import SimpleTestCase
 
 from common.utils.helpers import send_crm_email
 

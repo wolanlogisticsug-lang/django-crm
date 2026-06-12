@@ -1,8 +1,8 @@
-from django.conf import settings
-from django.contrib.messages.storage import default_storage
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.messages.storage import default_storage
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from crm.models import Company
 from crm.models import Contact
@@ -61,7 +61,7 @@ class TestLeadConversion(BaseTestCase):
         contact_num = Contact.objects.count()
         company_num = Company.objects.count()
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request._messages = default_storage(self.request)
             lead_admin.response_post_save_change(
@@ -82,7 +82,7 @@ class TestLeadConversion(BaseTestCase):
         )
         company_num = Company.objects.count()
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request._messages = default_storage(self.request)
             response = lead_admin.response_post_save_change(
@@ -149,7 +149,7 @@ class TestLeadConversion(BaseTestCase):
         )
         company_num = Company.objects.count()
         with self.settings(
-            MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+            MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request._messages = default_storage(self.request)
             response = lead_admin.response_post_save_change(self.request, lead)

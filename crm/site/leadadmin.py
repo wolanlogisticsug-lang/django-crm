@@ -1,12 +1,12 @@
 from email.utils import parseaddr
-from django.contrib import messages
-from django.contrib.contenttypes.models import ContentType
-from django.contrib import admin
-from django.db import IntegrityError
-from django.db.models import Q
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib import admin
+from WOLANCRM.db import IntegrityError
+from WOLANCRM.db.models import Q
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.parse_full_name import parse_contacts_name
 from crm.forms.admin_forms import LeadForm

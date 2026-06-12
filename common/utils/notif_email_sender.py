@@ -1,8 +1,8 @@
 import threading
 from queue import Queue
 from smtplib import SMTPServerDisconnected
-from django.conf import settings
-from django.core.mail import EmailMessage
+from WOLANCRM.conf import settings
+from WOLANCRM.core.mail import EmailMessage
 
 
 class NotifEmailSender(threading.Thread):

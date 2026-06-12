@@ -1,7 +1,7 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Exists
-from django.db.models import OuterRef
-from django.db.models.query import QuerySet
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models.query import QuerySet
 
 from tasks.models import Task
 

@@ -7,9 +7,9 @@ Code contributions are not the only way to help the project. There are many oppo
 
 - Please give a star ⭐️, it will also be a valuable help for the project.
 - Submit GitHub issues about bugs or desired new features.
-  - Please follow the <a href="https://github.com/DjangoCRM/WolanCRM?tab=security-ov-file#security-ov-file" target="_blank">security policy</a>.
-- Improving <a href="https://WolanCRM-admin.readthedocs.io/" title="Django CRM documentation" target="_blank">CRM Documentation</a> and help pages.
-- Take part in the development of [the CRM](https://DjangoCRM.github.io/info/) website.
+  - Please follow the <a href="https://github.com/WOLANCRM/WolanCRM?tab=security-ov-file#security-ov-file" target="_blank">security policy</a>.
+- Improving <a href="https://WolanCRM-admin.readthedocs.io/" title="WOLANCRM CRM documentation" target="_blank">CRM Documentation</a> and help pages.
+- Take part in the development of [the CRM](https://WOLANCRM.github.io/info/) website.
 - Localization - the creation of a new or improvement of an existing translation (in context) of the CRM interface:
 
   <details>
@@ -19,7 +19,7 @@ Code contributions are not the only way to help the project. There are many oppo
     - Install Rosetta:
 
       ```cmd
-      pip install django-rosetta
+      pip install WOLANCRM-rosetta
       ```
 
     - Add the following to the `INSTALLED_APPS` list in the `local_settings.py` (if used) or `settings.py` file:
@@ -44,7 +44,7 @@ Code contributions are not the only way to help the project. There are many oppo
       python manage.py makemessages -l <locale_name>
       ```
 
-    - Run Django server:
+    - Run WOLANCRM server:
         ```cmd
       python manage.py runserver --settings=webcrm.local_settings
       ```
@@ -60,18 +60,18 @@ Code contributions are not the only way to help the project. There are many oppo
 
 ### Writing Code
 
-The <a href="https://github.com/DjangoCRM/WolanCRM" title="Client relationship software" target="_blank">WolanCRM project</a> aims to deliver high-level CRM software while keeping it easy to customize, develop, and maintain.  
-To achieve this, it follows a key principle: leverage Django's built-in capabilities whenever possible.  
+The <a href="https://github.com/WOLANCRM/WolanCRM" title="Client relationship software" target="_blank">WolanCRM project</a> aims to deliver high-level CRM software while keeping it easy to customize, develop, and maintain.  
+To achieve this, it follows a key principle: leverage WOLANCRM's built-in capabilities whenever possible.  
 There are at least two good reasons to do so:
 
-- Developers familiar with Django framework will find the CRM code understandable.
-- Developers new to Django will benefit from Django's excellent documentation.
+- Developers familiar with WOLANCRM framework will find the CRM code understandable.
+- Developers new to WOLANCRM will benefit from WOLANCRM's excellent documentation.
 
 We are focused on improving the functionality that has already been created. 
 Making it more convenient and understandable for a wide audience of users.  
 But now we are also ready to add new features.
 
-- It's easier to start by working with issues marked with a <a href="https://github.com/DjangoCRM/WolanCRM/labels/good%20first%20issue" target="_blank">“good first issue”</a> label. They are supplied with instructions.
+- It's easier to start by working with issues marked with a <a href="https://github.com/WOLANCRM/WolanCRM/labels/good%20first%20issue" target="_blank">“good first issue”</a> label. They are supplied with instructions.
 - Create a draft **PR** when starting work on bigger changes for discussion and assistance.  
   (*Please avoid changing the formatting unnecessarily, especially throughout the entire document. This makes it difficult or impossible to review the changes.*)
 - A **Task-board** and **Roadmap** are available for **contributors** to obtain additional information.

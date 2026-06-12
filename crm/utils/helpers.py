@@ -7,18 +7,18 @@ from email.message import Message
 from email.utils import parsedate_to_datetime
 from email.utils import parseaddr
 from typing import Optional
-from django import forms
-from django.apps import apps
-from django.core.exceptions import ObjectDoesNotExist
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import CharField
-from django.db.models import F
-from django.db.models import Value
-from django.utils import timezone
-from django.utils.html import strip_tags
-from django.utils.safestring import mark_safe, SafeString
-from django.utils.translation import gettext as _
-from django.utils.translation import gettext_lazy
+from WOLANCRM import forms
+from WOLANCRM.apps import apps
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import CharField
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models import Value
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.html import strip_tags
+from WOLANCRM.utils.safestring import mark_safe, SafeString
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.utils.translation import gettext_lazy
 
 from common.utils.helpers import USER_MODEL
 from crm.utils.crm_imap import CrmIMAP

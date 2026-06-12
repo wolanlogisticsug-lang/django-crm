@@ -1,11 +1,11 @@
 import zoneinfo
-from django.apps import apps
-from django.conf import settings
-from django.core.handlers.wsgi import WSGIRequest
-from django.contrib import messages
-from django.utils import timezone
-from django.utils.safestring import mark_safe
-from django.utils.translation import get_language
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.contrib import messages
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import get_language
 
 from common.models import UserProfile
 

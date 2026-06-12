@@ -1,13 +1,13 @@
 from dateutil.relativedelta import relativedelta
 
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models.query import QuerySet
-from django.http.response import HttpResponseRedirect
-from django.template.response import TemplateResponse
-from django.urls import path
-from django.utils.safestring import mark_safe
-from django.utils.timezone import localtime, now
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.http.response import HttpResponseRedirect
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.urls import path
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.timezone import localtime, now
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from analytics.utils.helpers import get_item_list
 from common.utils.decorators import crm_staff_member_required

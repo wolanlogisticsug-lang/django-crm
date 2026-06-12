@@ -1,6 +1,6 @@
-from django.urls import reverse
-from django.http import HttpResponseRedirect
-from django.contrib.contenttypes.models import ContentType
+from WOLANCRM.urls import reverse
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.contrib.contenttypes.models import ContentType
 
 from massmail.models import MailingOut
 

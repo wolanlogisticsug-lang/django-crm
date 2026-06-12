@@ -1,9 +1,9 @@
 from typing import List
-from django.contrib.auth.models import User
-from django.contrib.sites.models import Site
-from django.template import loader
-from django.utils.translation import gettext as _
-from django.utils.translation import override
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.template import loader
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.utils.translation import override
 
 from common.utils.helpers import compose_subject
 from common.utils.helpers import send_crm_email

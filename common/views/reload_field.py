@@ -1,8 +1,8 @@
 from typing import Union
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Q
-from django.http import HttpResponse, JsonResponse
-from django.http import HttpResponseForbidden
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Q
+from WOLANCRM.http import HttpResponse, JsonResponse
+from WOLANCRM.http import HttpResponseForbidden
 
 from common.utils.helpers import get_active_users
 from common.utils.helpers import get_department_id

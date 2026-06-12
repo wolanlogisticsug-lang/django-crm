@@ -2,8 +2,8 @@ import base64
 import json
 import requests
 from smtplib import SMTP
-from django.conf import settings
-from django.core.mail.backends.smtp import EmailBackend
+from WOLANCRM.conf import settings
+from WOLANCRM.core.mail.backends.smtp import EmailBackend
 
 
 class OAuth2EmailBackend(EmailBackend):

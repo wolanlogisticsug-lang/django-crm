@@ -1,6 +1,6 @@
-from django.db import models
-from django.utils.translation import gettext_lazy as _
-from django.urls import reverse
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
 
 from common.models import Base1
 from crm.models.base_contact import BaseContact

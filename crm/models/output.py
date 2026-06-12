@@ -1,7 +1,7 @@
-from django.db import models
-from django.core.exceptions import ValidationError
-from django.utils.translation import gettext_lazy as _
-from django.utils.translation import gettext
+from WOLANCRM.db import models
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import gettext
 from .payment import BasePayment
 
 

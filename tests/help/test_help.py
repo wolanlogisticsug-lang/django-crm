@@ -1,9 +1,9 @@
 from random import random
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import USER_MODEL
 from help.models import Page
@@ -114,15 +114,15 @@ class TestHelp(BaseTestCase):
 
             # test help link on index page
             response = self.client.get(reverse("site:index"))
-            self.assertContains(response, "https://djangocrm.github.io/info/help/", status_code=200)
+            self.assertContains(response, "https://WOLANCRM.github.io/info/help/", status_code=200)
 
             # test help link on deal changelist page
             response = self.client.get(self.deal_changelist_url)
-            self.assertContains(response, "https://djangocrm.github.io/info/help/deals-management/", status_code=200)
+            self.assertContains(response, "https://WOLANCRM.github.io/info/help/deals-management/", status_code=200)
 
             # test help link on task add page
             response = self.client.get(reverse("site:tasks_task_add"))
-            self.assertContains(response, "https://djangocrm.github.io/info/help/creating-assigning-tasks/")
+            self.assertContains(response, "https://WOLANCRM.github.io/info/help/creating-assigning-tasks/")
 
             # test help link on incomestat page
             factory = RequestFactory()

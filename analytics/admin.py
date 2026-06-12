@@ -1,5 +1,5 @@
-from django.contrib import admin
-from django.contrib.auth.models import Permission
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.auth.models import Permission
 
 from analytics.models import ClosingReasonStat
 from analytics.models import ConversionStat

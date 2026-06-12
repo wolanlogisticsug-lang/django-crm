@@ -1,20 +1,20 @@
 from urllib.parse import urlencode
-from django.contrib import admin
-from django.contrib import messages
-from django.contrib.contenttypes.models import ContentType
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Case
-from django.db.models import Q
-from django.db.models import Value
-from django.db.models import When
-from django.db.models.functions import Coalesce
-from django.db.models.functions import Least
-from django.http import HttpResponseRedirect
-from django.template.defaultfilters import linebreaks
-from django.urls import reverse
-from django.utils.translation import gettext as _
-from django.utils.translation import gettext_lazy
-from django.utils.safestring import mark_safe
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Case
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import Value
+from WOLANCRM.db.models import When
+from WOLANCRM.db.models.functions import Coalesce
+from WOLANCRM.db.models.functions import Least
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.defaultfilters import linebreaks
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.utils.translation import gettext_lazy
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.utils.gettext_messages import THIS_IS_TEAM_TASK
 from common.utils.helpers import add_chat_context

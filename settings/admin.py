@@ -1,5 +1,5 @@
-from django.contrib import admin
-from django.http import HttpResponseRedirect
+from WOLANCRM.contrib import admin
+from WOLANCRM.http import HttpResponseRedirect
 
 from crm.site.crmadminsite import crm_site
 from settings.models import BannedCompanyName

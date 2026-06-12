@@ -1,14 +1,14 @@
 import time
 import threading
 from tendo.singleton import SingleInstance
-from django.conf import settings
-from django.core.mail import mail_admins
-from django.contrib.sites.models import Site
-from django.template import loader
-from django.urls import reverse
-from django.utils import timezone
-from django.utils.translation import gettext_lazy as _
-from django.utils.translation import override
+from WOLANCRM.conf import settings
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.template import loader
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import override
 
 from common.models import Reminder
 from common.utils.helpers import get_trans_for_user

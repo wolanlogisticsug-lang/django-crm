@@ -1,5 +1,5 @@
-from django.contrib import admin
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.get_signature_preview import get_signature_preview
 from crm.site.crmmodeladmin import CrmModelAdmin

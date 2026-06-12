@@ -1,8 +1,8 @@
-from django.contrib.auth.models import Group
-from django.contrib.auth.models import User
-from django.contrib.sites.models import Site
-from django.core.management import call_command
-from django.test import TransactionTestCase
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core.management import call_command
+from WOLANCRM.test import TransactionTestCase
 
 from common.models import Department
 from crm.models import ClientType

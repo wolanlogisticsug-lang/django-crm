@@ -1,6 +1,6 @@
-from django.core.exceptions import ValidationError
-from django.core import mail
-from django.test import tag
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
 
 from common.utils.helpers import get_department_id
 from common.utils.helpers import USER_MODEL

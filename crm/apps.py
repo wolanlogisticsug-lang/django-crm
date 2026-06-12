@@ -1,13 +1,13 @@
 from queue import Queue
 from tendo.singleton import SingleInstanceException
-from django.apps import AppConfig
-from django.conf import settings
+from WOLANCRM.apps import AppConfig
+from WOLANCRM.conf import settings
 
 
 class CrmConfig(AppConfig):
     name = 'crm'
     label = 'crm'
-    default_auto_field = 'django.db.models.AutoField'
+    default_auto_field = 'WOLANCRM.db.models.AutoField'
     
     def ready(self):
         from crm.utils.create_email_request import CreateEmailInquiry

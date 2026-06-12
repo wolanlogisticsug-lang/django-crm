@@ -1,8 +1,8 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models.query import QuerySet
-from django.template.response import TemplateResponse
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
 
 from analytics.site.requeststatadmin import BaseRequestStatAdmin
 from analytics.utils.helpers import get_values_over_time

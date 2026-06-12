@@ -1,6 +1,6 @@
-from django.db import models
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db import models
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Base1
 from common.utils.gettext_messages import USE_HTML

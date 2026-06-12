@@ -1,9 +1,9 @@
 import json
-from django.conf import settings
-from django.http.response import HttpResponse
-from django.views.generic.edit import FormView
-from django.utils.module_loading import import_string
-from django.utils.translation import gettext as _
+from WOLANCRM.conf import settings
+from WOLANCRM.http.response import HttpResponse
+from WOLANCRM.views.generic.edit import FormView
+from WOLANCRM.utils.module_loading import import_string
+from WOLANCRM.utils.translation import gettext as _
 
 from voip.forms.connectionform import ConnectionForm
 from voip.models import Connection

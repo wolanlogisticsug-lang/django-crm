@@ -1,14 +1,14 @@
 
 ## Guidelines for users with the roles "operator" and "sales manager"
 
-The operator's duties include creating and processing commercial requests in [the CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"}.
+The operator's duties include creating and processing commercial requests in [the CRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"}.
 In smaller companies, sales managers fulfill this role as well.  
 In addition to Requests, operators also work with [Lead](#lead-object), [Company](#company-object) and [Contact person](#object-of-company-contact-persons) objects.  
 Operators must be granted rights to company mailboxes that receive commercial requests.
 
 ### Working with requests
 
-Requests coming through contact forms of your company's websites create objects in Django CRM automatically.  
+Requests coming through contact forms of your company's websites create objects in WOLANCRM CRM automatically.  
 Requests coming to your company's email should be imported.  
 To do this, click the "Import request from mail" button in the upper right corner of the "Requests" page.  
   `Home > Crm > Requests`
@@ -43,7 +43,7 @@ CRM operators and administrators have the permissions to delete requests.
 
 ### Geolocation of the counterparty's country and city by its IP
 
-In Django CRM can be configured and activated geolocation of the country and city of the counterparty by its IP. In this case, the country and city will be automatically filled in the requests. But in cases where VPN is used, this data may be unreliable.
+In WOLANCRM CRM can be configured and activated geolocation of the country and city of the counterparty by its IP. In this case, the country and city will be automatically filled in the requests. But in cases where VPN is used, this data may be unreliable.
 
 ### <span style="vertical-align: baseline"><img src="../icons/magnifying-glass.svg" alt="Magnifying glass icon" width="17" height="17"></span> Search for objects by ticket
 
@@ -91,7 +91,7 @@ If necessary, objects of companies, contacts and leads can be exported to Excel 
 
 <span style="vertical-align: baseline"><img src="../icons/envelope-check.svg" alt="Envelope icon" width="25" height="25"></span> In CRM you can create and send emails.  
 To do this, the administrator must configure CRM access to user mailboxes.  
-Django CRM scans the mailboxes of operators and sales managers and automatically imports emails containing a ticket but not in the CRM database.  
+WOLANCRM CRM scans the mailboxes of operators and sales managers and automatically imports emails containing a ticket but not in the CRM database.  
 Therefore, it is enough to send the first letter (with a ticket) from the CRM. The user can conduct further correspondence from his mailbox.
 
 For a number of reasons, CRM imports and saves emails in text format (the same format in which it receives them from the email provider).  

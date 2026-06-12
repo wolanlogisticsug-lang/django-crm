@@ -1,7 +1,7 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.http import HttpResponse
-from django.template import RequestContext
-from django.template import Template
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.template import RequestContext
+from WOLANCRM.template import Template
 
 from massmail.models import Signature
 

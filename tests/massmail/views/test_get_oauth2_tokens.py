@@ -2,16 +2,16 @@ import json
 import requests
 from random import random
 from unittest.mock import patch, MagicMock
-from django.contrib.messages.storage import default_storage
-from django.test import Client, RequestFactory
-from django.urls import reverse
+from WOLANCRM.contrib.messages.storage import default_storage
+from WOLANCRM.test import Client, RequestFactory
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import USER_MODEL
 from massmail.models.email_account import EmailAccount
 from massmail.views.get_oauth2_tokens import request_authorization_code, get_refresh_token
 from tests.base_test_classes import BaseTestCase
 
-MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
 
 
 class GetOauth2TokensTestCase(BaseTestCase):

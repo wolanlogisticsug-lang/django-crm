@@ -1,4 +1,4 @@
-from django.contrib import admin
+from WOLANCRM.contrib import admin
 
 from crm.admin import crm_site
 from crm.admin import TranslateNameModelAdmin

@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.db.models import Q
+from WOLANCRM.conf import settings
+from WOLANCRM.db.models import Q
 
 from common.models import Department
 from common.utils.helpers import get_active_users

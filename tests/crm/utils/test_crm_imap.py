@@ -9,7 +9,7 @@ from datetime import datetime as dt
 from time import sleep
 from unittest.mock import MagicMock, patch
 
-from django.test import override_settings, tag
+from WOLANCRM.test import override_settings, tag
 
 from crm.utils.crm_imap import CrmIMAP, _get_box_initial_data
 from massmail.models import EmailAccount

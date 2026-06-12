@@ -1,10 +1,10 @@
 import os
-from django import forms
-from django.conf import settings
-from django.forms import ModelForm
-from django.forms import Textarea
-from django.forms import ValidationError
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.conf import settings
+from WOLANCRM.forms import ModelForm
+from WOLANCRM.forms import Textarea
+from WOLANCRM.forms import ValidationError
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import get_today
 from tasks.models import Memo

@@ -1,5 +1,5 @@
-from django.core.handlers.wsgi import WSGIRequest
-from django.http import HttpResponseRedirect
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http import HttpResponseRedirect
 
 from common.utils.secure_url import secure_url
 

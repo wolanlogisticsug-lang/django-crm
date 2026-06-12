@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.utils.safestring import mark_safe
+from WOLANCRM.conf import settings
+from WOLANCRM.utils.safestring import mark_safe
 
 from crm.models import Payment
 from crm.site.crmstackedinline import CrmStackedInline

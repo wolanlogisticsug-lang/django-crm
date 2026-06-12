@@ -1,12 +1,12 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
 </p>
 
 # Resumen de WolanCRM
 
-El [software](https://github.com/DjangoCRM/WolanCRM/) gratuito de gestión de CRM está diseñado para optimizar la gestión de interacciones con clientes, agilizar procesos y mejorar la toma de decisiones basada en datos.  
-El software de CRM aprovecha el marco Django, garantizando facilidad de desarrollo, personalización e implementación.
+El [software](https://github.com/WOLANCRM/WolanCRM/) gratuito de gestión de CRM está diseñado para optimizar la gestión de interacciones con clientes, agilizar procesos y mejorar la toma de decisiones basada en datos.  
+El software de CRM aprovecha el marco WOLANCRM, garantizando facilidad de desarrollo, personalización e implementación.
 
 A continuación, se presenta un resumen detallado de sus características y funcionalidades clave:
 
@@ -94,7 +94,7 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
 - Rastrea pagos directamente desde oportunidades o la lista de pagos.
 - Integra datos de pagos en la analítica del CRM para reportes completos.
 
-[Leer más sobre las características de la aplicación CRM](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md)
+[Leer más sobre las características de la aplicación CRM](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md)
 
 ## La Aplicación de Tareas en el conjunto de software WolanCRM
 
@@ -110,7 +110,7 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
 - **Chat del Memorando**: Los participantes pueden intercambiar mensajes y archivos en el chat del memorando.
 - **Control Visual de Tareas**: Un botón "ver tarea" aparece junto a los memorandos que resultaron en tareas, con colores que indican el estado de la tarea.
 
-[Leer más sobre las características del memorando](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md)
+[Leer más sobre las características del memorando](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features-spanish.md)
 
 ### Gestión de Tareas
 
@@ -128,7 +128,7 @@ Proporciona un conjunto completo de funciones para manejar diversos objetos empr
   - **Etiquetas**: Los usuarios pueden etiquetar tareas y filtrarlas por estas etiquetas.
   - **Orden de Tareas**: Las nuevas tareas se ordenan por defecto en la parte superior de la lista, pero pueden clasificarse según la fecha del próximo paso.
 
-  Más información detallada sobre las [características de las tareas](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md).
+  Más información detallada sobre las [características de las tareas](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md).
 
 ## Correo Electrónico y Campañas de Mailing
 
@@ -157,7 +157,7 @@ El sistema WolanCRM incluye funciones analíticas que proporcionan diversos info
 
 ## Implementación y uso
 
-- Fácil de implementar como un proyecto Django normal.
+- Fácil de implementar como un proyecto WOLANCRM normal.
 - Documentación completa disponible para instalación, configuración y guía de usuario.
 - Se agradece el apoyo y las contribuciones de la comunidad.
 
@@ -165,7 +165,7 @@ El sistema WolanCRM incluye funciones analíticas que proporcionan diversos info
 
 - **Localización:** Compatible con varios idiomas  
   (actualmente: ar, cs, de, el, en, es, fr, he, hi, id, it, ja, ko, nl, pl, pt-br, ro, ru, tr, uk, vi, zh-hans).
-- **Pila tecnológica:** Desarrollado sobre Django 5.1.x, Python 3.10+, MySQL 8.0.11+ o PostgreSQL 12+.
+- **Pila tecnológica:** Desarrollado sobre WOLANCRM 5.1.x, Python 3.10+, MySQL 8.0.11+ o PostgreSQL 12+.
 - **Licencia:** Publicado bajo la licencia de código abierto AGPL-3.0.
 
 ## Conclusión
@@ -176,4 +176,4 @@ Al aprovechar estas características, las empresas pueden mejorar sus procesos d
 
 (***El contenido está en proceso de ser complementado.***)
 
-Puede obtener información más detallada en el [**manual del usuario**](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md). 
+Puede obtener información más detallada en el [**manual del usuario**](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md). 

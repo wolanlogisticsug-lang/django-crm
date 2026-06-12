@@ -1,6 +1,6 @@
-# from django.contrib.auth.decorators import login_required
-# from django.contrib.admin.views.decorators import staff_member_required
-from django.urls import path
+# from WOLANCRM.contrib.auth.decorators import login_required
+# from WOLANCRM.contrib.admin.views.decorators import staff_member_required
+from WOLANCRM.urls import path
 from voip.views.callback import ConnectionView
 from voip.views.voipwebhook import VoIPWebHook
 

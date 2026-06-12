@@ -1,28 +1,28 @@
 from dateutil.relativedelta import relativedelta
-from django.contrib import messages
-from django.core.handlers.wsgi import WSGIRequest
-from django.db import connection
-from django.db.models import Case
-from django.db.models import DecimalField
-from django.db.models import Exists
-from django.db.models import F
-from django.db.models import FloatField
-from django.db.models import Subquery
-from django.db.models import Sum
-from django.db.models import Q
-from django.db.models import OuterRef
-from django.db.models import Value as V  # NOQA
-from django.db.models import When
-from django.db.models.functions import Coalesce
-from django.db.models.query import QuerySet
-from django.template.response import TemplateResponse
-from django.http.response import HttpResponseRedirect
-from django.http.response import HttpResponse
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
-from django.utils.dateformat import DateFormat
-from django.urls import path
-from django.urls import reverse
+from WOLANCRM.contrib import messages
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db import connection
+from WOLANCRM.db.models import Case
+from WOLANCRM.db.models import DecimalField
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models import FloatField
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.db.models import Sum
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Value as V  # NOQA
+from WOLANCRM.db.models import When
+from WOLANCRM.db.models.functions import Coalesce
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.http.response import HttpResponseRedirect
+from WOLANCRM.http.response import HttpResponse
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.dateformat import DateFormat
+from WOLANCRM.urls import path
+from WOLANCRM.urls import reverse
 
 from analytics.models import IncomeStatSnapshot
 from analytics.site.anlmodeladmin import AnlModelAdmin

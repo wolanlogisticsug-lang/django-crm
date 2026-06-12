@@ -1,4 +1,4 @@
-from django.urls import path
+from WOLANCRM.urls import path
 
 from common.utils.decorators import crm_staff_member_required
 from tasks.views.create_completed_subtask import create_completed_subtask

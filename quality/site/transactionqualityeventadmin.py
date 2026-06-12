@@ -1,5 +1,5 @@
-from django.contrib import admin
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.admin import FileInline
 from common.utils.get_file_links import get_file_links

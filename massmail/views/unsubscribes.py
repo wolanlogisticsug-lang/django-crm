@@ -1,4 +1,4 @@
-from django.http import HttpResponseRedirect
+from WOLANCRM.http import HttpResponseRedirect
 
 from massmail.models import MassContact
 from settings.models import MassmailSettings

@@ -1,8 +1,8 @@
 from queue import Empty
-from django.apps import apps
-from django.conf import settings
-from django.core import mail
-from django.test import TransactionTestCase
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.core import mail
+from WOLANCRM.test import TransactionTestCase
 
 from common.utils.helpers import get_today
 from crm.models import CrmEmail, Deal, Request

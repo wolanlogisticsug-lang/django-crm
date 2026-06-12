@@ -2,21 +2,21 @@ import io
 import email
 import threading
 from email.utils import parseaddr
-from django.db.models import F
-from django.db.models import TextField
-from django.db.models import Value
-from django.db.models.functions import Concat
-from django.db import connection
-from django.db import IntegrityError
-from django.db import transaction
-from django.conf import settings
-from django.contrib import messages
-from django.core.files import File
-from django.core.mail import mail_admins
-from django.template.defaultfilters import truncatechars
-from django.utils import timezone
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models import TextField
+from WOLANCRM.db.models import Value
+from WOLANCRM.db.models.functions import Concat
+from WOLANCRM.db import connection
+from WOLANCRM.db import IntegrityError
+from WOLANCRM.db import transaction
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.core.files import File
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.template.defaultfilters import truncatechars
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.templatetags.util import replace_lang
 from common.utils.helpers import get_formatted_short_date

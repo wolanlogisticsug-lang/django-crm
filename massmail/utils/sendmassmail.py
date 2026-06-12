@@ -12,20 +12,20 @@ from smtplib import SMTPSenderRefused
 from tendo.singleton import SingleInstance
 from typing import Optional
 from typing import Union
-from django.apps import apps
-from django.conf import settings
-from django.contrib.auth import get_user_model
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.sites.models import Site
-from django.core.mail import mail_admins
-from django.core.mail.message import BadHeaderError
-from django.db import connection
-from django.db.utils import ProgrammingError
-from django.urls import reverse
-from django.utils import timezone
-from django.utils.formats import date_format
-from django.utils.translation import gettext_lazy as _
-from django.db.utils import OperationalError
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth import get_user_model
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.core.mail.message import BadHeaderError
+from WOLANCRM.db import connection
+from WOLANCRM.db.utils import ProgrammingError
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.db.utils import OperationalError
 
 from common.utils.helpers import get_formatted_short_date
 from common.utils.helpers import get_now
@@ -54,7 +54,7 @@ class SendMassmail(threading.Thread, SingleInstance):
 
     def run(self):
         while not apps.ready:
-            time.sleep(0.01)  # wait for django to start
+            time.sleep(0.01)  # wait for WOLANCRM to start
         
         while True: #This will wait for the db to be ready
             try:

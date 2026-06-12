@@ -1,12 +1,12 @@
 """
 import os
 import json
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.contrib.auth.models import Permission
-from django.contrib.contenttypes.models import ContentType
-from django.core import management
-from django.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.contrib.auth.models import Permission
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core import management
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
 
 file_path = os.path.join(settings.BASE_DIR, 'tests', 'group_perms_data.json')
 

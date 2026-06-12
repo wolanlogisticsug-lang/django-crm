@@ -1,19 +1,19 @@
 from dateutil.relativedelta import relativedelta
-from django.contrib import admin
-from django.contrib.admin import SimpleListFilter
-from django.contrib.admin.filters import DateFieldListFilter
-from django.contrib.contenttypes.models import ContentType
-from django.core.exceptions import ObjectDoesNotExist
-from django.db.models import CharField
-from django.db.models import Exists
-from django.db.models import OuterRef
-from django.db.models import Q
-from django.db.models import Value as V  # NOQA
-from django.db.models.functions import Cast
-from django.db.models.functions import Concat
-from django.db.models.query import QuerySet
-from django.utils import timezone
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.admin import SimpleListFilter
+from WOLANCRM.contrib.admin.filters import DateFieldListFilter
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.db.models import CharField
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import Value as V  # NOQA
+from WOLANCRM.db.models.functions import Cast
+from WOLANCRM.db.models.functions import Concat
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Department
 from common.utils.helpers import get_department_id
@@ -211,7 +211,7 @@ class CrmDateFieldListFilter(DateFieldListFilter):
         self.template = "admin/crm_date_filter.html"
         now = timezone.now()
         # When time zone support is enabled, convert "now" to the user's time
-        #  zone, so Django's definition of "Today" matches what the user expects.
+        #  zone, so WOLANCRM's definition of "Today" matches what the user expects.
         if timezone.is_aware(now):
             now = timezone.localtime(now)
         today = now.date()

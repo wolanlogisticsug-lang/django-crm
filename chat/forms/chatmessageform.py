@@ -1,6 +1,6 @@
-from django import forms
-from django.forms import ModelForm, Textarea
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.forms import ModelForm, Textarea
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from chat.models import ChatMessage
 

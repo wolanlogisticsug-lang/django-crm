@@ -1,9 +1,9 @@
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from django.conf import settings
-from django.contrib import messages
-from django.contrib.sites.models import Site
-from django.utils.translation import gettext as _
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.utils.translation import gettext as _
 from smtplib import SMTPRecipientsRefused
 from massmail.utils.email_creators import create_test_email
 from massmail.models import EmailAccount, EmlMessage

@@ -1,4 +1,4 @@
-from django.utils.safestring import mark_safe
+from WOLANCRM.utils.safestring import mark_safe
 
 from crm.models import Output
 from crm.models import Product

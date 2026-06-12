@@ -1,17 +1,17 @@
 from urllib.parse import urlencode
-from django.conf import settings
-from django.contrib import admin
-from django.contrib.contenttypes.models import ContentType
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Q
-from django.db.models import OuterRef
-from django.db.models import Subquery
-from django.http import HttpResponseRedirect
-from django.http import HttpResponse
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.admin import FileInline
 from common.site.basemodeladmin import BaseModelAdmin

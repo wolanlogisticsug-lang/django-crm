@@ -4,7 +4,7 @@
 If you have a desire or need to rename any fields, you can do it without changing the code.  
 Here are two alternatives:
 
-1. If you do not use English as the CRM interface language, then use [translation system](translate_django_crm.md) to change field names without modifying the code.  
+1. If you do not use English as the CRM interface language, then use [translation system](translate_WOLANCRM_crm.md) to change field names without modifying the code.  
 For example, when translating "Region/State" you can use the corresponding name of the administrative-territorial unit of your country.  
 
 2. Change the value of the verbose_name field attribute.  

@@ -1,5 +1,5 @@
-from django.contrib.contenttypes.models import ContentType
-from django.test import tag
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.test import tag
 from crm.models import Contact, Company
 from crm.utils.admfilters import ByVIPStatus
 from massmail.models import EmailAccount, MassContact

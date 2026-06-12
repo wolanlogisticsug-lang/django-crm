@@ -1,5 +1,5 @@
-from django.contrib.admin import SimpleListFilter
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.admin import SimpleListFilter
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 class StatusMailingFilter(SimpleListFilter):

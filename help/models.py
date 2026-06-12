@@ -1,12 +1,12 @@
-from django.db import models
-from django.utils.translation import gettext_lazy as _
-from django.utils.translation import gettext
-from django.utils.safestring import mark_safe
-from django.conf import settings
-from django.urls import reverse
-from django.utils.translation import get_language
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.conf import settings
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import get_language
 
-# from django.utils.text import slugify
+# from WOLANCRM.utils.text import slugify
 
 
 WORK_WITH_CHOICES = (

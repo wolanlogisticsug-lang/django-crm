@@ -1,9 +1,9 @@
-from django.contrib.contenttypes.fields import GenericRelation
-from django.db import models
-from django.utils import timezone
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
-from django.urls import reverse
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.db import models
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
 
 from common.models import Base2
 

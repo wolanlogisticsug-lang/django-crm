@@ -1,9 +1,9 @@
-from django.db import models
-from django.conf import settings
-from django.core.exceptions import ObjectDoesNotExist
-from django.core.exceptions import ValidationError
-from django.utils import timezone
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db import models
+from WOLANCRM.conf import settings
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 from common.models import Base1

@@ -3,10 +3,10 @@ from email.utils import format_datetime
 from random import random
 from typing import Tuple
 
-from django.core.files.base import ContentFile
-from django.core.files.uploadedfile import SimpleUploadedFile
-from django.forms import models
-from django.utils import timezone
+from WOLANCRM.core.files.base import ContentFile
+from WOLANCRM.core.files.uploadedfile import SimpleUploadedFile
+from WOLANCRM.forms import models
+from WOLANCRM.utils import timezone
 from common.utils.helpers import USER_MODEL
 from crm.models import Country
 

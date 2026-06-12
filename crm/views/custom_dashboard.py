@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from WOLANCRM.shortcuts import render
 
 from common.utils.decorators import crm_staff_member_required
 from crm.models import Company

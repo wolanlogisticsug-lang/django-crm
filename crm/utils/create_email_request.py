@@ -1,8 +1,8 @@
 import threading
 from email.utils import parseaddr
-from django.core.mail import mail_admins
-from django.db import connection
-from django.template.defaultfilters import truncatechars
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db import connection
+from WOLANCRM.template.defaultfilters import truncatechars
 
 from common.utils.copy_files import copy_files
 from common.utils.parse_full_name import parse_full_name

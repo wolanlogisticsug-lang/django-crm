@@ -1,8 +1,8 @@
-from django.contrib import admin
-from django.template.defaultfilters import linebreaks
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.template.defaultfilters import linebreaks
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import SAFE_SUBJECT_ICON
 from crm.site.crmmodeladmin import CrmModelAdmin

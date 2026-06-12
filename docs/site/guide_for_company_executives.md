@@ -1,7 +1,7 @@
 
-# Key Django CRM Modules for Company Managers
+# Key WOLANCRM CRM Modules for Company Managers
 
-For company managers, certain modules of Django CRM are particularly valuable.
+For company managers, certain modules of WOLANCRM CRM are particularly valuable.
 They provide tools not only for overseeing sales but also for coordinating the work of different departments,
 improving communication, and making data-driven decisions.
 The modules most often used at the managerial level are the **CRM Task Manager**, the **CRM Module**, and **CRM Analytics**.
@@ -20,15 +20,15 @@ In addition to standard task management, it supports **office memos (service not
 allowing employees to share internal updates, instructions, or approvals in a structured way.
 Whether it’s handling customer requests, coordinating project activities, or managing internal workflows,
 the task manager provides transparency and accountability across the entire organization.  
-Learn more about [CRM Task management solution](https://djangocrm.github.io/info/features/tasks-app-features/){target="_blank"}.
+Learn more about [CRM Task management solution](https://WOLANCRM.github.io/info/features/tasks-app-features/){target="_blank"}.
 
 ## CRM Module
 
-At the core of Django CRM, this module centralizes all customer-related information.
+At the core of WOLANCRM CRM, this module centralizes all customer-related information.
 Managers and sales teams can monitor leads, track opportunities, and oversee client communications in one place.
 Using the data collected here, **sales managers can launch targeted email campaigns via the Mass Mail application directly from the CRM**,
 ensuring outreach is relevant and timely. This integration supports both daily operations and long-term customer relationship strategies.  
-Read more about [eCRM software](https://djangocrm.github.io/info/features/crm-app-features/){target="_blank"}.
+Read more about [eCRM software](https://WOLANCRM.github.io/info/features/crm-app-features/){target="_blank"}.
 
 ## CRM Analytics
 
@@ -40,8 +40,8 @@ Analytics tools allow managers to evaluate performance and identify trends. From
     
     - Default access to the Analytics app is granted to company executives, sales managers, and CRM administrators.  
 
-The CRM Analytics application stands as a pivotal component within the  Django CRM suite.
-The [CRM analytics software](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} provides comprehensive statistical and analytical reports 
+The CRM Analytics application stands as a pivotal component within the  WOLANCRM CRM suite.
+The [CRM analytics software](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} provides comprehensive statistical and analytical reports 
 to help users gain insights into their business operations. 
 This app is designed to assist company executives and sales managers, 
 in making data-driven decisions by offering various reports and visualizations.
@@ -50,7 +50,7 @@ in making data-driven decisions by offering various reports and visualizations.
 
 Reports include both tabular and graphical representations for intuitive data interpretation.
 
-[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png){target="_blank"}
+[<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png){target="_blank"}
 #### Income Summary Report
 
    *  Details monthly [deal](guide_for_sales_manager.md#deal-object) income, product sales, and payment volumes.
@@ -92,13 +92,13 @@ Reports include both tabular and graphical representations for intuitive data in
 
 ### Integration and Customization  
 
-- Fully integrated with other Django CRM modules, ensuring seamless data flow and analysis.  
+- Fully integrated with other WOLANCRM CRM modules, ensuring seamless data flow and analysis.  
 - Supports customization to tailor reports to specific metrics or time frames, meeting diverse business needs.  
 
-[More about analytical CRM software](https://djangocrm.github.io/info/features/analytics-app-features/){target="_blank"}
+[More about analytical CRM software](https://WOLANCRM.github.io/info/features/analytics-app-features/){target="_blank"}
 
-The Django CRM Analytics application is a powerful, secure, and scalable solution designed to transform raw business data 
-into actionable intelligence. By leveraging the robust Django framework, it provides a reliable foundation 
+The WOLANCRM CRM Analytics application is a powerful, secure, and scalable solution designed to transform raw business data 
+into actionable intelligence. By leveraging the robust WOLANCRM framework, it provides a reliable foundation 
 for comprehensive data analysis, offering insights into sales performance, marketing campaign effectiveness, 
 customer behavior, and service efficiency. The application's ability to support descriptive, diagnostic, predictive, 
 and prescriptive analytics empowers businesses of all sizes to make informed, data-driven decisions, 

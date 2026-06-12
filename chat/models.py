@@ -1,12 +1,12 @@
-from django.conf import settings
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes.fields import GenericForeignKey
-from django.contrib.contenttypes.fields import GenericRelation
-from django.db import models
-from django.template.defaultfilters import truncatechars
-from django.utils import timezone
-from django.utils.translation import gettext_lazy as _
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.contenttypes.fields import GenericForeignKey
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.db import models
+from WOLANCRM.template.defaultfilters import truncatechars
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
 
 
 class ChatMessage(models.Model):

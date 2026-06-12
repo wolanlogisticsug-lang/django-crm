@@ -1,10 +1,10 @@
-from django.contrib.admin.helpers import ACTION_CHECKBOX_NAME
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.messages.storage import default_storage
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.contrib.admin.helpers import ACTION_CHECKBOX_NAME
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.messages.storage import default_storage
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from common.utils.helpers import get_department_id
 from common.utils.helpers import USER_MODEL
@@ -94,7 +94,7 @@ class TesttestAdminActions(BaseTestCase):
         )
         data = {ACTION_CHECKBOX_NAME: [str(i) for i in lead_ids]}
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request = self.factory.post(
                 reverse('site:massmail_mailingout_changelist'), data
@@ -115,7 +115,7 @@ class TesttestAdminActions(BaseTestCase):
         mo, mo1 = self.create_mailing_outs()
         queryset = MailingOut.objects.filter(id__in=(mo.id, mo1.id))
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request = self.factory.get(
                 reverse('site:massmail_mailingout_changelist'))
@@ -155,7 +155,7 @@ class TesttestAdminActions(BaseTestCase):
         )
         queryset = Lead.objects.all()
         with self.settings(
-            MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+            MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request = self.factory.get(
                 reverse('site:crm_lead_changelist'))
@@ -184,7 +184,7 @@ class TesttestAdminActions(BaseTestCase):
         mo.save(update_fields=['content_type_id'])
         queryset = MailingOut.objects.filter(id__in=(mo.id, mo1.id))
         with self.settings(
-            MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+            MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request = self.factory.get(
                 reverse('site:massmail_mailingout_changelist'))
@@ -207,7 +207,7 @@ class TesttestAdminActions(BaseTestCase):
         )
         queryset = Lead.objects.all()
         with self.settings(
-                MESSAGE_STORAGE='django.contrib.messages.storage.cookie.CookieStorage'
+                MESSAGE_STORAGE='WOLANCRM.contrib.messages.storage.cookie.CookieStorage'
         ):
             self.request = self.factory.get(
                 reverse('site:crm_lead_changelist'))

@@ -1,9 +1,9 @@
 from datetime import timedelta
-from django.apps import apps
-from django.core.exceptions import ValidationError
-from django.db import models
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.apps import apps
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.db import models
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import get_today
 from common.utils.helpers import USER_MODEL

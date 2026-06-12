@@ -1,9 +1,9 @@
-from django.conf import settings
-from django.contrib import admin
-from django.contrib.admin.options import BaseModelAdmin
-from django.db.models import F
-from django.contrib.auth.models import Group
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.admin.options import BaseModelAdmin
+from WOLANCRM.db.models import F
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Department
 from common.utils.for_translation import check_for_translation

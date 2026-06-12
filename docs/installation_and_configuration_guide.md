@@ -7,7 +7,7 @@
   - [Fork the Repository](#fork-the-repository)
   - [Clone the project](#clone-the-project)
   - [Install the requirements](#install-the-requirements)
-- [Settings of Django CRM](#settings-of-WolanCRM)
+- [Settings of WOLANCRM CRM](#settings-of-WolanCRM)
   <details>
 
   - [DATABASES settings](#databases-settings)
@@ -21,10 +21,10 @@
 - [Launch CRM on the development server](#run-crm-on-the-built-in-server)
 - [Access to CRM and admin sites](#access-to-crm-and-admin-sites)
 - [Specify CRM site domain](#specify-crm-site-domain)
-- [Updating Django CRM software](#updating-WolanCRM-software)
-- [Ability to translate Django CRM interface into another language](#ability-to-translate-WolanCRM-interface-into-another-language)
+- [Updating WOLANCRM CRM software](#updating-WolanCRM-software)
+- [Ability to translate WOLANCRM CRM interface into another language](#ability-to-translate-WolanCRM-interface-into-another-language)
 - [Built-in assistance system](#built-in-assistance-system)
-- [Adding Django CRM users](#adding-WolanCRM-users)
+- [Adding WOLANCRM CRM users](#adding-WolanCRM-users)
     <details>
 
     <summary>Permissions, Groups, Departments</summary>
@@ -37,8 +37,8 @@
   </details>
   
 - [User access to applications and objects](#user-access-to-applications-and-objects)
-- [Helping users to master Django CRM](#helping-users-to-master-WolanCRM)
-- [Setting up adding commercial requests in Django CRM](#setting-up-adding-commercial-requests-in-WolanCRM)
+- [Helping users to master WOLANCRM CRM](#helping-users-to-master-WolanCRM)
+- [Setting up adding commercial requests in WOLANCRM CRM](#setting-up-adding-commercial-requests-in-WolanCRM)
   - [Sources of Leads](#sources-of-leads)
   - [Forms](#forms)
     <details>
@@ -77,8 +77,8 @@
 
 ## Introduction
 
-[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) (client relationship software) is an open source application with a web interface.  
-It is based on the [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/) and is written in the [Python](https://www.python.org/) programming language.
+[WolanCRM](https://github.com/WOLANCRM/WolanCRM/) (client relationship software) is an open source application with a web interface.  
+It is based on the [WOLANCRM Admin site](https://docs.WOLANCRMproject.com/en/dev/ref/contrib/admin/) and is written in the [Python](https://www.python.org/) programming language.
 
 The CRM project consists of the following main applications:
 
@@ -118,7 +118,7 @@ This Python CRM software is developed taking into account compatibility with [My
 
 ### Fork the Repository
 
-Click the Fork button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/WolanCRM/) repository's home page.
+Click the Fork button in the upper right corner of the [WOLANCRM CRM GitHub](https://github.com/WOLANCRM/WolanCRM/) repository's home page.
 You now have a copy of the repository in your personal GitHub account.
 
 ### Clone the project
@@ -127,7 +127,7 @@ To clone a repository, you must have [Git](https://git-scm.com/downloads) instal
 Clone this GitHub repository:
 
 ```cmd
-git clone https://github.com/DjangoCRM/WolanCRM.git
+git clone https://github.com/WOLANCRM/WolanCRM.git
 ```
 
 Or clone your forked GitHub repository:
@@ -155,13 +155,13 @@ pip install -r requirements.txt
 
 If the project is deployed on a production server, a website server will also be required
 (for example, [Apache](https://httpd.apache.org/)).  
-Full tutorial [here](https://docs.djangoproject.com/en/dev/topics/install/).
+Full tutorial [here](https://docs.WOLANCRMproject.com/en/dev/topics/install/).
 
 > [!IMPORTANT]
 > **Please give this CRM project a star ⭐️ to support its developers!**  
-> Click the "Starred" button in the upper right corner of the [Django CRM GitHub](https://github.com/DjangoCRM/WolanCRM/) repository.  
+> Click the "Starred" button in the upper right corner of the [WOLANCRM CRM GitHub](https://github.com/WOLANCRM/WolanCRM/) repository.  
 
-## Settings of Django CRM
+## Settings of WOLANCRM CRM
 
 For an initial introduction to the CRM, you can use the default settings.
 These include the use of an SQLite3 database, so there's no need to install any database.
@@ -174,8 +174,8 @@ The main project settings are contained in the file
 `webcrm/settings.py`  
 The syntax of the data in these files must match the syntax of the Python language.
 
-Most of the project settings are Django framework settings.
-Their full list is [here](https://docs.djangoproject.com/en/dev/ref/settings/).  
+Most of the project settings are WOLANCRM framework settings.
+Their full list is [here](https://docs.WOLANCRMproject.com/en/dev/ref/settings/).  
 The settings missing in this list are CRM-specific settings. Explanations can be found in the comments to them.  
 Most of the settings can be left at their default values.
 
@@ -192,11 +192,11 @@ Provide data to connect to the database:
 - `ENGINE` and `PORT` are specified by default for MySQL database. Change them for PostgreSQL
 - Specify `PASSWORD`
 
-Detailed instructions [here](https://docs.djangoproject.com/en/dev/ref/settings/#std-setting-DATABASES). 
+Detailed instructions [here](https://docs.WOLANCRMproject.com/en/dev/ref/settings/#std-setting-DATABASES). 
 
 In the database, configure the `USER` (by default 'crm_user') specified in the `DATABASES` setting 
 to have the right to create and drop databases (running tests will create
-and then destroy a separate [test database](https://docs.djangoproject.com/en/dev/topics/testing/overview/#the-test-database)).
+and then destroy a separate [test database](https://docs.WOLANCRMproject.com/en/dev/topics/testing/overview/#the-test-database)).
 
 #### For MySQL database, it is recommended to  
 
@@ -264,7 +264,7 @@ The address for logging into CRM is provided in the next section.
 > [!NOTE]
 > You may see messages like **"Another instance is already running, quitting"** in the terminal or server logs.  
 > This is normal and requires no action.  
-> Django CRM is a web application, and the web server typically runs multiple CRM instances (workers) simultaneously. However, some CRM components are designed to run on a single instance to function properly. When the system detects that such a component is already running, it automatically prevents duplicate instances from starting.
+> WOLANCRM CRM is a web application, and the web server typically runs multiple CRM instances (workers) simultaneously. However, some CRM components are designed to run on a single instance to function properly. When the system detects that such a component is already running, it automatically prevents duplicate instances from starting.
 
 If you need to provide access to CRM from an intranet (local network), specify the IP address of your network card and port  
 (but first, [specify the CRM website domain](#specify-crm-site-domain)).
@@ -317,7 +317,7 @@ Add a CRM site and specify its domain name.
   - specify its id in the setting `SITE_ID`,
   - add it to the setting `ALLOWED_HOSTS`.
 
-## Updating Django CRM software
+## Updating WOLANCRM CRM software
 
 WolanCRM is actively developing: existing functionality is being improved, new functionality is being added, and bugs are being fixed.
 In addition, the versions of software used by CRM are updated.
@@ -355,9 +355,9 @@ python manage.py collectstatic --settings=webcrm.local_settings
 
 - Provide meaningful comments on the code you are modifying. This will help in case of conflict when merging your project with a new WolanCRM release.
 
-## Ability to translate Django CRM interface into another language
+## Ability to translate WOLANCRM CRM interface into another language
 
-Users can choose the language of the [WolanCRM](https://github.com/DjangoCRM/WolanCRM/) interface.  
+Users can choose the language of the [WolanCRM](https://github.com/WOLANCRM/WolanCRM/) interface.  
 The list of available languages (LANGUAGES) and the default language (LANGUAGE_CODE) are defined in the file:
 `webcrm/settings.py`
 
@@ -379,7 +379,7 @@ python manage.py makemessages -l de
 
 In the directory  
 `locale/de/LC_MESSAGES`  
-django.po file will appear.  
+WOLANCRM.po file will appear.  
 Use the po file editor to translate its contents and create a mo file.  
 Put the mo file in the same directory.
 
@@ -389,7 +389,7 @@ Restart CRM.
 
 If the objects you added, such as deal stages, reasons for closing deals, have names in English, these names can also be translated. To do this, perform the above steps again, starting with the "makemessages" command.
 
-More details [here](https://docs.djangoproject.com/en/5.0/topics/i18n/translation/).
+More details [here](https://docs.WOLANCRMproject.com/en/5.0/topics/i18n/translation/).
 
 ## Built-in assistance system
 
@@ -398,9 +398,9 @@ This is a link to a help page.
 
 Many buttons and icons on CRM pages have tooltips that appear when you hover your mouse over them.
 
-## Adding Django CRM users
+## Adding WOLANCRM CRM users
 
-After completing the previous steps of this instruction, you can begin adding users. But in order for sales managers to be able to use all the features of Django CRM, they must follow the remaining points of this instruction.  
+After completing the previous steps of this instruction, you can begin adding users. But in order for sales managers to be able to use all the features of WOLANCRM CRM, they must follow the remaining points of this instruction.  
 Please review the following sections before adding users.
 
 ### Permissions for users
@@ -489,9 +489,9 @@ For example, if a company has two sales departments, sales managers can always s
 
 Dynamic rights can depend on many factors. For example, the value of filters. Even company managers or CRM administrators who can see all objects will not be able to see an object belonging to a department different from the current one selected in the department filter. To see this object, you need to select the corresponding department in the filter or select the "all" value.
 
-## Helping users to master Django CRM
+## Helping users to master WOLANCRM CRM
 
-Before starting to work in Django CRM, users should be informed about the following:  
+Before starting to work in WOLANCRM CRM, users should be informed about the following:  
 
 - It is important to familiarize yourself with the user guide to learn the CRM more easily.
 - Many CRM pages have a button to go to the help page - (?). It is located in the upper right corner. Help pages should be read.
@@ -502,9 +502,9 @@ It is also important for the administrator to help users to master the CRM.
 > Help pages are dynamic. Their content depends on the user's role.  
 > Users who are assigned rights individually (without a role assignment) will not be able to access the help page. Such users should be instructed to work in CRM by the administrator.
 
-## Setting up adding commercial requests in Django CRM
+## Setting up adding commercial requests in WOLANCRM CRM
 
-In Django CRM you can add commercial requests ("Requests") in manual, automatic and semi-automatic mode.
+In WOLANCRM CRM you can add commercial requests ("Requests") in manual, automatic and semi-automatic mode.
 In manual mode, you must press the "ADD REQUESTS" button at:  
   `Home > Crm > Requests`  
 and fill out the form.
@@ -625,11 +625,11 @@ This section displays statistics and service information of CRM activity in this
 #### Section "Additional information"
 
 Here you need to specify the account owner and its department.  
-The other fields are described in detail in the "[Settings](https://docs.djangoproject.com/en/dev/ref/settings/#std-setting-EMAIL_HOST)" section of Django documentation.
+The other fields are described in detail in the "[Settings](https://docs.WOLANCRMproject.com/en/dev/ref/settings/#std-setting-EMAIL_HOST)" section of WOLANCRM documentation.
 
 ## IMAP4 protocol client
 
-Django CRM uses an IMAP4 protocol client to allow users to view, import and delete emails in their email account.  
+WOLANCRM CRM uses an IMAP4 protocol client to allow users to view, import and delete emails in their email account.  
 Unfortunately, the operation of the IMAP4 client depends on the mail service. Because not all email services strictly adhere to the IMAP4 protocol.  
 In some cases, changing CRM settings will not help. You need to either make changes to the code or change the service provider. For example, if the service does not support IMAP4 or only supports some commands.
 
@@ -679,7 +679,7 @@ Then in the settings file, specify the name of the backend class in the setting
 
 ## Mailing
 
-The Massmail app in Django CRM lets you send newsletters to contacts, leads, and companies from within the CRM.  
+The Massmail app in WOLANCRM CRM lets you send newsletters to contacts, leads, and companies from within the CRM.  
 You need:
 
 * Recipients in the CRM
@@ -692,7 +692,7 @@ Mailings from the **main** sales manager account are only sent to **VIP recipien
 `(ADMIN site) Home > Settings > Massmail Settings`
 
 > [!NOTE]
-> Changed in Django CRM 1.4.0:  
+> Changed in WOLANCRM CRM 1.4.0:  
 > The settings have been moved from the `settings.py` file to the Admin web UI.
 
 **Business Hours Sending:**
@@ -723,7 +723,7 @@ If a reply to a mailing is a commercial request, import it using the button on t
 
 ## VoIP telephony
 
-A properly configured application allows you to make calls directly from Django CRM.
+A properly configured application allows you to make calls directly from WOLANCRM CRM.
 This application allows you to integrate CRM with the services of VoIP provider ZADARMA.  But it can also be used to create integration files with other providers.
 
 It is necessary to receive from the provider (zadarma.com) and to specify in `voip/settings.py` file the following values: SECRET_ZADARMA_KEY, SECRET_ZADARMA.
@@ -739,5 +739,5 @@ And also add provider data to the VOIP list in the file
 
 ## CRM integration with messengers
 
-Django CRM has the ability to send messages via messengers.  Such as  
+WOLANCRM CRM has the ability to send messages via messengers.  Such as  
 Viber, WhatsApp. To do this, these applications must be installed on the user's device.

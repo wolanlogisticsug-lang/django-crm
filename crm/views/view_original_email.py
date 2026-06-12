@@ -5,12 +5,12 @@ from base64 import b64encode
 from email import policy
 from email.message import Message
 from typing import Optional
-from django.core.handlers.wsgi import WSGIRequest
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.shortcuts import render
-from django.template.defaultfilters import linebreaks
-from django.http import HttpResponse
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.shortcuts import render
+from WOLANCRM.template.defaultfilters import linebreaks
+from WOLANCRM.http import HttpResponse
 
 from common.utils.helpers import OBJ_DOESNT_EXIT_STR
 from crm.models import CrmEmail

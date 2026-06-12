@@ -1,8 +1,8 @@
 from random import random
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.utils.for_translation import STR_FOR_TRANS
 from common.utils.helpers import USER_MODEL

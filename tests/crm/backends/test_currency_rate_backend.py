@@ -1,9 +1,9 @@
 
 from datetime import datetime as dt
 from unittest.mock import patch, MagicMock
-from django.conf import settings
-from django.test import TestCase
-from django.utils.module_loading import import_string
+from WOLANCRM.conf import settings
+from WOLANCRM.test import TestCase
+from WOLANCRM.utils.module_loading import import_string
 import requests
 from requests.exceptions import JSONDecodeError, HTTPError, RequestException
 

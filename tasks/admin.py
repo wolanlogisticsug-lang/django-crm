@@ -1,6 +1,6 @@
-from django.contrib import admin
-from django.contrib.admin.widgets import ForeignKeyRawIdWidget
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.admin.widgets import ForeignKeyRawIdWidget
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.for_translation import check_for_translation
 from crm.site.crmadminsite import crm_site

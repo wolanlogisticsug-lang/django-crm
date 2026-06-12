@@ -19,7 +19,7 @@ The login address for CRM is listed below, in the ["Access to CRM and admin site
 You may encounter log messages such as:  
 `Another instance is already running, quitting.`  
 This behavior is expected and requires no intervention.  
-Django CRM operates as a self-hosted web application where the server may spawn multiple worker processes to handle concurrent tasks. However, certain internal services within the CRM are designed to run as a single instance to maintain data integrity or avoid conflicts. To enforce this, duplicate instances of these services are automatically detected and terminated during startup.
+WOLANCRM CRM operates as a self-hosted web application where the server may spawn multiple worker processes to handle concurrent tasks. However, certain internal services within the CRM are designed to run as a single instance to maintain data integrity or avoid conflicts. To enforce this, duplicate instances of these services are automatically detected and terminated during startup.
 
 ## Run CRM on a specific IP address and port
 

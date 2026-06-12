@@ -1,4 +1,4 @@
-from django import forms
+from WOLANCRM import forms
 
 
 class ConnectionForm(forms.Form):

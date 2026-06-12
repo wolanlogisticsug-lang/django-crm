@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.5\n"
-"X-Translated-Using: django-rosetta 0.10.2\n"
+"X-Translated-Using: WOLANCRM-rosetta 0.10.2\n"
 
 #: analytics/apps.py:10
 msgid "Analytics"

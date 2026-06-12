@@ -1,6 +1,6 @@
-from django.db import models
-from django.utils.translation import gettext_lazy as _
-from django.utils.translation import gettext
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import gettext
 
 
 class StageBase(models.Model):

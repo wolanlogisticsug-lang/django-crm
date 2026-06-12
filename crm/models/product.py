@@ -1,6 +1,6 @@
-from django.db import models
-from django.utils.translation import gettext_lazy as _
-from django.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
 from common.models import Base1
 
 

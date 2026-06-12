@@ -1,7 +1,7 @@
-from django.contrib.contenttypes.models import ContentType
-from django.test import tag
-from django.test import RequestFactory
-from django.urls import reverse
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.test import tag
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.urls import reverse
 from common.models import TheFile
 
 from common.utils.helpers import get_department_id

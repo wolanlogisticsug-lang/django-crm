@@ -1,6 +1,6 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_app_features.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_app_features-spanish.md">Español</a>
 </p>
 
 # Descripción General Integral de la Aplicación CRM en el conjunto de software WolanCRM
@@ -27,7 +27,7 @@ La **aplicación CRM** en WolanCRM es el centro neurálgico para gestionar inter
 
 - **Creación y Gestión de Objetos de Oportunidad** (como Oportunidad):
   Un objeto de Oportunidad se crea a partir de una Solicitud y sirve como el área de trabajo principal donde los gerentes de ventas trabajan para concluir una venta exitosa. Pueden ordenarse por configuraciones predeterminadas o personalizadas según la preferencia del usuario. Los detalles del trabajo realizado se almacenan dentro del objeto de Oportunidad. Los íconos proporcionan pistas visuales sobre el estado de la oportunidad y las acciones requeridas.
-  - **Ciclo de Vida de la Oportunidad**: [Las Oportunidades](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png) se gestionan a través de varias etapas personalizables (por ejemplo, propuesta, negociación, cierre), con cada etapa rastreada visualmente en el CRM hasta su cierre. Los gerentes pueden monitorear el progreso y asegurar acciones oportunas.
+  - **Ciclo de Vida de la Oportunidad**: [Las Oportunidades](https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png) se gestionan a través de varias etapas personalizables (por ejemplo, propuesta, negociación, cierre), con cada etapa rastreada visualmente en el CRM hasta su cierre. Los gerentes pueden monitorear el progreso y asegurar acciones oportunas.
   - **Cierre de una Oportunidad**: Una vez que se ha terminado el trabajo en una oportunidad, debe cerrarse con una razón seleccionada de un menú desplegable (por ejemplo, ganada, perdida). Las oportunidades cerradas se ocultarán de la lista de oportunidades activas pero permanecerán en la base de datos y se pueden acceder ajustando los filtros de actividad.
 - **Orden Predeterminado de las Oportunidades**: Las nuevas oportunidades se ordenan por defecto en la parte superior de la lista, pero se recomienda ordenar por la fecha del próximo paso.
 

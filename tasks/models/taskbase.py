@@ -1,8 +1,8 @@
-from django.conf import settings
-from django.contrib.contenttypes.fields import GenericRelation
-from django.db import IntegrityError
-from django.db import models
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.db import IntegrityError
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Base
 from common.utils.helpers import get_delta_date

@@ -1,18 +1,18 @@
 from decimal import Decimal
-from django.conf import settings
-from django.contrib import admin
-from django.db.models import Case
-from django.db.models import CharField
-from django.db.models import DecimalField
-from django.db.models import Exists
-from django.db.models import F
-from django.db.models import OuterRef, Subquery
-from django.db.models import Sum
-from django.db.models import Value
-from django.db.models import When
-from django.utils.formats import date_format
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.db.models import Case
+from WOLANCRM.db.models import CharField
+from WOLANCRM.db.models import DecimalField
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import F
+from WOLANCRM.db.models import OuterRef, Subquery
+from WOLANCRM.db.models import Sum
+from WOLANCRM.db.models import Value
+from WOLANCRM.db.models import When
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.models import Department
 from common.utils.helpers import get_today

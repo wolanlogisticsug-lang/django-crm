@@ -1,6 +1,6 @@
-from django import forms
-from django.contrib import admin
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.contrib import admin
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from crm.site.crmmodeladmin import CrmModelAdmin
 from crm.site.crmadminsite import crm_site

@@ -1,9 +1,9 @@
 from random import random
-from django.contrib.contenttypes.models import ContentType
-from django.core import mail
-from django.test import tag
-from django.urls import reverse
-from django.utils import timezone
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import timezone
 from urllib.parse import urlencode
 
 from chat.models import ChatMessage

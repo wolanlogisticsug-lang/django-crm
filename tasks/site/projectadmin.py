@@ -1,8 +1,8 @@
-from django.contrib import admin
-from django.contrib.contenttypes.models import ContentType
-from django.http import HttpResponseRedirect
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import add_chat_context
 from common.utils.helpers import get_active_users

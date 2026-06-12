@@ -1,7 +1,7 @@
-from django.contrib.contenttypes.models import ContentType
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 chat_red_icon = '<i class="material-icons" style="font-size: 17px;color: var(--error-fg);">forum</i>'
 chat_icon = '<i class="material-icons" style="font-size: 17px;color: var(--body-quiet-color);">forum</i>'

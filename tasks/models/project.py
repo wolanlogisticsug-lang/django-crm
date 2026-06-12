@@ -1,6 +1,6 @@
-from django.db import models
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db import models
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
 from tasks.models.taskbase import TaskBase
 
 

@@ -1,19 +1,19 @@
 from time import sleep
 from typing import Optional
-from django.apps import apps
-from django.conf import settings
-from django.contrib import messages
-from django.contrib.admin.views.main import PAGE_VAR
-from django.core.handlers.wsgi import WSGIRequest
-from django.core.mail import mail_admins
-from django.http.response import HttpResponse
-from django.http.response import HttpResponseRedirect
-from django.template.response import TemplateResponse
-from django.db.models import Q
-from django.db.models.query import QuerySet
-from django.views.decorators.csrf import csrf_protect
-from django.utils.translation import gettext as _
-from django.urls import reverse
+from WOLANCRM.apps import apps
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.admin.views.main import PAGE_VAR
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.http.response import HttpResponse
+from WOLANCRM.http.response import HttpResponseRedirect
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.views.decorators.csrf import csrf_protect
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
 
 from crm.models import Deal
 from crm.models import CrmEmail

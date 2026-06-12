@@ -1,15 +1,15 @@
 from geoip2.errors import AddressNotFoundError
-from django.conf import settings
-from django.contrib.gis.geoip2 import GeoIP2
-from django.contrib.gis.geoip2 import GeoIP2Exception
-from django.contrib.sites.models import Site
-from django.core.handlers.wsgi import WSGIRequest
-from django.shortcuts import get_object_or_404
-from django.shortcuts import render
-from django.urls import reverse
-from django.utils.translation import gettext as _
-from django.views.decorators.clickjacking import xframe_options_exempt
-from django.views.decorators.csrf import csrf_exempt
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.gis.geoip2 import GeoIP2
+from WOLANCRM.contrib.gis.geoip2 import GeoIP2Exception
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.shortcuts import get_object_or_404
+from WOLANCRM.shortcuts import render
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.views.decorators.clickjacking import xframe_options_exempt
+from WOLANCRM.views.decorators.csrf import csrf_exempt
 
 from crm.forms.contact_form import ContactForm
 from crm.models import LeadSource

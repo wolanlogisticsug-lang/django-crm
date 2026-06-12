@@ -1,7 +1,7 @@
 ## Working in the TASKS section (for all users)
 
-[CRM task management](https://djangocrm.github.io/info/features/tasks-app-features/){target="_blank"} allows users to work with office memos, tasks, and projects (collections of tasks).  
-Participating users receive notifications about all events in [CRM application](https://docs.djangoproject.com/en/dev/ref/contrib/admin/){target="_blank"} and by email.  
+[CRM task management](https://WOLANCRM.github.io/info/features/tasks-app-features/){target="_blank"} allows users to work with office memos, tasks, and projects (collections of tasks).  
+Participating users receive notifications about all events in [CRM application](https://docs.WOLANCRMproject.com/en/dev/ref/contrib/admin/){target="_blank"} and by email.  
 !!! Important
     Only users specified in them in any role and company managers have access to specific memos, tasks, and projects.
     Other users will not see them.  
@@ -39,7 +39,7 @@ Tasks can have the following status:
 - done
 - canceled
 
-Django CRM automatically marks a team task as completed if each responsible person has at least one subtask and all subtasks are completed.  
+WOLANCRM CRM automatically marks a team task as completed if each responsible person has at least one subtask and all subtasks are completed.  
 In other cases, it is up to the owner (co-owner) of the task to change the status of the main task.
 
 Users can create tasks for themselves. In this case, CRM automatically assigns a co-owner of the task to the head of the executor's department. This allows department heads to be aware of their employees' tasks.

@@ -2,8 +2,8 @@ import sys
 import os
 from pathlib import Path
 from datetime import datetime as dt
-from django.core.exceptions import ImproperlyConfigured
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.exceptions import ImproperlyConfigured
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from crm.settings import *          # NOQA
 from common.settings import *       # NOQA
@@ -11,7 +11,7 @@ from tasks.settings import *        # NOQA
 from voip.settings import *         # NOQA
 from .datetime_settings import *    # NOQA
 
-# ---- Django settings ---- #
+# ---- WOLANCRM settings ---- #
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,28 +32,28 @@ def env_list(name, default):
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # To get new value of key use code:
-# from django.core.management.utils import get_random_secret_key
+# from WOLANCRM.core.management.utils import get_random_secret_key
 # print(get_random_secret_key())
 SECRET_KEY = os.environ.get(
-    'DJANGO_SECRET_KEY',
+    'WOLANCRM_SECRET_KEY',
     'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn'
 )
 
 # Add your hosts to the list.
-ALLOWED_HOSTS = env_list('DJANGO_ALLOWED_HOSTS', ['localhost', '127.0.0.1'])
+ALLOWED_HOSTS = env_list('WOLANCRM_ALLOWED_HOSTS', ['localhost', '127.0.0.1'])
 
 # Database
 DATABASES = {
     'default': {
         # for SQLite3
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'WOLANCRM.db.backends.sqlite3',
 
         # for MySQl
-        #'ENGINE': 'django.db.backends.mysql',
+        #'ENGINE': 'WOLANCRM.db.backends.mysql',
         #'PORT': '3306',
 
         # for PostgreSQL
-        # "ENGINE": "django.db.backends.postgresql",
+        # "ENGINE": "WOLANCRM.db.backends.postgresql",
         # 'PORT': '5432',
 
         'NAME': 'crm_db',
@@ -76,7 +76,7 @@ DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)
 ADMINS = [("<Admin1>", "<admin1_box@example.com>")]   # specify admin
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env_bool('DJANGO_DEBUG', False)
+DEBUG = env_bool('WOLANCRM_DEBUG', False)
 
 FORMS_URLFIELD_ASSUME_HTTPS = True
 
@@ -121,13 +121,13 @@ LOGIN_URL = '/admin/login/'
 
 # Application definition
 INSTALLED_APPS = [
-    'django.contrib.sites',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'WOLANCRM.contrib.sites',
+    'WOLANCRM.contrib.admin',
+    'WOLANCRM.contrib.auth',
+    'WOLANCRM.contrib.contenttypes',
+    'WOLANCRM.contrib.sessions',
+    'WOLANCRM.contrib.messages',
+    'WOLANCRM.contrib.staticfiles',
     'crm.apps.CrmConfig',
     'massmail.apps.MassmailConfig',
     'analytics.apps.AnalyticsConfig',
@@ -141,14 +141,14 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
-    'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'WOLANCRM.middleware.security.SecurityMiddleware',
+    'WOLANCRM.contrib.sessions.middleware.SessionMiddleware',
+    'WOLANCRM.middleware.locale.LocaleMiddleware',
+    'WOLANCRM.middleware.common.CommonMiddleware',
+    'WOLANCRM.middleware.csrf.CsrfViewMiddleware',
+    'WOLANCRM.contrib.auth.middleware.AuthenticationMiddleware',
+    'WOLANCRM.contrib.messages.middleware.MessageMiddleware',
+    'WOLANCRM.middleware.clickjacking.XFrameOptionsMiddleware',
     'common.utils.admin_redirect_middleware.AdminRedirectMiddleware',
     'common.utils.usermiddleware.UserMiddleware'
 ]
@@ -157,15 +157,15 @@ ROOT_URLCONF = 'webcrm.urls'
 
 TEMPLATES = [
     {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'BACKEND': 'WOLANCRM.template.backends.WOLANCRM.WOLANCRMTemplates',
         'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
+                'WOLANCRM.template.context_processors.debug',
+                'WOLANCRM.template.context_processors.request',
+                'WOLANCRM.contrib.auth.context_processors.auth',
+                'WOLANCRM.contrib.messages.context_processors.messages',
             ],
         },
     },
@@ -176,16 +176,16 @@ WSGI_APPLICATION = 'webcrm.wsgi.application'
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'
+        'NAME': 'WOLANCRM.contrib.auth.password_validation.UserAttributeSimilarityValidator'
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator'
+        'NAME': 'WOLANCRM.contrib.auth.password_validation.MinimumLengthValidator'
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator'
+        'NAME': 'WOLANCRM.contrib.auth.password_validation.CommonPasswordValidator'
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'
+        'NAME': 'WOLANCRM.contrib.auth.password_validation.NumericPasswordValidator'
     }
 ]
 
@@ -198,7 +198,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 FIXTURE_DIRS = ['tests/fixtures']
 
-MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+MESSAGE_STORAGE = 'WOLANCRM.contrib.messages.storage.session.SessionStorage'
 
 SITE_ID = 1
 
@@ -223,7 +223,7 @@ LOGIN_URL = 'site:login'
 
 if not DEBUG and SECRET_KEY == 'j1c=6$s-dh#$ywt@(q4cm=j&0c*!0x!e-qm6k1%yoliec(15tn':
     raise ImproperlyConfigured(
-        'Set DJANGO_SECRET_KEY before running with DJANGO_DEBUG=False.'
+        'Set WOLANCRM_SECRET_KEY before running with WOLANCRM_DEBUG=False.'
     )
 
 # Specify ip of host to avoid importing emails sent by CRM
@@ -331,7 +331,7 @@ WEB_HELP = True
 # This is copyright information. Please don't change it!
 COPYRIGHT_STRING = f"WolanCRM. Copyright (c) {dt.now().year}"
 PROJECT_NAME = "wolanCRM"
-PROJECT_SITE = "https://djangocrm.github.io/info/"
+PROJECT_SITE = "https://WOLANCRM.github.io/info/"
 
 
 TESTING = sys.argv[1:2] == ['test']

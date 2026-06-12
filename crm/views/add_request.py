@@ -1,7 +1,7 @@
-from django.conf import settings
-from django.core.exceptions import ObjectDoesNotExist
-from django.http import HttpResponse
-from django.views.decorators.csrf import csrf_exempt
+from WOLANCRM.conf import settings
+from WOLANCRM.core.exceptions import ObjectDoesNotExist
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.views.decorators.csrf import csrf_exempt
 
 from common.utils.helpers import send_crm_email
 from crm.forms.contact_form import ContactForm

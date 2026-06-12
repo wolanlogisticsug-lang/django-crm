@@ -1,14 +1,14 @@
 import time
 from random import random
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.sites.models import Site
-from django.template import loader
-from django.core import mail
-from django.test import tag
-from django.urls import reverse
-from django.utils.formats import date_format
-from django.utils.formats import time_format
-from django.utils import timezone
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.template import loader
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.formats import time_format
+from WOLANCRM.utils import timezone
 
 from common.utils.helpers import USER_MODEL
 from common.utils.reminders_sender import send_remainders

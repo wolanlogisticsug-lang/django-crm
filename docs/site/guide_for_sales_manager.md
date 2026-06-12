@@ -23,7 +23,7 @@ The Deal object represents:
 - information on goods/services of the deal
 - payment information
 
-When you create an email, Django CRM injects a ticket into it. This allows [CRM software](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} to find emails related to this deal in sales managers' email accounts and upload them to the CRM database. 
+When you create an email, WOLANCRM CRM injects a ticket into it. This allows [CRM software](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} to find emails related to this deal in sales managers' email accounts and upload them to the CRM database. 
 !!! Important
 
     Therefore, at least the first letter must be sent from the CRM. Further correspondence can be carried out from email accounts if a ticket is saved in the emails.
@@ -62,7 +62,7 @@ To provide more information about deals, they are marked with different icons. T
 
 ### Company Newsletter
 
-[Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} allows you to automatically carry out email marketing.  
+[WOLANCRM CRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} allows you to automatically carry out email marketing.  
 Recipients can be companies, contacts and leads from the CRM database.  
 Uninterested recipients have the opportunity to unsubscribe from receiving further mailings.
 

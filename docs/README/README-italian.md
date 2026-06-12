@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/README.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Dutch</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/README.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Dutch</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a>
 </p>
 
 
@@ -18,10 +18,10 @@
 - **Per gli utenti**: fornisci software CRM open source di livello aziendale con una suite completa di soluzioni aziendali.  
 - **Per sviluppatori**: semplifica i processi di sviluppo, personalizzazione e supporto del server di produzione.
 
-**Non è necessario apprendere un framework proprietario**: tutto è creato utilizzando il popolare framework Django.  
-CRM sfrutta appieno anche il sito Django Admin, con la documentazione tutta contenuta in un'unica pagina web!
+**Non è necessario apprendere un framework proprietario**: tutto è creato utilizzando il popolare framework WOLANCRM.  
+CRM sfrutta appieno anche il sito WOLANCRM Admin, con la documentazione tutta contenuta in un'unica pagina web!
 
-[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="Screenshot WolanCRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
+[<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="Screenshot WolanCRM" align="center" style="float: center"/>](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
 
 ## Funzionalità di gestione delle relazioni con i clienti
 |                              |                                          |                                  |
@@ -31,14 +31,14 @@ CRM sfrutta appieno anche il sito Django Admin, con la documentazione tutta cont
 | ☑️ **Analisi delle vendite**       | ☑️ **Integrazione chat interna**         | ☑️ **Design ottimizzato per dispositivi mobili**    |
 | ☑️ **Rapporti personalizzabili**  | ☑️ **Sincronizzazione automatica della posta elettronica**              | ☑️ **Supporto multivaluta**    |
 
-Scopri di più sulle [capacità del software](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
+Scopri di più sulle [capacità del software](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
 
-Django CRM è un software di gestione delle relazioni con i clienti open source. Questo CRM è scritto in  <a href="https://www.python.org" target="_blank"><img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="python logo" width="25" height="25"> Python</a>.  
-Frontend e backend sono interamente basati sul [sito di amministrazione](https://docs.djangoproject.com/en/dev/ref/contrib/admin/) di Django.  
+WOLANCRM CRM è un software di gestione delle relazioni con i clienti open source. Questo CRM è scritto in  <a href="https://www.python.org" target="_blank"><img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="python logo" width="25" height="25"> Python</a>.  
+Frontend e backend sono interamente basati sul [sito di amministrazione](https://docs.WOLANCRMproject.com/en/dev/ref/contrib/admin/) di WOLANCRM.  
 L'app CRM utilizza modelli HTML di amministrazione adattivi pronti all'uso.  
-Django è un framework ottimamente documentato con molti esempi.  
+WOLANCRM è un framework ottimamente documentato con molti esempi.  
 La documentazione sul sito di amministrazione occupa solo una pagina web.  
-💡 L'**idea originale** è che, poiché il sito di Amministrazione di Django è già un'interfaccia professionale di gestione degli oggetti con un sistema di permessi flessibile per gli utenti (visualizzazione, modifica, aggiunta ed eliminazione di oggetti), tutto ciò che devi fare è creare modelli per gli oggetti (come Lead, Richieste, Offerte, Aziende, ecc.) e aggiungi logica di progetto.
+💡 L'**idea originale** è che, poiché il sito di Amministrazione di WOLANCRM è già un'interfaccia professionale di gestione degli oggetti con un sistema di permessi flessibile per gli utenti (visualizzazione, modifica, aggiunta ed eliminazione di oggetti), tutto ciò che devi fare è creare modelli per gli oggetti (come Lead, Richieste, Offerte, Aziende, ecc.) e aggiungi logica di progetto.
 
 Tutto ciò garantisce:
 
@@ -58,12 +58,12 @@ La suite software CRM è composta dalle seguenti **applicazioni principali** e d
 
 - **App Gestione ATTIVITÀ**:
   (disponibile per tutti gli utenti per impostazione predefinita, indipendentemente dal loro ruolo)
-  - Attività (con relativi: file, chat, promemoria, tag - vedi [caratteristiche task](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md))
+  - Attività (con relativi: file, chat, promemoria, tag - vedi [caratteristiche task](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md))
     - attività secondarie
-  - Memo (memo d'ufficio) - vedi [caratteristiche memo](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
+  - Memo (memo d'ufficio) - vedi [caratteristiche memo](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
     - Attività / progetto
   - Progetto (*raccolta attività*):
-  - ... (+ *4 altri <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/tasks/models" target="_blank">modelli</a>*)
+  - ... (+ *4 altri <a href="https://github.com/WOLANCRM/WolanCRM/tree/main/tasks/models" target="_blank">modelli</a>*)
 - **App CRM**:
   - Richieste (richieste commerciali)
   - Lead (potenziali clienti)
@@ -73,10 +73,10 @@ La suite software CRM è composta dalle seguenti **applicazioni principali** e d
   - Messaggi e-mail (sincronizzazione con gli account e-mail degli utenti)
   - Prodotti (beni e servizi)
   - Pagamenti (ricevuti, garantiti, ad alta e bassa probabilità)
-  - ...(*+ altri 12 <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/crm/models" target="_blank">modelli</a>*)
-[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
-- **App ANALYTICS**: ([panoramica dettagliata del software](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md))
-  - Rapporto riepilogativo delle entrate (*vedi [screenshot](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)*)
+  - ...(*+ altri 12 <a href="https://github.com/WOLANCRM/WolanCRM/tree/main/crm/models" target="_blank">modelli</a>*)
+[<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Analytical crm report" align="right" width="190px" style="float: right"/>](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
+- **App ANALYTICS**: ([panoramica dettagliata del software](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md))
+  - Rapporto riepilogativo delle entrate (*vedi [screenshot](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)*)
   - Rapporto sulla canalizzazione delle vendite
   - Rapporto di riepilogo della fonte principale
   - ... (+ *altri 5 report analitici*)
@@ -124,58 +124,58 @@ Il CRM può integrarsi con i provider di servizi di posta elettronica (come Gmai
 
 - Ogni pagina CRM include un collegamento a una pagina di aiuto sensibile al contesto, con contenuti adattati dinamicamente al ruolo dell'utente per una guida più pertinente.  
 - Le descrizioni comandi sono disponibili in tutta l'interfaccia e forniscono informazioni istantanee quando si passa sopra elementi come icone, pulsanti, collegamenti o intestazioni di tabella.  
-- Una [guida per l'utente] completa(https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md) è incluso anche un file per riferimento e supporto approfonditi.
+- Una [guida per l'utente] completa(https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md) è incluso anche un file per riferimento e supporto approfonditi.
 
 ## Aumenta la produttività del tuo team con soluzioni CRM collaborative
 
 Questo CRM è progettato per migliorare la collaborazione all'interno dei team e semplificare i processi di gestione dei progetti.  
 In quanto CRM collaborativo, consente agli utenti di creare e gestire facilmente promemoria, attività e progetti.  
-[Promemoria di ufficio](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md) possono essere indirizzate a capi reparto o dirigenti aziendali, che potranno poi trasformare tali promemoria in incarichi o progetti, assegnandovi responsabili o esecutori.  
-[Attività](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) può essere individuale o collettivo.  
+[Promemoria di ufficio](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md) possono essere indirizzate a capi reparto o dirigenti aziendali, che potranno poi trasformare tali promemoria in incarichi o progetti, assegnandovi responsabili o esecutori.  
+[Attività](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) può essere individuale o collettivo.  
 Le attività forniscono funzionalità come discussioni in chat, promemoria, condivisione di file, creazione di attività secondarie e condivisione di risultati.  
 Gli utenti ricevono notifiche direttamente nel CRM e via e-mail, assicurandosi che rimangano informati.  
 Ogni utente ha una visione chiara della propria serie di attività, comprese priorità, stati e passaggi successivi, migliorando così la produttività e la responsabilità nella gestione collaborativa delle relazioni con i clienti.
 
 ## Localizzazione del progetto
 
-Django CRM ha il supporto completo per la traduzione dell'interfaccia, la formattazione di date, orari e fusi orari.
-<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Il software del servizio clienti è ora disponibile in **più lingue:**  
+WOLANCRM CRM ha il supporto completo per la traduzione dell'interfaccia, la formattazione di date, orari e fusi orari.
+<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="WOLANCRM logo" width="30" height="30" style="vertical-align: middle"> Il software del servizio clienti è ora disponibile in **più lingue:**  
 `de, en, es, fr, it, nl, pt-BR, ru, uk`
 
 ## Perché scegliere WolanCRM?
 
 - **CRM collaborativo**: aumenta la produttività del team con strumenti per la gestione delle attività, la collaborazione sui progetti e la comunicazione interna.
 - **CRM analitico**: ottieni informazioni utili con report integrati come canalizzazione delle vendite, riepilogo dei ricavi e analisi delle fonti di lead.
-- **Basato su Python e Django**: non sono richiesti framework proprietari: tutto è basato su Django con un'interfaccia di amministrazione intuitiva.
+- **Basato su Python e WOLANCRM**: non sono richiesti framework proprietari: tutto è basato su WOLANCRM con un'interfaccia di amministrazione intuitiva.
 
 ## Iniziare
 
 Se trovi utile WolanCRM, metti una ⭐️ **stella** a questo repository su GitHub per supportarne la crescita!
 
-WolanCRM può essere facilmente distribuito come un normale progetto Django.
+WolanCRM può essere facilmente distribuito come un normale progetto WOLANCRM.
 
 📚 Si prega di fare riferimento a:
 
-- [Guida all'installazione e alla configurazione](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
-- [Guida per l'utente](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
+- [Guida all'installazione e alla configurazione](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
+- [Guida per l'utente](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
 
 ### Compatibilità
 
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 5.1.x
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/WOLANCRM-logo.svg" alt="WOLANCRM logo" width="30" height="30" style="vertical-align: middle"> WOLANCRM 5.1.x
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
 
 
 ## Contribuire
 
 I contributi sono benvenuti! C'è spazio per miglioramenti e nuove funzionalità.  
-Dai un'occhiata alla nostra [Guida per contribuire](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md) per sapere come iniziare.  
+Dai un'occhiata alla nostra [Guida per contribuire](https://github.com/WOLANCRM/WolanCRM/blob/main/CONTRIBUTING.md) per sapere come iniziare.  
 Ogni contributo, grande o piccolo, fa la differenza.
 
 ## Licenza
 
-WolanCRM è rilasciato sotto la licenza AGPL-3.0 - vedere la [LICENZA](https://github.com/DjangoCRM/WolanCRM/blob/main/LICENSE) file per i dettagli.
+WolanCRM è rilasciato sotto la licenza AGPL-3.0 - vedere la [LICENZA](https://github.com/WOLANCRM/WolanCRM/blob/main/LICENSE) file per i dettagli.
 
 ## Crediti
 

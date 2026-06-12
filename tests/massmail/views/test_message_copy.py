@@ -1,6 +1,6 @@
 from random import random
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import get_department_id
 from common.utils.helpers import USER_MODEL

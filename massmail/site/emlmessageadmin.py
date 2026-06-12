@@ -1,8 +1,8 @@
 import threading
-from django.contrib import admin
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.admin import FileInline
 from common.utils.copy_files import copy_files

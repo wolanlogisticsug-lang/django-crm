@@ -1,7 +1,7 @@
 from random import random
-from django.core import mail
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import USER_MODEL
 from tasks.models import ProjectStage

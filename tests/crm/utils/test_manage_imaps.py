@@ -11,7 +11,7 @@ from datetime import datetime as dt
 from datetime import timedelta
 from unittest.mock import MagicMock, patch, PropertyMock
 
-from django.test import override_settings, tag
+from WOLANCRM.test import override_settings, tag
 
 from crm.utils.manage_imaps import CrmImapManager, delta_period
 from crm.settings import IMAP_NOOP_PERIOD

@@ -1,8 +1,8 @@
-from django.conf import settings
-from django.contrib import messages
-from django.forms import ModelForm
-from django.http import HttpRequest
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.forms import ModelForm
+from WOLANCRM.http import HttpRequest
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 STR_FOR_TRANS = '\n{{% translate "{}" %}}'
 

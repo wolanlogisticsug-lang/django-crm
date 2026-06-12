@@ -1,17 +1,17 @@
 import os
 
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.contrib.contenttypes.fields import GenericForeignKey
-from django.contrib.contenttypes.models import ContentType
-from django.core.exceptions import NON_FIELD_ERRORS
-from django.core.exceptions import ValidationError
-from django.db import models
-from django.urls import reverse
-from django.utils import timezone
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.contrib.contenttypes.fields import GenericForeignKey
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core.exceptions import NON_FIELD_ERRORS
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.db import models
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import get_formatted_short_date
 

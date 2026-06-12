@@ -1,6 +1,6 @@
-from django.template.defaultfilters import striptags
-from django.test import TestCase
-from django.urls import reverse
+from WOLANCRM.template.defaultfilters import striptags
+from WOLANCRM.test import TestCase
+from WOLANCRM.urls import reverse
 
 
 class BaseTestCase(TestCase):

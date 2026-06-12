@@ -1,5 +1,5 @@
-from django.contrib.auth.decorators import login_required
-from django.urls import path
+from WOLANCRM.contrib.auth.decorators import login_required
+from WOLANCRM.urls import path
 
 from common.utils.decorators import crm_staff_member_required
 from common.views.copy_department import copy_department

@@ -1,8 +1,8 @@
-from django.db import models
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.db import models
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
 
 from common.models import Base1
 from crm.models.base_contact import BaseCounterparty

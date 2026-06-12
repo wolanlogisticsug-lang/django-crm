@@ -1,13 +1,13 @@
 from typing import Union
 from unittest import skip
-from django.conf import settings
-from django.core.handlers.wsgi import WSGIRequest
-from django.http.response import HttpResponse
-from django.template.response import TemplateResponse
-from django.test import Client
-from django.test import override_settings
-from django.test import TestCase
-from django.utils.translation import gettext as _
+from WOLANCRM.conf import settings
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http.response import HttpResponse
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.test import Client
+from WOLANCRM.test import override_settings
+from WOLANCRM.test import TestCase
+from WOLANCRM.utils.translation import gettext as _
 
 from common.utils.helpers import USER_MODEL
 from tasks.models import Task

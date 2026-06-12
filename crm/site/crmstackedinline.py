@@ -1,4 +1,4 @@
-from django.contrib.admin import StackedInline
+from WOLANCRM.contrib.admin import StackedInline
 
 from crm.site.paymentadmin import set_currency_initial
 from crm.utils.clarify_permission import clarify_permission

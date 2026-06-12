@@ -1,21 +1,21 @@
 # Redefining DATETIM formats for more compact display
 
-from django.conf.locale.de import formats as de_formats
-from django.conf.locale.en import formats as en_formats
-from django.conf.locale.es import formats as es_formats
-from django.conf.locale.es import formats as fr_formats
-from django.conf.locale.it import formats as it_formats
-from django.conf.locale.nl import formats as nl_formats
-from django.conf.locale.pl import formats as pl_formats
-from django.conf.locale.pt_BR import formats as pt_br_formats
-from django.conf.locale.ro import formats as ro_formats
-from django.conf.locale.ru import formats as ru_formats
-from django.conf.locale.tr import formats as tr_formats
-from django.conf.locale.uk import formats as uk_formats
+from WOLANCRM.conf.locale.de import formats as de_formats
+from WOLANCRM.conf.locale.en import formats as en_formats
+from WOLANCRM.conf.locale.es import formats as es_formats
+from WOLANCRM.conf.locale.es import formats as fr_formats
+from WOLANCRM.conf.locale.it import formats as it_formats
+from WOLANCRM.conf.locale.nl import formats as nl_formats
+from WOLANCRM.conf.locale.pl import formats as pl_formats
+from WOLANCRM.conf.locale.pt_BR import formats as pt_br_formats
+from WOLANCRM.conf.locale.ro import formats as ro_formats
+from WOLANCRM.conf.locale.ru import formats as ru_formats
+from WOLANCRM.conf.locale.tr import formats as tr_formats
+from WOLANCRM.conf.locale.uk import formats as uk_formats
 
 
-# The *_FORMAT strings use the Django date format syntax,
-# see https://docs.djangoproject.com/en/dev/ref/templates/builtins/#date
+# The *_FORMAT strings use the WOLANCRM date format syntax,
+# see https://docs.WOLANCRMproject.com/en/dev/ref/templates/builtins/#date
 
 de_formats.DATE_FORMAT = "j.m.y"            # 5.10.25
 de_formats.DATETIME_FORMAT = "j. M Y H:i"   # 05. Okt 2025 14:30

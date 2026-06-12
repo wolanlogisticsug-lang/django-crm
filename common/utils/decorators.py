@@ -1,4 +1,4 @@
-from django.contrib.admin.views.decorators import staff_member_required
+from WOLANCRM.contrib.admin.views.decorators import staff_member_required
 
 
 def crm_staff_member_required(view_func=None):

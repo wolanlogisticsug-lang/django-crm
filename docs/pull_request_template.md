@@ -1,6 +1,6 @@
 
 
-👉 Please review the [guidelines](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md) for contributing to this repository.
+👉 Please review the [guidelines](https://github.com/WOLANCRM/WolanCRM/blob/main/CONTRIBUTING.md) for contributing to this repository.
 
 ## Pull Request Checklist
 
@@ -24,4 +24,4 @@
 - [ ] Screenshots of the results are provided.
 - [ ] Additional tests have been written.
 
-❤️ Thank you so much for your contribution to the Django CRM project!
+❤️ Thank you so much for your contribution to the WOLANCRM CRM project!

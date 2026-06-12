@@ -1,5 +1,5 @@
-from django.template import Context
-from django.template import Template
+from WOLANCRM.template import Context
+from WOLANCRM.template import Template
 
 from massmail.models import Signature
 from massmail.views.signature_previews import get_template

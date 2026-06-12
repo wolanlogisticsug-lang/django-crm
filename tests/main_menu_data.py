@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.contrib.admin.models import LogEntry
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.admin.models import LogEntry
 
 PREFIX = settings.SECRET_CRM_PREFIX
 ADMIN_PREFIX = settings.SECRET_ADMIN_PREFIX

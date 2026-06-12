@@ -1,11 +1,11 @@
 from email.utils import parseaddr
-from django.apps import apps
-from django.db import models
-from django.conf import settings
-from django.contrib.contenttypes.fields import GenericRelation
-from django.core.exceptions import ValidationError
-from django.utils.translation import gettext_lazy as _
-from django.urls import reverse
+from WOLANCRM.apps import apps
+from WOLANCRM.db import models
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
 
 from common.models import Base1
 from common.utils.helpers import add_phone_q_params

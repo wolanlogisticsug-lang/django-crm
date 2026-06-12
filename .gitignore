@@ -59,7 +59,7 @@ coverage.lcov
 # *.mo
 *.pot
 
-# Django stuff:
+# WOLANCRM stuff:
 *.log
 db.sqlite3
 

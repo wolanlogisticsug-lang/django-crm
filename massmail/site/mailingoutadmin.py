@@ -1,12 +1,12 @@
-from django.contrib import admin
-from django.conf import settings
-from django.contrib import messages
-from django.template.defaultfilters import linebreaksbr
-from django.urls import reverse
-from django.utils import timezone
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
+from WOLANCRM.contrib import admin
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.template.defaultfilters import linebreaksbr
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.utils.helpers import FRIDAY_SATURDAY_SUNDAY_MSG
 from common.utils.helpers import get_today
@@ -167,7 +167,7 @@ class MailingOutAdmin(CrmModelAdmin):
 
     @admin.display(description='')
     def exclude_recipients(self, obj):
-        from django.urls import reverse
+        from WOLANCRM.urls import reverse
         url = '#'
         if obj.recipient_ids:
             url = reverse(

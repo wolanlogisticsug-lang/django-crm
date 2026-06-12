@@ -1,9 +1,9 @@
-from django.contrib import messages
-from django.contrib.auth.models import Group
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.utils.translation import gettext as _
-from django.urls import reverse
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.shortcuts import render
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
 
 from common.utils.gettext_messages import DATA_WARNING_MESSAGE
 from common.utils.helpers import USER_MODEL

@@ -1,4 +1,4 @@
-from django.test import tag
+from WOLANCRM.test import tag
 
 from crm.models import Contact
 from crm.models import Company

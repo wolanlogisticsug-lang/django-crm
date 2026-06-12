@@ -1,4 +1,4 @@
-from django.test import SimpleTestCase
+from WOLANCRM.test import SimpleTestCase
 
 from common.utils.parse_full_name import parse_contacts_name
 from common.utils.parse_full_name import parse_full_name

@@ -2,7 +2,7 @@ import requests
 from requests.exceptions import JSONDecodeError
 from typing import Union
 from datetime import date
-from django.utils.formats import date_format
+from WOLANCRM.utils.formats import date_format
 
 from crm.backends.basebackend import BaseBackend
 

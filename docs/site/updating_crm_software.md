@@ -1,8 +1,8 @@
-## Updating Django CRM software
+## Updating WOLANCRM CRM software
 
-Django CRM open source system is actively developing: existing functionality is being improved, new functionality is being added, and bugs are being fixed.
+WOLANCRM CRM open source system is actively developing: existing functionality is being improved, new functionality is being added, and bugs are being fixed.
 In addition, the versions of software used by CRM are updated.
-Therefore, it is important to set up system updates based on new releases of [CRM softwares](https://github.com/DjangoCRM/WolanCRM/){target="_blank"}.
+Therefore, it is important to set up system updates based on new releases of [CRM softwares](https://github.com/WOLANCRM/WolanCRM/){target="_blank"}.
 Here are some tips on how to do it better:
 
 - To prevent your system settings from being overwritten when you upgrade CRM software, it is recommended that you save them in a separate settings file, such as `local_settings.py`.
@@ -26,4 +26,4 @@ python manage.py collectstatic --settings=webcrm.local_settings
 ```
 
 !!! Tip
-    Provide meaningful comments on the code you are modifying. This will help in case of conflict when merging your project with a new [WolanCRM releases](https://github.com/DjangoCRM/WolanCRM/releases){target="_blank"}.
+    Provide meaningful comments on the code you are modifying. This will help in case of conflict when merging your project with a new [WolanCRM releases](https://github.com/WOLANCRM/WolanCRM/releases){target="_blank"}.

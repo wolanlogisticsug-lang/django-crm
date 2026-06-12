@@ -1,14 +1,14 @@
 import re
-from django import forms
-from django.contrib.admin.widgets import ForeignKeyRawIdWidget
-from django.contrib.contenttypes.models import ContentType
-from django.contrib import messages
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.utils.translation import gettext as _
-from django.urls import reverse
-from django.urls.exceptions import NoReverseMatch
-from django.views import View
+from WOLANCRM import forms
+from WOLANCRM.contrib.admin.widgets import ForeignKeyRawIdWidget
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib import messages
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.shortcuts import render
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
+from WOLANCRM.urls.exceptions import NoReverseMatch
+from WOLANCRM.views import View
 
 from common.models import TheFile
 from crm.models import Contact

@@ -1,5 +1,5 @@
 
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 # Do not reformat this document to avoid extra line breaks in the translated strings!
 

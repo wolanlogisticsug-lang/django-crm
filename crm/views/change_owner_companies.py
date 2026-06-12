@@ -1,7 +1,7 @@
-from django.contrib import messages
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.utils.translation import gettext as _
+from WOLANCRM.contrib import messages
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.shortcuts import render
+from WOLANCRM.utils.translation import gettext as _
 
 from crm.site.crmadminsite import crm_site
 from crm.models import Company, Contact

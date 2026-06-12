@@ -1,4 +1,4 @@
-from django.test import tag
+from WOLANCRM.test import tag
 
 from crm.forms.contact_form import ContactForm
 from crm.models import Country

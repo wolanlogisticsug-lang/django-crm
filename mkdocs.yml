@@ -4,9 +4,9 @@ site_name: WolanCRM system
 # https://docs.readthedocs.io/en/stable/reference/environment-variables.html
 site_url: !ENV READTHEDOCS_CANONICAL_URL
 
-site_description: 'Django CRM is written in Python as open source software package, offers a vast suite CRM solutions, giving companies with all the essential tools to manage sales and workflows efficiently within one unified Analytical CRM platform.'
-repo_url: https://github.com/DjangoCRM/WolanCRM
-repo_name: Django CRM GitHub
+site_description: 'WOLANCRM CRM is written in Python as open source software package, offers a vast suite CRM solutions, giving companies with all the essential tools to manage sales and workflows efficiently within one unified Analytical CRM platform.'
+repo_url: https://github.com/WOLANCRM/WolanCRM
+repo_name: WOLANCRM CRM GitHub
 site_author: Vadym Kharchenko
 
 docs_dir: 'docs/site'
@@ -15,9 +15,9 @@ nav:
   - Home: index.md
   - Installation and configuration:
     - CRM Software installation: installation.md
-    - Django CRM settings: django_crm_settings.md
+    - WOLANCRM CRM settings: WOLANCRM_crm_settings.md
     - Run CRM: start_crm.md
-    - Updating Django CRM software: updating_crm_software.md
+    - Updating WOLANCRM CRM software: updating_crm_software.md
     - Adding CRM users: adding_crm_users.md
     - Setting up adding commercial requests: setting_up_adding_requests.md
     - Setting up email accounts: setting_up_email_accounts.md
@@ -26,7 +26,7 @@ nav:
     - Currencies: currencies.md
     - CRM email marketing: newsletter_mailing.md
     - VoIP telephony and messengers: voip_and_messengers.md
-    - Translate the Django CRM interface: translate_django_crm.md
+    - Translate the WOLANCRM CRM interface: translate_WOLANCRM_crm.md
     - Renaming CRM fields: renaming_crm_fields.md
   - User guide:
     - Introduction: introduction.md

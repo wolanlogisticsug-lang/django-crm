@@ -1,4 +1,4 @@
-from django.contrib import admin
+from WOLANCRM.contrib import admin
 
 from help.site.paragraphInline import ParagraphInline
 

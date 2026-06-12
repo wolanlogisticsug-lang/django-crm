@@ -1,4 +1,4 @@
-from django.test import tag
+from WOLANCRM.test import tag
 
 from common.utils.helpers import USER_MODEL
 from tasks.forms import ONE_RESPONSIBLE_MSG

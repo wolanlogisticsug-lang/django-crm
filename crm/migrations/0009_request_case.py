@@ -1,6 +1,6 @@
 # Generated manually for request case field
 
-from django.db import migrations, models
+from WOLANCRM.db import migrations, models
 
 
 class Migration(migrations.Migration):

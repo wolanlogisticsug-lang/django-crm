@@ -1,7 +1,7 @@
-from django.contrib.sites.models import Site
-from django.test import RequestFactory
-from django.test import TestCase
-from django.urls import reverse
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import TestCase
+from WOLANCRM.urls import reverse
 
 from common.utils.secure_url import secure_url
 

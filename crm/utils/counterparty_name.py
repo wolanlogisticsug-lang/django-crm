@@ -1,10 +1,10 @@
 from email.utils import parseaddr
-from django.db.models import CharField
-from django.db.models import Q
-from django.db.models import Subquery
-from django.db.models import Value
-from django.db.models.functions import Coalesce
-from django.db.models.functions import Concat
+from WOLANCRM.db.models import CharField
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.db.models import Value
+from WOLANCRM.db.models.functions import Coalesce
+from WOLANCRM.db.models.functions import Concat
 
 from crm.models import Contact
 from crm.models import Company

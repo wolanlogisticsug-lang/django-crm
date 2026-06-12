@@ -1,4 +1,4 @@
-from django.contrib import admin
+from WOLANCRM.contrib import admin
 
 from chat.models import ChatMessage
 from chat.site import chatmessageadmin

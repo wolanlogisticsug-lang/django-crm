@@ -1,8 +1,8 @@
-from django.contrib import messages
-from django.http import HttpResponseRedirect
-from django.shortcuts import render
-from django.utils.translation import gettext as _
-from django.urls import reverse
+from WOLANCRM.contrib import messages
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.shortcuts import render
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
 
 from common.models import Department
 from crm.models import ClientType

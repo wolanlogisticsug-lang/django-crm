@@ -1,5 +1,5 @@
-from django.urls import reverse
-from django.contrib.messages import get_messages
+from WOLANCRM.urls import reverse
+from WOLANCRM.contrib.messages import get_messages
 
 from common.utils.helpers import USER_MODEL
 from massmail.forms.radio_select_form import RadioSelectForm

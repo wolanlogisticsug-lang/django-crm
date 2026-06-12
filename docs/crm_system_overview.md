@@ -1,12 +1,12 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview-spanish.md">Español</a>
 </p>
 
 # WolanCRM Overview
 
-Free CRM management [software](https://github.com/DjangoCRM/WolanCRM/) is designed to optimize the management of customer interactions, streamline processes, and enhance data-driven decision-making.  
-The customer crm software leverages the Django framework, ensuring ease of development, customization, and deployment.
+Free CRM management [software](https://github.com/WOLANCRM/WolanCRM/) is designed to optimize the management of customer interactions, streamline processes, and enhance data-driven decision-making.  
+The customer crm software leverages the WOLANCRM framework, ensuring ease of development, customization, and deployment.
 
 Below is a comprehensive overview of its key features and functionalities:
 
@@ -94,7 +94,7 @@ It provides a comprehensive suite of features to handle various business objects
 - Tracks payments directly from Deals or Payments list.
 - Integrates payment data into CRM analytics for comprehensive reporting.
 
-Read more detailed [CRM app features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_app_features.md)
+Read more detailed [CRM app features](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_app_features.md)
 
 ## The Tasks Application in WolanCRM software suite
 
@@ -110,7 +110,7 @@ Read more detailed [CRM app features](https://github.com/DjangoCRM/WolanCRM/blob
 - **Memo Chat**: Participants can exchange messages and files in the memo chat.
 - **Visual Control of Tasks Created from Memos**: A "view task" button appears next to memos that resulted in tasks, with color indicating task status to track the task's progress.
 
-Read more detailed [memo features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
+Read more detailed [memo features](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
 
 ### Task Management
 
@@ -128,7 +128,7 @@ Read more detailed [memo features](https://github.com/DjangoCRM/WolanCRM/blob/ma
   - **Tags**: Users can tag tasks and filter them by tags.
   - **Sorting Tasks**: New tasks are sorted at the top of the list by default but can be sorted by next step date.
 
-  Read more detailed [task features](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)
+  Read more detailed [task features](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md)
 
 ## Email and Mailings
 
@@ -157,7 +157,7 @@ The WolanCRM system includes analytical features that provide various reports to
 
 ## Deployment and Use
 
-- Easy to deploy as a regular Django project.
+- Easy to deploy as a regular WOLANCRM project.
 - Comprehensive documentation available for installation, configuration, and user guidance.
 - Active community support and contributions are encouraged.
 
@@ -165,7 +165,7 @@ The WolanCRM system includes analytical features that provide various reports to
 
 - **Localization:**  Supports multiple languages  
   (currently: ar, cs, de, el, en, es, fr, he, hi, id, it, ja, ko, nl, pl, pt-br, ro, ru, tr, uk, vi, zh-hans)
-- **Technology Stack:** Built on Django 5.1.x, Python 3.10+, MySQL 8.0.11+ or PostgreSQL 12+.
+- **Technology Stack:** Built on WOLANCRM 5.1.x, Python 3.10+, MySQL 8.0.11+ or PostgreSQL 12+.
 - **License:** Released under the AGPL-3.0 open source license.
 
 ## Conclusion
@@ -176,4 +176,4 @@ By leveraging these features, businesses can enhance their customer relationship
 
 (***The content is being supplemented.***)
 
-You can get more detailed information from [**the user manual**](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md).
+You can get more detailed information from [**the user manual**](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md).

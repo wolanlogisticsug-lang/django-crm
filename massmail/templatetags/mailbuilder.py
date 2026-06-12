@@ -2,8 +2,8 @@ from pathlib import Path
 from email.mime.image import MIMEImage
 from urllib.parse import quote
 from uuid import uuid4
-from django.template import Library
-from django.conf import settings
+from WOLANCRM.template import Library
+from WOLANCRM.conf import settings
 
 register = Library()
 

@@ -1,7 +1,7 @@
-from django.core import mail
-from django.test import tag
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from common.utils.helpers import USER_MODEL
 from massmail.models.email_account import EmailAccount

@@ -1,4 +1,4 @@
-from django.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.contenttypes.models import ContentType
 from crm.models import Company
 from massmail.models import EmailAccount
 from massmail.models import EmlAccountsQueue

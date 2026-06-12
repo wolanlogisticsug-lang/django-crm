@@ -29,20 +29,20 @@
   - [Company Newsletter](#company-newsletter)
   - [Transfer of company objects to another sales manager](#transfer-of-company-objects-to-another-sales-manager)
 
-- [Django CRM Administrator's Guide](#WolanCRM-administrators-guide)
+- [WOLANCRM CRM Administrator's Guide](#WolanCRM-administrators-guide)
   - [Mass transfer of companies to another sales manager](#mass-transfer-of-companies-to-another-sales-manager)
   - [Mass contacts objects](#mass-contacts-objects)
 
 ## Introduction
 
-[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
+[WolanCRM](https://github.com/WOLANCRM/WolanCRM/) is an application with a web interface. Therefore, you can use an internet browser on your computer, tablet and smartphone to work with it.
 
 To make your work easier, CRM provides help pages and tooltips when you hover your mouse over certain page elements such as icons, buttons, etc.  
-![CRM tooltip screenshot](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
+![CRM tooltip screenshot](https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
 
 Many pages have an icon (?) in the upper right corner. Clicking on it will open the help page.
 
-Django CRM is a powerful software package that requires customization and integration with other services. If something does not work as expected - report it to your CRM administrator.
+WOLANCRM CRM is a powerful software package that requires customization and integration with other services. If something does not work as expected - report it to your CRM administrator.
 
 The CRM database can contain a large amount of business information.
 Therefore, a user's abilities and access to CRM sections are determined by a set of permissions (roles) assigned to the user by the CRM administrator.
@@ -119,7 +119,7 @@ Tasks can have the following status:
 - done;
 - canceled.
 
-Django CRM automatically marks a team task as completed if each responsible person has at least one subtask and all subtasks are completed.  
+WOLANCRM CRM automatically marks a team task as completed if each responsible person has at least one subtask and all subtasks are completed.  
 In other cases, it is up to the owner (co-owner) of the task to change the status of the main task.
 
 Users can create tasks for themselves. In this case, CRM automatically assigns a co-owner of the task to the head of the executor's department. This allows department heads to be aware of their employees' tasks.
@@ -146,7 +146,7 @@ In the list of memos, you can see the status of the task created for it. The col
 
 ## A guide for company executives
 
-By default, company managers have access to all sections. If some sections or objects are not of interest, they can be hidden using individual settings - contact your Django CRM administrator.
+By default, company managers have access to all sections. If some sections or objects are not of interest, they can be hidden using individual settings - contact your WOLANCRM CRM administrator.
 
 ### Analytics section
 
@@ -185,7 +185,7 @@ Operators must be granted rights to company mailboxes that receive commercial re
 
 ### Working with requests
 
-Requests coming through contact forms of your company's websites create objects in Django CRM automatically.  
+Requests coming through contact forms of your company's websites create objects in WOLANCRM CRM automatically.  
 Requests coming to your company's email should be imported.  
 To do this, click the "Import request from mail" button in the upper right corner of the requests page.  
   `Home > Crm > Requests`
@@ -218,7 +218,7 @@ CRM operators and administrators have the permissions to delete requests.
 
 ### Geolocation of the counterparty's country and city by its IP
 
-In Django CRM can be configured and activated geolocation of the country and city of the counterparty by its IP. In this case, the country and city will be automatically filled in the requests. But in cases where VPN is used, this data may be unreliable.
+In WOLANCRM CRM can be configured and activated geolocation of the country and city of the counterparty by its IP. In this case, the country and city will be automatically filled in the requests. But in cases where VPN is used, this data may be unreliable.
 
 ### Search for objects by ticket
 
@@ -266,7 +266,7 @@ If necessary, objects of companies, contacts and leads can be exported to Excel 
 
 In CRM you can create and send emails.  
 To do this, the administrator must configure CRM access to user mailboxes.  
-Django CRM scans the mailboxes of operators and sales managers and automatically imports emails containing a ticket but not in the CRM database.  
+WOLANCRM CRM scans the mailboxes of operators and sales managers and automatically imports emails containing a ticket but not in the CRM database.  
 Therefore, it is enough to send the first letter (with a ticket) from the CRM. The user can conduct further correspondence from his mailbox.
 
 For a number of reasons, CRM imports and saves emails in text format (the same format in which it receives them from the email provider).  
@@ -304,7 +304,7 @@ The Deal object represents:
 - information on goods/services of the deal;
 - payment information.
 
-When you create an email, Django CRM injects a ticket into it. This allows CRM to find emails related to this deal in sales managers' email accounts and upload them to the CRM database. Therefore, at least the first letter must be sent from the CRM. Further correspondence can be carried out from email accounts if a ticket is saved in the emails.
+When you create an email, WOLANCRM CRM injects a ticket into it. This allows CRM to find emails related to this deal in sales managers' email accounts and upload them to the CRM database. Therefore, at least the first letter must be sent from the CRM. Further correspondence can be carried out from email accounts if a ticket is saved in the emails.
 If for some reason a letter was created related to a deal but without a ticket, then it can be imported and linked to the deal using the "Import letter" button.
 
 The stages of the deal, reasons for closing, and much more can be customized to suit the specifics of your company - contact your CRM administrator.
@@ -367,9 +367,9 @@ In the created mailing object, specify the message to be sent, the desired signa
 A sales manager can transfer a company object to another manager. Contact persons will be transferred automatically.  
 But to change the owner of a group of companies, you must contact the administrator.
 
-## Django CRM Administrator's Guide
+## WOLANCRM CRM Administrator's Guide
 
-In order for users to be successful in Django CRM, the administrator must do a good job as well as help other users with their work. To do this, the administrator must study all the previous sections of this guide, as well as the CRM installation and configuration guide.
+In order for users to be successful in WOLANCRM CRM, the administrator must do a good job as well as help other users with their work. To do this, the administrator must study all the previous sections of this guide, as well as the CRM installation and configuration guide.
 
 ### Mass transfer of companies to another sales manager
 

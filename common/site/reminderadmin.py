@@ -1,10 +1,10 @@
 from urllib.parse import urlencode
-from django.contrib import admin
-from django.contrib.contenttypes.models import ContentType
-from django.http import HttpResponse
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from django.utils.safestring import mark_safe
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.models import Reminder
 from common.forms.reminderform import ReminderForm

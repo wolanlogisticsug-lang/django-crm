@@ -1,6 +1,6 @@
-from django.contrib.contenttypes.models import ContentType
-from django.db import models
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 class Tag(models.Model):

@@ -2,7 +2,7 @@ from PIL import Image
 from PIL import ImageDraw
 from io import BytesIO
 
-from django.db.models import ImageField
+from WOLANCRM.db.models import ImageField
 
 
 def resize_image(image_field: ImageField, circular: bool = True) -> None:

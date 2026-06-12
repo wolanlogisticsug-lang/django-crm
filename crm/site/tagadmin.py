@@ -1,6 +1,6 @@
-from django.contrib.auth import get_permission_codename
-from django.utils.translation import gettext_lazy as _
-from django import forms
+from WOLANCRM.contrib.auth import get_permission_codename
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
 from crm.forms.admin_forms import TagForm
 from crm.site.crmmodeladmin import CrmModelAdmin
 

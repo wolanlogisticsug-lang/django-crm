@@ -1,8 +1,8 @@
-from django.contrib import messages
-from django.db.models import Q
-from django.http.response import HttpResponseRedirect
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.contrib import messages
+from WOLANCRM.db.models import Q
+from WOLANCRM.http.response import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from massmail.models.mailing_out import MailingOut
 

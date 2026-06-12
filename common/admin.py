@@ -1,11 +1,11 @@
 import re
-from django import forms
-from django.contrib import admin
-from django.contrib.contenttypes.admin import GenericStackedInline
-from django.db.models import Q
-from django.forms import ModelForm
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.admin import GenericStackedInline
+from WOLANCRM.db.models import Q
+from WOLANCRM.forms import ModelForm
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Department
 from common.models import Reminder

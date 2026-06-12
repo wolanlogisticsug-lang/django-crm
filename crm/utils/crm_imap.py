@@ -6,9 +6,9 @@ import threading
 from datetime import datetime as dt
 from time import sleep
 from typing import Optional
-from django.conf import settings
-from django.contrib.sites.models import Site
-from django.core.mail import mail_admins
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core.mail import mail_admins
 
 from massmail.models import EmailAccount
 

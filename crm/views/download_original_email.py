@@ -1,8 +1,8 @@
 import email
-from django.core.handlers.wsgi import WSGIRequest
-from django.http import HttpResponse
-from django.utils.encoding import escape_uri_path
-from django.utils.translation import gettext
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.utils.encoding import escape_uri_path
+from WOLANCRM.utils.translation import gettext
 
 from crm.models import CrmEmail
 from crm.utils.helpers import ensure_decoding

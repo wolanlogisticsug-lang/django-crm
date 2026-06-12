@@ -1,15 +1,15 @@
 import threading
-from django.contrib import admin
-from django.contrib import messages
-from django.db.models import IntegerField
-from django.db.models import OuterRef
-from django.db.models import Subquery
-from django.http import HttpResponseRedirect
-from django.template.defaultfilters import linebreaks
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
-from django.utils.html import format_html
-from django.utils.safestring import mark_safe
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.db.models import IntegerField
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.defaultfilters import linebreaks
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.html import format_html
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.admin import FileInline
 from common.models import TheFile

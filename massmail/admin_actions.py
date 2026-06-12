@@ -1,14 +1,14 @@
-from django.conf import settings
-from django.contrib import admin
-from django.contrib.admin.helpers import ACTION_CHECKBOX_NAME
-from django.contrib.contenttypes.models import ContentType
-from django.contrib import messages
-from django.db.models import Q
-from django.http import HttpRequest
-from django.http import HttpResponseRedirect
-from django.template.defaultfilters import truncatechars
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.admin.helpers import ACTION_CHECKBOX_NAME
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib import messages
+from WOLANCRM.db.models import Q
+from WOLANCRM.http import HttpRequest
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.defaultfilters import truncatechars
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import FRIDAY_SATURDAY_SUNDAY_MSG
 from massmail.models import EmailAccount

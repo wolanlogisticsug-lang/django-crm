@@ -1,6 +1,6 @@
-from django.contrib import admin
-from django.contrib.contenttypes.models import ContentType
-from django.urls import reverse
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.urls import reverse
 
 from crm.utils.admfilters import ByCountryFilter
 

@@ -1,6 +1,6 @@
-# Django CRM Administrator's Guide
+# WOLANCRM CRM Administrator's Guide
 
-In order for users to be successful in [CRM and task management software](https://djangocrm.github.io/info/){target="_blank"},
+In order for users to be successful in [CRM and task management software](https://WOLANCRM.github.io/info/){target="_blank"},
 the administrator must do a good job as well as help other users with their work.
 To do this, the administrator must study all the previous sections of user guide,
 as well as the CRM software [installation](installation.md) and configuration guide.

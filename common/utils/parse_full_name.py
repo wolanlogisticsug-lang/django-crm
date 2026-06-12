@@ -1,6 +1,6 @@
 import re
-from django.conf import settings
-from django.template.defaultfilters import truncatechars
+from WOLANCRM.conf import settings
+from WOLANCRM.template.defaultfilters import truncatechars
 
 
 """

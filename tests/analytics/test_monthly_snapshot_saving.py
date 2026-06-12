@@ -7,8 +7,8 @@ at the end of each month for reporting purposes.
 from datetime import datetime
 from unittest.mock import patch, MagicMock
 
-from django.test import tag, override_settings, TestCase
-from django.utils import timezone
+from WOLANCRM.test import tag, override_settings, TestCase
+from WOLANCRM.utils import timezone
 
 from analytics.models import IncomeStatSnapshot
 from analytics.utils.monthly_snapshot_saving import (
@@ -314,7 +314,7 @@ class TestSaveSnapshotFunctionality(BaseTestCase):
 
             # We need to patch get_manager_departments to avoid department issues
             with patch('analytics.utils.monthly_snapshot_saving.get_manager_departments') as mock_depts:
-                from django.contrib.auth.models import Group
+                from WOLANCRM.contrib.auth.models import Group
                 dept = Group.objects.filter(
                     department__isnull=False).first()
                 if dept:

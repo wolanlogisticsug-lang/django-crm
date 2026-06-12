@@ -1,5 +1,5 @@
-from django.contrib.contenttypes.models import ContentType
-from django.test import tag
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.test import tag
 
 from common.utils.helpers import USER_MODEL
 from crm.models import Company

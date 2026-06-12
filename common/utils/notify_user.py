@@ -1,10 +1,10 @@
 from importlib import import_module
-from django.conf import settings
-from django.contrib import messages
-from django.contrib.auth.models import User
-from django.core.handlers.wsgi import WSGIRequest
-from django.utils.translation import gettext as _
-from django.utils.translation import override
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.utils.translation import override
 
 from common.utils.helpers import compose_message
 from common.utils.helpers import compose_subject

@@ -1,11 +1,11 @@
 from datetime import date
-from django.apps import apps
-from django.core.exceptions import NON_FIELD_ERRORS
-from django.core.exceptions import ValidationError
-from django.db import models
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.apps import apps
+from WOLANCRM.core.exceptions import NON_FIELD_ERRORS
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.db import models
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from crm.utils.helpers import NO_DEAL_AMOUNT_STR
 

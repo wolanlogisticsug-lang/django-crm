@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.shortcuts import render
+from WOLANCRM.conf import settings
+from WOLANCRM.shortcuts import render
 
 
 def show_uploaded_images(request):

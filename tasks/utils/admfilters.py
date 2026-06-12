@@ -1,8 +1,8 @@
-from django.contrib.admin import SimpleListFilter
-from django.db.models import Exists
-from django.db.models import OuterRef
-from django.db.models import Q
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.admin import SimpleListFilter
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Q
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import LEADERS
 from common.utils.helpers import USER_MODEL

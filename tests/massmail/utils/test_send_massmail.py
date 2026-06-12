@@ -1,8 +1,8 @@
-from django.contrib.contenttypes.models import ContentType
-from django.core import mail
-from django.test import tag
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.core import mail
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from crm.models import Lead
 from common.utils.helpers import get_department_id

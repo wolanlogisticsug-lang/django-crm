@@ -29,20 +29,20 @@
   - [Boletín de la empresa](#boletín-de-la-empresa)
   - [Transferencia de objetos de empresa a otro gerente de ventas](#transferencia-de-objetos-de-empresa-a-otro-gerente-de-ventas)
 
-- [Guía del administrador de Django CRM](#guía-del-administrador-de-WolanCRM)
+- [Guía del administrador de WOLANCRM CRM](#guía-del-administrador-de-WolanCRM)
   - [Transferencia masiva de empresas a otro gerente de ventas](#transferencia-masiva-de-empresas-a-otro-gerente-de-ventas)
   - [Objetos de contactos masivos](#objetos-de-contactos-masivos)
 
 ## Introducción
 
-[WolanCRM](https://github.com/DjangoCRM/WolanCRM/) es una aplicación con una interfaz web. Por lo tanto, puede usar un navegador de internet en su computadora, tableta y teléfono inteligente para trabajar con ella.
+[WolanCRM](https://github.com/WOLANCRM/WolanCRM/) es una aplicación con una interfaz web. Por lo tanto, puede usar un navegador de internet en su computadora, tableta y teléfono inteligente para trabajar con ella.
 
 Para facilitar su trabajo, CRM proporciona páginas de ayuda y descripciones emergentes cuando pasa el mouse sobre ciertos elementos de la página, como íconos, botones, etc.  
-![CRM tooltip screenshot](https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
+![CRM tooltip screenshot](https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/img/crm_tooltip_screenshot.png)
 
-Muchas páginas tienen un ícono <span style="vertical-align: bottom"><img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/question-mark.svg" alt="Icono de signo de interrogación" width="25" height="25"></span> en la esquina superior derecha. Al hacer clic en él, se abrirá la página de ayuda.
+Muchas páginas tienen un ícono <span style="vertical-align: bottom"><img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/question-mark.svg" alt="Icono de signo de interrogación" width="25" height="25"></span> en la esquina superior derecha. Al hacer clic en él, se abrirá la página de ayuda.
 
-Django CRM es un paquete de software potente que requiere personalización e integración con otros servicios. Si algo no funciona como se espera, repórtelo a su administrador de CRM.
+WOLANCRM CRM es un paquete de software potente que requiere personalización e integración con otros servicios. Si algo no funciona como se espera, repórtelo a su administrador de CRM.
 
 La base de datos de CRM puede contener una gran cantidad de información comercial.
 Por lo tanto, las habilidades y el acceso de un usuario a las secciones de CRM están determinados por un conjunto de permisos (roles) asignados al usuario por el administrador de CRM.
@@ -119,7 +119,7 @@ Las tareas pueden tener el siguiente estado:
 - hecho;
 - cancelado.
 
-Django CRM marca automáticamente una tarea colectiva como completada si cada persona responsable tiene al menos una subtarea y todas las subtareas están completadas.  
+WOLANCRM CRM marca automáticamente una tarea colectiva como completada si cada persona responsable tiene al menos una subtarea y todas las subtareas están completadas.  
 En otros casos, depende del propietario (copropietario) de la tarea cambiar el estado de la tarea principal.
 
 Los usuarios pueden crear tareas para sí mismos. En este caso, CRM asigna automáticamente un copropietario de la tarea al jefe del departamento del ejecutor. Esto permite que los jefes de departamento estén al tanto de las tareas de sus empleados.
@@ -145,7 +145,7 @@ Se puede usar, por ejemplo, para notificar a los participantes sobre los cambios
 En la lista de memorandos, puede ver el estado de la tarea creada para él. El color del botón "Ver tarea" refleja el estado de la tarea. Además, si coloca el cursor del mouse sobre él, aparece la información del estado.
 ## Guía para ejecutivos de la empresa
 
-Por defecto, los gerentes de la empresa tienen acceso a todas las secciones. Si algunas secciones u objetos no son de interés, se pueden ocultar usando configuraciones individuales - contacte a su administrador de Django CRM.
+Por defecto, los gerentes de la empresa tienen acceso a todas las secciones. Si algunas secciones u objetos no son de interés, se pueden ocultar usando configuraciones individuales - contacte a su administrador de WOLANCRM CRM.
 
 ### Sección de análisis
 
@@ -184,7 +184,7 @@ Los operadores deben tener derechos a los buzones de correo de la empresa que re
 
 ### Trabajando con solicitudes
 
-Las solicitudes que llegan a través de los formularios de contacto de los sitios web de su empresa crean objetos en Django CRM automáticamente.  
+Las solicitudes que llegan a través de los formularios de contacto de los sitios web de su empresa crean objetos en WOLANCRM CRM automáticamente.  
 Las solicitudes que llegan al correo electrónico de su empresa deben ser importadas.  
 Para hacer esto, haga clic en el botón "Importar solicitud desde correo" en la esquina superior derecha de la página de solicitudes.  
   `Inicio > Crm > Solicitudes`
@@ -217,7 +217,7 @@ Los operadores de CRM y los administradores tienen los permisos para eliminar so
 
 ### Geolocalización del país y ciudad del contraparte por su IP
 
-En Django CRM se puede configurar y activar la geolocalización del país y ciudad del contraparte por su IP. En este caso, el país y la ciudad se llenarán automáticamente en las solicitudes. Pero en casos donde se use VPN, estos datos pueden ser poco fiables.
+En WOLANCRM CRM se puede configurar y activar la geolocalización del país y ciudad del contraparte por su IP. En este caso, el país y la ciudad se llenarán automáticamente en las solicitudes. Pero en casos donde se use VPN, estos datos pueden ser poco fiables.
 
 ### Búsqueda de objetos por ticket
 
@@ -265,7 +265,7 @@ Si es necesario, los objetos de empresas, contactos y leads se pueden exportar a
 
 En CRM puede crear y enviar correos electrónicos.  
 Para hacer esto, el administrador debe configurar el acceso de CRM a los buzones de correo de los usuarios.  
-Django CRM escanea los buzones de correo de los operadores y gerentes de ventas e importa automáticamente los correos electrónicos que contienen un ticket pero no están en la base de datos de CRM.  
+WOLANCRM CRM escanea los buzones de correo de los operadores y gerentes de ventas e importa automáticamente los correos electrónicos que contienen un ticket pero no están en la base de datos de CRM.  
 Por lo tanto, es suficiente enviar la primera carta (con un ticket) desde el CRM. El usuario puede llevar a cabo la correspondencia posterior desde su buzón de correo.
 
 Por varias razones, CRM importa y guarda correos electrónicos en formato de texto (el mismo formato en el que los recibe del proveedor de correo electrónico).  
@@ -302,7 +302,7 @@ El objeto del acuerdo representa:
 - información sobre bienes/servicios del acuerdo;
 - información de pago.
 
-Cuando creas un correo electrónico, Django CRM inserta un ticket en él. Esto permite que CRM encuentre correos electrónicos relacionados con este acuerdo en las cuentas de correo de los gerentes de ventas y los cargue en la base de datos de CRM. Por lo tanto, al menos la primera carta debe ser enviada desde el CRM. La correspondencia posterior puede llevarse a cabo desde las cuentas de correo si se guarda el ticket en los correos electrónicos.
+Cuando creas un correo electrónico, WOLANCRM CRM inserta un ticket en él. Esto permite que CRM encuentre correos electrónicos relacionados con este acuerdo en las cuentas de correo de los gerentes de ventas y los cargue en la base de datos de CRM. Por lo tanto, al menos la primera carta debe ser enviada desde el CRM. La correspondencia posterior puede llevarse a cabo desde las cuentas de correo si se guarda el ticket en los correos electrónicos.
 Si por alguna razón se creó una carta relacionada con un acuerdo pero sin un ticket, entonces puede ser importada y vinculada al acuerdo usando el botón "Importar carta".
 
 Las etapas del acuerdo, las razones para cerrar, y mucho más pueden ser personalizadas para adaptarse a las especificidades de su empresa - contacte a su administrador de CRM.
@@ -362,9 +362,9 @@ En el objeto de envío creado, especifica el mensaje a enviar, la firma deseada 
 Un gerente de ventas puede transferir un objeto de empresa a otro gerente. Las personas de contacto se transferirán automáticamente.  
 Pero para cambiar el propietario de un grupo de empresas, debes contactar al administrador.
 
-## Guía del administrador de Django CRM
+## Guía del administrador de WOLANCRM CRM
 
-Para que los usuarios tengan éxito en Django CRM, el administrador debe hacer un buen trabajo y ayudar a otros usuarios con su trabajo. Para hacer esto, el administrador debe estudiar todas las secciones anteriores de esta guía, así como la guía de instalación y configuración de CRM.
+Para que los usuarios tengan éxito en WOLANCRM CRM, el administrador debe hacer un buen trabajo y ayudar a otros usuarios con su trabajo. Para hacer esto, el administrador debe estudiar todas las secciones anteriores de esta guía, así como la guía de instalación y configuración de CRM.
 
 ### Transferencia masiva de empresas a otro gerente de ventas
 

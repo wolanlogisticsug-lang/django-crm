@@ -1,8 +1,8 @@
-from django.contrib import messages
+from WOLANCRM.contrib import messages
 from massmail.models import MailingOut
-from django.urls import reverse
-from django.http import HttpResponseRedirect
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import reverse
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 def send_failed_recipients(request, object_id):

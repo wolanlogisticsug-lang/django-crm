@@ -1,6 +1,6 @@
-from django.http import HttpResponse
-from django.template import RequestContext
-from django.template import Template
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.template import RequestContext
+from WOLANCRM.template import Template
 
 from massmail.models import EmlMessage
 from settings.models import MassmailSettings

@@ -1,9 +1,9 @@
-from django import forms
-from django.conf import settings
-from django.core.validators import FileExtensionValidator
-from django.http import HttpResponse
-from django.shortcuts import render
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.conf import settings
+from WOLANCRM.core.validators import FileExtensionValidator
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.shortcuts import render
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 allowed_extensions = ['jpg', 'png', 'gif']
 help_text_str = _("Allowed file extensions: ") + f" {', '.join(allowed_extensions)}"

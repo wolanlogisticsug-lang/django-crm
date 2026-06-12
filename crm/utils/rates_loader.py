@@ -2,13 +2,13 @@ import time
 import threading
 from datetime import timedelta
 from tendo.singleton import SingleInstance
-from django.conf import settings
-from django.core.mail import mail_admins
-from django.db import connection
-from django.db.models import Exists
-from django.db.models import OuterRef
-from django.utils import timezone
-from django.utils.module_loading import import_string
+from WOLANCRM.conf import settings
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db import connection
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.module_loading import import_string
 
 from crm.models import Currency
 from crm.models import Payment

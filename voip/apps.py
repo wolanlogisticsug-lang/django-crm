@@ -1,6 +1,6 @@
-from django.apps import AppConfig
+from WOLANCRM.apps import AppConfig
 
 
 class VoipConfig(AppConfig):
     name = 'voip'
-    default_auto_field = 'django.db.models.AutoField'
+    default_auto_field = 'WOLANCRM.db.models.AutoField'

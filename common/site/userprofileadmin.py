@@ -1,13 +1,13 @@
-from django.conf import settings
-from django.contrib import admin
-from django.contrib.auth.models import User
-from django.contrib.contenttypes.models import ContentType
-from django import forms
-from django.http.response import HttpResponseRedirect
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.translation import activate
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM import forms
+from WOLANCRM.http.response import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import activate
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.forms.userprofileform import UserProfileForm
 from common.models import UserProfile

@@ -1,13 +1,13 @@
 import uuid
-from django.contrib.auth.models import AnonymousUser
-from django.contrib.gis.geoip2 import GeoIP2
-from django.contrib.gis.geoip2 import GeoIP2Exception
-from django.contrib.sites.models import Site
-from django.core import mail
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
-from django.utils.translation import gettext as _
+from WOLANCRM.contrib.auth.models import AnonymousUser
+from WOLANCRM.contrib.gis.geoip2 import GeoIP2
+from WOLANCRM.contrib.gis.geoip2 import GeoIP2Exception
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core import mail
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
 
 from common.models import Department
 from common.utils.helpers import get_trans_for_user

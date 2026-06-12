@@ -1,10 +1,10 @@
-from django import forms
-from django.conf import settings
-from django.contrib import admin
-from django.db.models import Q
-from django.urls import reverse
-from django.utils import translation
-from django.utils.safestring import mark_safe
+from WOLANCRM import forms
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.db.models import Q
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils import translation
+from WOLANCRM.utils.safestring import mark_safe
 
 from help.models import Paragraph
 

@@ -3,15 +3,15 @@ import time
 import threading
 from tendo.singleton import SingleInstance
 from unittest import skip
-from django.conf import settings
-from django.contrib.auth.models import User
-from django.core.mail import mail_admins
-from django.db import connection
-from django.test import Client
-from django.test import override_settings
-from django.test import TestCase
-from django.utils import timezone
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db import connection
+from WOLANCRM.test import Client
+from WOLANCRM.test import override_settings
+from WOLANCRM.test import TestCase
+from WOLANCRM.utils import timezone
+from WOLANCRM.urls import reverse
 
 from analytics.models import IncomeStatSnapshot
 from common.utils.helpers import get_manager_departments

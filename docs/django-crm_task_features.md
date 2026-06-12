@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
 </p>
 
 # Detailed Overview of the Task features for WolanCRM Users
 
-The **Task app in [WolanCRM](https://github.com/DjangoCRM/WolanCRM)** streamlines task management,
+The **Task app in [WolanCRM](https://github.com/WOLANCRM/WolanCRM)** streamlines task management,
 enabling users to create, assign, track, and collaborate on tasks efficiently.
 It supports individual and team tasks, integrates with project workflows,
 and ensures seamless communication between team members.

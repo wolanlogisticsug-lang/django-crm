@@ -1,7 +1,7 @@
 import sys
-import django
-from django.conf import settings
-from django.test import tag
+import WOLANCRM
+from WOLANCRM.conf import settings
+from WOLANCRM.test import tag
 
 from common.site.crmsite import set_app_models
 from common.utils.helpers import USER_MODEL
@@ -37,12 +37,12 @@ class MyTests(BaseTestCase):
             self.fail("Must be using Python > 3.7")
         if sys.version_info[1] < 7:
             self.fail("Must be using Python > 3.7")
-        django_version = django.get_version().split('.')
-        print("Django version", django.get_version())
-        if int(django_version[0]) < 5:
-            self.fail("Must be using Django > 5.0")
-        if int(django_version[1]) < 0:
-            self.fail("Must be using Django > 5.0")
+        WOLANCRM_version = WOLANCRM.get_version().split('.')
+        print("WOLANCRM version", WOLANCRM.get_version())
+        if int(WOLANCRM_version[0]) < 5:
+            self.fail("Must be using WOLANCRM > 5.0")
+        if int(WOLANCRM_version[1]) < 0:
+            self.fail("Must be using WOLANCRM > 5.0")
 
     def test_apps_models_perms(self):
         """

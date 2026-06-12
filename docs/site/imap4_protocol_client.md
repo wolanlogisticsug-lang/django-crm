@@ -1,6 +1,6 @@
 ## IMAP4 protocol client
 
-[Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} uses an IMAP4 protocol client to allow users to view, import and delete emails in their email account.  
+[WOLANCRM CRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} uses an IMAP4 protocol client to allow users to view, import and delete emails in their email account.  
 
 !!! IMPORTANT
     Unfortunately, the operation of the IMAP4 client depends on the mail service. Because not all email services strictly adhere to the [IMAP4 protocol](https://datatracker.ietf.org/doc/html/rfc3501){target="_blank"}.  

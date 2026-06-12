@@ -1,9 +1,9 @@
 # CRM email marketing
 
-The **Massmail application** is a specially designed component of the [Mailing CRM](https://github.com/DjangoCRM/WolanCRM){target="_blank"} platform
+The **Massmail application** is a specially designed component of the [Mailing CRM](https://github.com/WOLANCRM/WolanCRM){target="_blank"} platform
 that empowers businesses to manage and execute company newsletters efficiently.
 It provides tools to create, manage and send marketing emails to [contact persons](operator_and_sales_manager_roles.md#object-of-company-contact-persons), leads, and companies (recipients)
-directly from your CRM system. Learn more about [CRM and email marketing](https://djangocrm.github.io/info/features/massmail-app-features/){target="_blank"}.
+directly from your CRM system. Learn more about [CRM and email marketing](https://WOLANCRM.github.io/info/features/massmail-app-features/){target="_blank"}.
 
 The Massmail application requires:
 

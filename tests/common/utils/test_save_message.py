@@ -1,6 +1,6 @@
-from django.conf import settings
-from django.contrib.auth.models import Group
-from django.test import TestCase
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.test import TestCase
 
 from common.utils.helpers import save_message, USER_MODEL
 

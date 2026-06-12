@@ -1,9 +1,9 @@
-from django.contrib.admin.sites import AdminSite
-from django.contrib.auth.models import User
-from django.core.exceptions import ValidationError
-from django.test import RequestFactory
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.contrib.admin.sites import AdminSite
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.test import RequestFactory
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from crm.models import City
 from crm.models import Country

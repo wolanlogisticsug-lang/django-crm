@@ -1,5 +1,5 @@
-from django.template import Context
-from django.template import Template
+from WOLANCRM.template import Context
+from WOLANCRM.template import Template
 
 from common.utils.get_signature_preview import get_rendered_context
 from massmail.models.email_message import EmlMessage

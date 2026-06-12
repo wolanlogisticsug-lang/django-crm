@@ -1,13 +1,13 @@
 import json
 from email.utils import parseaddr
-from django import forms
-from django.conf import settings
-from django.core.exceptions import NON_FIELD_ERRORS
-from django.core.validators import EmailValidator
-from django.db.models import Q
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.conf import settings
+from WOLANCRM.core.exceptions import NON_FIELD_ERRORS
+from WOLANCRM.core.validators import EmailValidator
+from WOLANCRM.db.models import Q
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.parse_full_name import parse_full_name
 from crm.models import ClosingReason

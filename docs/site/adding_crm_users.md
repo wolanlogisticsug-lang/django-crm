@@ -1,7 +1,7 @@
-## Adding Django CRM users
+## Adding WOLANCRM CRM users
 
 After completing the previous steps of this instruction, you can begin adding users.
-But in order for sales managers to be able to use all the features of [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"},
+But in order for sales managers to be able to use all the features of [WOLANCRM CRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"},
 they must follow the remaining points of this instruction.  
 Please review the following sections before adding users.
 
@@ -95,9 +95,9 @@ For example, if a company has two sales departments, sales managers can always s
 
 Dynamic rights can depend on many factors. For example, the value of filters. Even company managers or CRM administrators who can see all objects will not be able to see an object belonging to a department different from the current one selected in the department filter. To see this object, you need to select the corresponding department in the filter or select the "all" value.
 
-## Helping users to master Django CRM
+## Helping users to master WOLANCRM CRM
 
-Before starting to work in Django CRM, users should be informed about the following:  
+Before starting to work in WOLANCRM CRM, users should be informed about the following:  
 
 - It is important to familiarize yourself with the user guide to learn the CRM more easily.
 - Many CRM pages have a button to go to the help page - <span style="vertical-align: baseline"><img src="../icons/question-mark.svg" alt="Question-mark icon" width="25" height="25"></span>. It is located in the upper right corner. Help pages should be read.

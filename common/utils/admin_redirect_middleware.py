@@ -1,5 +1,5 @@
-from django.conf import settings
-from django.http import HttpResponseRedirect
+from WOLANCRM.conf import settings
+from WOLANCRM.http import HttpResponseRedirect
 
 
 class AdminRedirectMiddleware:

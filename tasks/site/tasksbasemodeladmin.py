@@ -1,21 +1,21 @@
 import os
 from typing import Union
 from urllib.parse import urlencode
-from django import forms
-from django.contrib import admin
-from django.core.handlers.wsgi import WSGIRequest
-from django.db.models import Exists
-from django.db.models import Q
-from django.db.models import QuerySet
-from django.db.models import OuterRef
-from django.http import HttpResponseRedirect
-from django.template.defaultfilters import linebreaks
-from django.urls import reverse
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
-from django.utils.safestring import SafeString
-from django.utils.translation import gettext
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.contrib import admin
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import QuerySet
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.defaultfilters import linebreaks
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.safestring import SafeString
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.admin import FileInline
 from common.models import TheFile

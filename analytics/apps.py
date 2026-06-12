@@ -1,14 +1,14 @@
 from tendo.singleton import SingleInstanceException
-from django.apps import AppConfig
-from django.conf import settings
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.apps import AppConfig
+from WOLANCRM.conf import settings
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 class AnalyticsConfig(AppConfig):
     name = 'analytics'
     label = 'analytics'
     verbose_name = _('Analytics')
-    default_auto_field = 'django.db.models.AutoField'
+    default_auto_field = 'WOLANCRM.db.models.AutoField'
     
     def ready(self):
         if not settings.TESTING:

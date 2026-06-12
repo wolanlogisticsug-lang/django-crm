@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from datetime import date
 from typing import Tuple
-from django.core.mail import mail_admins
+from WOLANCRM.core.mail import mail_admins
 
 STATE_CURRENCY = 'EUR'
 

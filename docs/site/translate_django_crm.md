@@ -1,6 +1,6 @@
-## Translating Django CRM interface into another language
+## Translating WOLANCRM CRM interface into another language
 
-Users can choose the language of the [Django CRM](https://github.com/DjangoCRM/WolanCRM/){target="_blank"} interface.  
+Users can choose the language of the [WOLANCRM CRM](https://github.com/WOLANCRM/WolanCRM/){target="_blank"} interface.  
 The list of available languages `LANGUAGES` and the default language `LANGUAGE_CODE` are defined in the file:
 `webcrm/settings.py`
 
@@ -22,7 +22,7 @@ python manage.py makemessages -l de
 
 In the directory  
 `locale/de/LC_MESSAGES`  
-django.po file will appear.  
+WOLANCRM.po file will appear.  
 Use the po file editor to translate its contents and create a mo file.  
 Put the mo file in the same directory.
 
@@ -32,4 +32,4 @@ Restart CRM.
 
 If the objects you added, such as deal stages, reasons for closing deals, have names in English, these names can also be translated. To do this, perform the above steps again, starting with the `makemessages` command.
 
-More details [here](https://docs.djangoproject.com/en/5.0/topics/i18n/translation/){target="_blank"}.
+More details [here](https://docs.WOLANCRMproject.com/en/5.0/topics/i18n/translation/){target="_blank"}.

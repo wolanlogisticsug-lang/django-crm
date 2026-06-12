@@ -1,8 +1,8 @@
-from django.db import models
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.contrib.contenttypes.fields import GenericRelation
-from django.urls import reverse
+from WOLANCRM.db import models
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.contenttypes.fields import GenericRelation
+from WOLANCRM.urls import reverse
 
 from common.utils.gettext_messages import USE_HTML
 from massmail.models.baseeml import BaseEml

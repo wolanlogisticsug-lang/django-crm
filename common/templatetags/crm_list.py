@@ -1,9 +1,9 @@
-from django.contrib.admin.views.main import PAGE_VAR
-from django.template import Library
-from django.utils.html import format_html
-from django.utils.safestring import mark_safe
-from django.utils.http import urlencode
-from django.contrib.admin.templatetags.base import InclusionAdminNode
+from WOLANCRM.contrib.admin.views.main import PAGE_VAR
+from WOLANCRM.template import Library
+from WOLANCRM.utils.html import format_html
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.http import urlencode
+from WOLANCRM.contrib.admin.templatetags.base import InclusionAdminNode
 
 
 register = Library()

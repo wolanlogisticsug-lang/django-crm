@@ -1,6 +1,6 @@
 from typing import Any
 
-from django.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
 
 
 def clarify_permission(request: WSGIRequest, obj: Any) -> bool:

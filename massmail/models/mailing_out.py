@@ -1,6 +1,6 @@
-from django.db import models
-from django.contrib.contenttypes.models import ContentType
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db import models
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Base1
 from massmail.models import EmlMessage

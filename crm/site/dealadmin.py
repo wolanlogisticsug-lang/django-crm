@@ -1,22 +1,22 @@
 import threading
-from django.conf import settings
-from django.contrib import admin
-from django.contrib import messages
-from django.contrib.contenttypes.models import ContentType
-from django.db.models import Q
-from django.db.models import OuterRef
-from django.db.models import Subquery
-from django.db.models import Sum
-from django.db.models import Exists
-from django.db.models import F
-from django.http import HttpResponseRedirect
-from django.template.defaultfilters import truncatechars
-from django.utils import timezone
-from django.utils.formats import date_format
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.utils.translation import gettext
-from django.urls import reverse
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.db.models import Sum
+from WOLANCRM.db.models import Exists
+from WOLANCRM.db.models import F
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.template.defaultfilters import truncatechars
+from WOLANCRM.utils import timezone
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.translation import gettext
+from WOLANCRM.urls import reverse
 
 from chat.models import ChatMessage
 from common.admin import FileInline

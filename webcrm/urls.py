@@ -1,9 +1,9 @@
-from django.contrib import admin
-from django.urls import include
-from django.urls import path
-from django.conf.urls.static import static
-from django.conf import settings
-from django.conf.urls.i18n import i18n_patterns
+from WOLANCRM.contrib import admin
+from WOLANCRM.urls import include
+from WOLANCRM.urls import path
+from WOLANCRM.conf.urls.static import static
+from WOLANCRM.conf import settings
+from WOLANCRM.conf.urls.i18n import i18n_patterns
 
 from common.utils.decorators import crm_staff_member_required
 from common.views.favicon import FaviconRedirect

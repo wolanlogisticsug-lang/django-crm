@@ -1,8 +1,8 @@
-from django.contrib import admin
-from django.contrib.contenttypes.models import ContentType
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
-from django.urls import path
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.urls import path
 
 from common.utils.parse_full_name import parse_contacts_name
 from crm.forms.admin_forms import ContactForm

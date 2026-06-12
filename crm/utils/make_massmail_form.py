@@ -2,11 +2,11 @@ from typing import Optional
 from typing import Type
 from typing import Union
 from datetime import date
-from django import forms
-from django.contrib.admin.widgets import AdminDateWidget
-from django.contrib.admin.widgets import FilteredSelectMultiple
-from django.core.handlers.wsgi import WSGIRequest
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.contrib.admin.widgets import AdminDateWidget
+from WOLANCRM.contrib.admin.widgets import FilteredSelectMultiple
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.gettext_messages import ERROR_CREATED_BEFORE
 from common.utils.helpers import get_today

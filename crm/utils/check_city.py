@@ -1,7 +1,7 @@
 import re
 from typing import Union
-from django.core.mail import mail_admins
-from django.db.models import Q
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.db.models import Q
 
 from crm.forms.admin_forms import CompanyForm
 from crm.forms.admin_forms import LeadForm

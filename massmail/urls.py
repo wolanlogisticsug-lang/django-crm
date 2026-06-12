@@ -1,5 +1,5 @@
-from django.urls import path
-from django.contrib.auth.decorators import login_required
+from WOLANCRM.urls import path
+from WOLANCRM.contrib.auth.decorators import login_required
 
 from common.utils.decorators import crm_staff_member_required
 from massmail.views.copy_message import copy_message

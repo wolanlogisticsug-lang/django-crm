@@ -1,6 +1,6 @@
-from django.contrib.auth.models import User
-from django.test import tag, RequestFactory
-from django.urls import reverse
+from WOLANCRM.contrib.auth.models import User
+from WOLANCRM.test import tag, RequestFactory
+from WOLANCRM.urls import reverse
 
 from crm.models.country import City
 from crm.models.country import Country

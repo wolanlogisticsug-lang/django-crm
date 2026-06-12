@@ -1,11 +1,11 @@
 import re
-from django.core.mail import mail_admins
-from django.contrib.sites.models import Site
-from django.db import models
-from django.template import Library     # NOQA
-from django.urls import reverse
-from django.utils.translation import gettext as _
-from django.utils.safestring import mark_safe
+from WOLANCRM.core.mail import mail_admins
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.db import models
+from WOLANCRM.template import Library     # NOQA
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext as _
+from WOLANCRM.utils.safestring import mark_safe
 
 from common.models import TheFile
 from tasks.models import Task

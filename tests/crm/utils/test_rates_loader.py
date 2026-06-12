@@ -1,8 +1,8 @@
 from datetime import datetime as dt
 from datetime import timedelta
-from django.conf import settings
-from django.test import tag
-from django.test import TransactionTestCase
+from WOLANCRM.conf import settings
+from WOLANCRM.test import tag
+from WOLANCRM.test import TransactionTestCase
 
 from crm.models import Country
 from crm.models import Currency

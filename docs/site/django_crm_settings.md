@@ -1,8 +1,8 @@
-## Settings of Django CRM
+## Settings of WOLANCRM CRM
 
 Project settings are contained in files `settings.py`.  
 The main project settings are contained in the file  
-`webcrm/settings.py`  (*view on [GitHub](https://github.com/DjangoCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"}*). 
+`webcrm/settings.py`  (*view on [GitHub](https://github.com/WOLANCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"}*). 
 
 !!! IMPORTANT
 
@@ -10,11 +10,11 @@ The main project settings are contained in the file
 
 The settings file is divided into two parts:
 
-- Django settings
+- WOLANCRM settings
 - CRM settings
 
-Most of the project settings are Django framework settings (full list is [here](https://docs.djangoproject.com/en/dev/ref/settings/){target="_blank"}).  
-Explanations for CRM [settings](https://github.com/DjangoCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"} are in the comments to them.  
+Most of the project settings are WOLANCRM framework settings (full list is [here](https://docs.WOLANCRMproject.com/en/dev/ref/settings/){target="_blank"}).  
+Explanations for CRM [settings](https://github.com/WOLANCRM/WolanCRM/blob/main/webcrm/settings.py){target="_blank"} are in the comments to them.  
 Most of the settings can be left at their default values.
 
 The default settings are for running the project on a development server.
@@ -27,10 +27,10 @@ and at least specify the `EMAIL_HOST` and `ADMINS` settings.
 
 ### DATABASES settings
 
-Check the `DATABASES` settings to connect to the database (detailed instructions [here](https://docs.djangoproject.com/en/dev/ref/settings/#std-setting-DATABASES){target="_blank"}).  
+Check the `DATABASES` settings to connect to the database (detailed instructions [here](https://docs.WOLANCRMproject.com/en/dev/ref/settings/#std-setting-DATABASES){target="_blank"}).  
 Configure the `USER` (specified in the `DATABASES`) in your database backend to have the right to create and drop databases.  
 Running tests will create
-and then destroy a separate [test database](https://docs.djangoproject.com/en/dev/topics/testing/overview/#the-test-database){target="_blank"}.
+and then destroy a separate [test database](https://docs.WOLANCRMproject.com/en/dev/topics/testing/overview/#the-test-database){target="_blank"}.
 
 #### MySQL database
 
@@ -75,7 +75,7 @@ Add the addresses of CRM administrators to the list, so they can receive error l
 
 This is the **mailing CRM**, so email campaigns are allowed by default.  
 If you do not intend to use them, set the `MAILING` parameter to `False` (recommended).  
-Learn more about this [CRM and email marketing](https://djangocrm.github.io/info/features/massmail-app-features/){target="_blank"}.
+Learn more about this [CRM and email marketing](https://WOLANCRM.github.io/info/features/massmail-app-features/){target="_blank"}.
 
 ## CRM and database testing
 
@@ -104,4 +104,4 @@ Two users with roles will also be created: **superuser** and **sales manager** (
 !!! Note
     Save the credentials of these users from the output data. They will be needed to log in to the CRM website and the website for administrators, respectively.
 
-If you have any difficulties, get [support](https://djangocrm.github.io/info/support/){target="_blank"}.
+If you have any difficulties, get [support](https://WOLANCRM.github.io/info/support/){target="_blank"}.

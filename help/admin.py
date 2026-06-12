@@ -1,9 +1,9 @@
 import threading
-from django import forms
-from django.contrib import admin
-from django.contrib.auth.models import Group
-from django.utils import translation
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM import forms
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.utils import translation
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.helpers import LEADERS
 from crm.site.crmadminsite import crm_site

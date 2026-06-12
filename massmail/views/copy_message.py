@@ -1,5 +1,5 @@
-from django.urls import reverse
-from django.http import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.http import HttpResponseRedirect
 from massmail.models import EmlMessage, Signature
 
 

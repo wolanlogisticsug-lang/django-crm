@@ -1,5 +1,5 @@
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import USER_MODEL
 from crm.forms.admin_forms import STATE_EXISTS_STR

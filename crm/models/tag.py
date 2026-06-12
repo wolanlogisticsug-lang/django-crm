@@ -1,6 +1,6 @@
-from django.core.exceptions import ValidationError
-from django.db import models
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.core.exceptions import ValidationError
+from WOLANCRM.db import models
+from WOLANCRM.utils.translation import gettext_lazy as _
 from common.models import Base1
 
 

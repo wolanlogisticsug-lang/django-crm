@@ -1,5 +1,5 @@
-from django.test import tag
-from django.urls import reverse
+from WOLANCRM.test import tag
+from WOLANCRM.urls import reverse
 
 from crm.models import Company
 from crm.models import Contact

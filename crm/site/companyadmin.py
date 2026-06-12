@@ -1,11 +1,11 @@
-from django.contrib import admin
-from django.contrib import messages
-from django.contrib.contenttypes.models import ContentType
-from django.http import HttpResponseRedirect
-from django.utils.translation import gettext_lazy as _
-from django.utils.safestring import mark_safe
-from django.urls import path
-from django.urls import reverse
+from WOLANCRM.contrib import admin
+from WOLANCRM.contrib import messages
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.utils.translation import gettext_lazy as _
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.urls import path
+from WOLANCRM.urls import reverse
 
 from common.utils.helpers import SAFE_SUBJECT_ICON
 from common.utils.resize_image import resize_image

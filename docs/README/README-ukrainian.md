@@ -1,13 +1,13 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/README.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Dutch</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/README/README-ukrainian.md">Українська</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/README.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-hindi.md">हिन्दी</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-spanish.md">Español</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-portuguese.md">Português</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-french.md">Français</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-german.md">Deutsch</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-dutch.md">Dutch</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-italian.md">Italiano</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/README/README-ukrainian.md">Українська</a>
 </p>
 
 # WolanCRM
@@ -19,10 +19,10 @@
 - **Для користувачів**: Надати програмне забезпечення CRM корпоративного рівня з відкритим вихідним кодом з повним набором бізнес-рішень.
 - **Для розробників**: Спрощення процесів розробки, налаштування та підтримки серверів у виробництві.
 
-**Не потрібно вивчати окремий фреймворк**: все побудовано на популярному фреймворку Django.
-CRM також повністю використовує адміністративний сайт Django, з документацією, що міститься на одній веб-сторінці!
+**Не потрібно вивчати окремий фреймворк**: все побудовано на популярному фреймворку WOLANCRM.
+CRM також повністю використовує адміністративний сайт WOLANCRM, з документацією, що міститься на одній веб-сторінці!
 
-[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="Скріншот WolanCRM" align="center" style="float: center"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
+[<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/deals_screenshot.png" alt="Скріншот WolanCRM" align="center" style="float: center"/>](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/deals_screenshot.png)
 
 ## Функції управління взаємовідносинами з клієнтами
 
@@ -33,15 +33,15 @@ CRM також повністю використовує адміністрат�
 | ☑️ **Аналітика продажів**           | ☑️ **Інтеграція внутрішнього чату**                | ☑️ **Дизайн, зручний для мобільних пристроїв** |
 | ☑️ **Налаштовувані звіти**          | ☑️ **Автоматична синхронізація електронної пошти** | ☑️ **Підтримка мультивалютності**              |
 
-Дізнайтеся більше про [можливості програмного забезпечення](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
+Дізнайтеся більше про [можливості програмного забезпечення](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/crm_system_overview.md).
 
-Django CRM - це програмне забезпечення для управління взаємовідносинами з клієнтами з відкритим вихідним кодом.  
-Ця CRM написана на <a href="https://www.python.org" target="_blank"><img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="логотип python" width="25" height="25"> Python</a>.  
-Фронтенд і бекенд повністю базуються на [Django Admin site](https://docs.djangoproject.com/en/dev/ref/contrib/admin/).  
+WOLANCRM CRM - це програмне забезпечення для управління взаємовідносинами з клієнтами з відкритим вихідним кодом.  
+Ця CRM написана на <a href="https://www.python.org" target="_blank"><img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" style="vertical-align: middle" alt="логотип python" width="25" height="25"> Python</a>.  
+Фронтенд і бекенд повністю базуються на [WOLANCRM Admin site](https://docs.WOLANCRMproject.com/en/dev/ref/contrib/admin/).  
 CRM додаток використовує адаптивні HTML шаблони адміністративного сайту з коробки.  
-Django - це чудово задокументований фреймворк з безліччю прикладів.  
-Документація Django Admin займає лише одну веб-сторінку.  
-💡 **Оригінальна ідея** полягає в тому, що оскільки Django Admin вже є професійним інтерфейсом управління об'єктами з гнучкою системою дозволів для користувачів (перегляд, зміна, додавання та видалення об'єктів), все, що вам потрібно зробити, це створити моделі для об'єктів (таких як Ліди, Запити, Угоди, Компанії тощо) та додати бізнес-логіку.
+WOLANCRM - це чудово задокументований фреймворк з безліччю прикладів.  
+Документація WOLANCRM Admin займає лише одну веб-сторінку.  
+💡 **Оригінальна ідея** полягає в тому, що оскільки WOLANCRM Admin вже є професійним інтерфейсом управління об'єктами з гнучкою системою дозволів для користувачів (перегляд, зміна, додавання та видалення об'єктів), все, що вам потрібно зробити, це створити моделі для об'єктів (таких як Ліди, Запити, Угоди, Компанії тощо) та додати бізнес-логіку.
 
 **Все це забезпечує**:
 
@@ -62,12 +62,12 @@ Django - це чудово задокументований фреймворк �
 
 - **Додаток управління ЗАВДАННЯМИ**:
   (доступний для всіх користувачів за замовчуванням, незалежно від їх ролі)
-  - Завдання (з пов'язаними: файлами, чатом, нагадуваннями, тегами - див. [функції завдань](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md))
+  - Завдання (з пов'язаними: файлами, чатом, нагадуваннями, тегами - див. [функції завдань](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md))
     - підзавдання
-  - Пам'ятка (службова записка) - див. [функції Пам'ятки](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
+  - Пам'ятка (службова записка) - див. [функції Пам'ятки](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md)
     - завдання / проект
   - Проект (*колекція завдань*):
-  - ... (+ *ще 4 <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/tasks/models" target="_blank">моделі</a>*)
+  - ... (+ *ще 4 <a href="https://github.com/WOLANCRM/WolanCRM/tree/main/tasks/models" target="_blank">моделі</a>*)
 - **CRM додаток**:
   - Запити (комерційні запити)
   - Ліди (потенційні клієнти)
@@ -77,10 +77,10 @@ Django - це чудово задокументований фреймворк �
   - Електронні листи (синхронізація з обліковими записами користувачів)
   - Продукти (товари та послуги)
   - Платежі (отримані, гарантовані, з високою та низькою ймовірністю)
-  - ... (*+ ще 12 <a href="https://github.com/DjangoCRM/WolanCRM/tree/main/crm/models" target="_blank">моделей</a>*)
-[<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Аналітичний звіт crm" align="right" width="190px" style="float: right"/>](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
-- **АНАЛІТИЧНИЙ додаток**: ([детальний огляд програмного забезпечення](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md))
-  - Звіт про доходи (*див. [скріншот](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)*)
+  - ... (*+ ще 12 <a href="https://github.com/WOLANCRM/WolanCRM/tree/main/crm/models" target="_blank">моделей</a>*)
+[<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/income_summary_thumbnail.png" alt="Аналітичний звіт crm" align="right" width="190px" style="float: right"/>](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)
+- **АНАЛІТИЧНИЙ додаток**: ([детальний огляд програмного забезпечення](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_analytics_app_overview.md))
+  - Звіт про доходи (*див. [скріншот](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/pics/income_summary_screenshot.png)*)
   - Звіт про воронку продажів
   - Звіт про джерела лідів
   - ... (+ *ще 5 аналітичних звітів*)
@@ -128,62 +128,62 @@ CRM може інтегруватися з постачальниками пос
 
 - Кожна сторінка CRM містить посилання на контекстно-залежну сторінку допомоги, з контентом, динамічно адаптованим до ролі користувача для більш релевантного керівництва.
 - Підказки доступні по всьому інтерфейсу, надаючи миттєву інформацію при наведенні на елементи, такі як іконки, кнопки, посилання або заголовки таблиць.
-- Також включено повний [посібник користувача](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md) для детального довідкового матеріалу та підтримки.
+- Також включено повний [посібник користувача](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md) для детального довідкового матеріалу та підтримки.
 
 ## Підвищуйте продуктивність вашої команди за допомогою рішень CRM що допомагають співпрацювати
 
 Ця CRM розроблена для підвищення співпраці в командах та оптимізації процесів управління проектами.
 Як спільна CRM, вона дозволяє користувачам легко створювати та керувати пам'ятками, завданнями та проектами.  
-[Службові записки](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md) можуть бути спрямовані до керівників відділів або керівників компаній, які потім можуть перетворити ці записки на завдання або проекти, призначаючи відповідальних осіб або виконавців.  
-[Завдання](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) можуть бути індивідуальними або колективними.
+[Службові записки](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_memo_features.md) можуть бути спрямовані до керівників відділів або керівників компаній, які потім можуть перетворити ці записки на завдання або проекти, призначаючи відповідальних осіб або виконавців.  
+[Завдання](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md) можуть бути індивідуальними або колективними.
 Завдання надають функції, такі як обговорення в чаті, нагадування, обмін файлами, створення підзавдань та обмін результатами.
 Користувачі отримують сповіщення безпосередньо в CRM та через електронну пошту, що забезпечує їх інформованість.  
 Кожен користувач має чітке уявлення про свій стек завдань, включаючи пріоритети, статуси та наступні кроки, що підвищує продуктивність та відповідальність у спільному управлінні взаємовідносинами з клієнтами.
 
 ## Локалізація проекту
 
-<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="логотип django" width="30" height="30" style="vertical-align: middle"> Програмне забезпечення для обслуговування клієнтів тепер доступне на **багатьох мовах:**
+<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/languages.svg" alt="логотип WOLANCRM" width="30" height="30" style="vertical-align: middle"> Програмне забезпечення для обслуговування клієнтів тепер доступне на **багатьох мовах:**
 
 `ar, cs, de, el, en, es, fr, he, hi, id, it, ja, ko, nl, pl, pt-br, ro, ru, tr, uk, vi, zh-hans`
 
-Django CRM повністю підтримує переклад інтерфейсу, форматування дат, часу та часових поясів.
+WOLANCRM CRM повністю підтримує переклад інтерфейсу, форматування дат, часу та часових поясів.
 
 ## Чому обрати WolanCRM?
 
 - **Самостійне розміщення**: прикладне програмне забезпечення CRM розроблено для самостійного розміщення, що дозволяє вам повністю контролювати дані та середовище CRM. За допомогою самостійного розміщення ви можете налаштувати CRM відповідно до конкретних бізнес-потреб і забезпечити конфіденційність і безпеку ваших даних.
 - **Спільна CRM**: Підвищуйте продуктивність команди за допомогою інструментів для управління завданнями, спільної роботи над проектами та внутрішньої комунікації.
 - **Аналітична CRM**: Отримуйте корисні інсайти за допомогою вбудованих звітів, таких як воронка продажів, звіт про доходи та аналіз джерел лідів.
-- **На основі Python та Django**: Не потрібно вивчати пропрієтарний фреймворк — усе створено на Django з інтуїтивно зрозумілим інтерфейсом адміністратора. Інтерфейс і серверна частина, засновані на Django Admin, значно спрощують кастомізацію та розробку проектів, а також розгортання та підтримку робочого сервера.
+- **На основі Python та WOLANCRM**: Не потрібно вивчати пропрієтарний фреймворк — усе створено на WOLANCRM з інтуїтивно зрозумілим інтерфейсом адміністратора. Інтерфейс і серверна частина, засновані на WOLANCRM Admin, значно спрощують кастомізацію та розробку проектів, а також розгортання та підтримку робочого сервера.
 
 ## Початок роботи
 
-WolanCRM можна легко розгорнути як звичайний проект Django.
+WolanCRM можна легко розгорнути як звичайний проект WOLANCRM.
 
 📚 Будь ласка, зверніться до:
 
-- [Посібник з установки та налаштування](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
-- [Посібник користувача](https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
+- [Посібник з установки та налаштування](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/installation_and_configuration_guide.md)
+- [Посібник користувача](https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_user_guide.md)
 
 Якщо ви вважаєте WolanCRM корисним, будь ласка, ⭐️ **поставте зірочку** цьому репозиторію на GitHub, щоб підтримати його розвиток!
 
-<img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/pics/WolanCRM_star_history.png" alt="Історія зірочок WolanCRM" align="center" style="float: center"/>
+<img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/pics/WolanCRM_star_history.png" alt="Історія зірочок WolanCRM" align="center" style="float: center"/>
 
 ### Сумісність
 
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/django-logo.svg" alt="django logo" width="30" height="30" style="vertical-align: middle"> Django 5.1.x
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
-- <img src="https://github.com/DjangoCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/WOLANCRM-logo.svg" alt="WOLANCRM logo" width="30" height="30" style="vertical-align: middle"> WOLANCRM 5.1.x
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/python-logo.svg" alt="python logo" width="30" height="30" style="vertical-align: middle"> Python 3.10+
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/mysql_logo.svg" alt="mysql logo" width="30" height="30" style="vertical-align: middle"> MySQL 8.0.11+
+- <img src="https://github.com/WOLANCRM/WolanCRM/raw/main/docs/site/icons/postgresql_logo.svg" alt="postgresql logo" width="30" height="30" style="vertical-align: middle"> PostgreSQL 12+  
 
 ## Внесок
 
 Внески вітаються! Є місце для покращень та нових функцій.
-Перегляньте наш [Посібник з внесків](https://github.com/DjangoCRM/WolanCRM/blob/main/CONTRIBUTING.md), щоб дізнатися, як почати.
+Перегляньте наш [Посібник з внесків](https://github.com/WOLANCRM/WolanCRM/blob/main/CONTRIBUTING.md), щоб дізнатися, як почати.
 Кожен внесок, великий чи малий, має значення.
 
 ## Ліцензія
 
-WolanCRM випущено під ліцензією AGPL-3.0 - див. файл [LICENSE](https://github.com/DjangoCRM/WolanCRM/blob/main/LICENSE) для деталей.
+WolanCRM випущено під ліцензією AGPL-3.0 - див. файл [LICENSE](https://github.com/WOLANCRM/WolanCRM/blob/main/LICENSE) для деталей.
 
 ## Подяки
 

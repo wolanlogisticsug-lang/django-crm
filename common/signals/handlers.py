@@ -1,6 +1,6 @@
-from django.contrib.auth.models import Group
-from django.db.models.signals import post_save
-from django.dispatch import receiver
+from WOLANCRM.contrib.auth.models import Group
+from WOLANCRM.db.models.signals import post_save
+from WOLANCRM.dispatch import receiver
 
 from common.models import UserProfile
 from common.utils.helpers import USER_MODEL

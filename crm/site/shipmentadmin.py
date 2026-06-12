@@ -1,12 +1,12 @@
-from django.contrib import admin
-from django.db.models import Q
-from django.db.models import OuterRef
-from django.db.models import Subquery
-from django.db.models import Sum
-from django.urls import reverse
-from django.utils.safestring import mark_safe
-from django.utils.formats import date_format
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import admin
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models import OuterRef
+from WOLANCRM.db.models import Subquery
+from WOLANCRM.db.models import Sum
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.formats import date_format
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.email_to_participants import email_to_participants
 from common.utils.helpers import get_trans_for_user

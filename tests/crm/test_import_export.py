@@ -1,11 +1,11 @@
 import os
 import queue
 from random import random
-from django.contrib.contenttypes.models import ContentType
-from django.db.models.signals import post_save
-from django.dispatch import receiver
-from django.test import TransactionTestCase
-from django.urls import reverse
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.db.models.signals import post_save
+from WOLANCRM.dispatch import receiver
+from WOLANCRM.test import TransactionTestCase
+from WOLANCRM.urls import reverse
 
 from crm.models import Company
 from crm.models import Contact

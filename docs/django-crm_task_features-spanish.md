@@ -1,11 +1,11 @@
 <p align="right">
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
-<a href="https://github.com/DjangoCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features.md">English</a> |
+<a href="https://github.com/WOLANCRM/WolanCRM/blob/main/docs/WolanCRM_task_features-spanish.md">Español</a>
 </p>
 
 # Descripción Detallada de las Funcionalidades de Tareas para Usuarios de WolanCRM
 
-La **aplicación de Tareas en [WolanCRM](https://github.com/DjangoCRM/WolanCRM)** optimiza la gestión de tareas, permitiendo a los usuarios crear, asignar, rastrear y colaborar en tareas de manera eficiente. Soporta tareas individuales y colectivas, se integra con los flujos de trabajo del proyecto y asegura una comunicación fluida entre los miembros del equipo.
+La **aplicación de Tareas en [WolanCRM](https://github.com/WOLANCRM/WolanCRM)** optimiza la gestión de tareas, permitiendo a los usuarios crear, asignar, rastrear y colaborar en tareas de manera eficiente. Soporta tareas individuales y colectivas, se integra con los flujos de trabajo del proyecto y asegura una comunicación fluida entre los miembros del equipo.
 
 ---
 

@@ -1,6 +1,6 @@
-from django.conf import settings
-from django.contrib.sites.models import Site
-from django.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.conf import settings
+from WOLANCRM.contrib.sites.models import Site
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
 from urllib.parse import urlparse
 
 

@@ -2,13 +2,13 @@ import hmac
 import requests
 from hashlib import sha1
 from base64 import b64decode
-from django.conf import settings
-from django.http import HttpResponse
-from django.http import HttpRequest
-from django.views import View
-from django.views.decorators.csrf import csrf_exempt
-from django.utils.decorators import method_decorator
-from django.utils.translation import gettext as _
+from WOLANCRM.conf import settings
+from WOLANCRM.http import HttpResponse
+from WOLANCRM.http import HttpRequest
+from WOLANCRM.views import View
+from WOLANCRM.views.decorators.csrf import csrf_exempt
+from WOLANCRM.utils.decorators import method_decorator
+from WOLANCRM.utils.translation import gettext as _
 from typing import Optional
 from typing import Tuple
 

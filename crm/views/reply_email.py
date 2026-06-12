@@ -1,8 +1,8 @@
-from django.contrib import messages
-from django.core.handlers.wsgi import WSGIRequest
-from django.http import HttpResponseRedirect
-from django.urls import reverse
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib import messages
+from WOLANCRM.core.handlers.wsgi import WSGIRequest
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.urls import reverse
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.utils.copy_files import copy_files
 from crm.models import CrmEmail

@@ -69,7 +69,7 @@ import urllib
 import urllib.request
 import urllib.parse
 import requests
-from django.conf import settings
+from WOLANCRM.conf import settings
 
 
 def SetupOptionParser():

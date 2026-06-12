@@ -1,4 +1,4 @@
-from django.http.response import HttpResponse
+from WOLANCRM.http.response import HttpResponse
 
 
 def debug(request):

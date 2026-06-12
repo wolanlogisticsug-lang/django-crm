@@ -1,11 +1,11 @@
 import os
-from django.urls import reverse
-from django.http import HttpResponseRedirect
-from django.contrib.contenttypes.models import ContentType
-from django.contrib import messages
-from django.template.response import TemplateResponse
-from django.utils.http import urlencode
-from django.utils.translation import gettext as _
+from WOLANCRM.urls import reverse
+from WOLANCRM.http import HttpResponseRedirect
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib import messages
+from WOLANCRM.template.response import TemplateResponse
+from WOLANCRM.utils.http import urlencode
+from WOLANCRM.utils.translation import gettext as _
 
 from common.models import TheFile
 from common.utils.helpers import get_department_id

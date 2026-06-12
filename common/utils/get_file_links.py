@@ -1,6 +1,6 @@
-from django.db.models.query import QuerySet
-from django.utils.safestring import mark_safe
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.db.models.query import QuerySet
+from WOLANCRM.utils.safestring import mark_safe
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 
 DOWNLOAD_ICON = '<i class="material-icons" ' \

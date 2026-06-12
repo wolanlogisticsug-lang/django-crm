@@ -1,9 +1,9 @@
-from django.contrib.admin import SimpleListFilter
-from django.db.models import CharField
-from django.db.models import Count
-from django.db.models import Q
-from django.db.models.functions import Cast
-from django.utils.translation import gettext_lazy as _
+from WOLANCRM.contrib.admin import SimpleListFilter
+from WOLANCRM.db.models import CharField
+from WOLANCRM.db.models import Count
+from WOLANCRM.db.models import Q
+from WOLANCRM.db.models.functions import Cast
+from WOLANCRM.utils.translation import gettext_lazy as _
 
 from common.models import Department
 

@@ -1,7 +1,7 @@
 import uuid
-from django.db import models
-from django.contrib.contenttypes.models import ContentType
-from django.contrib.contenttypes.fields import GenericForeignKey
+from WOLANCRM.db import models
+from WOLANCRM.contrib.contenttypes.models import ContentType
+from WOLANCRM.contrib.contenttypes.fields import GenericForeignKey
 
 
 class MassContact(models.Model):
